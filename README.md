@@ -8,7 +8,7 @@ An open-source list of Tycoon games.
 
 ## Visit the website:
 
-### https://weblink
+### https://loststargames.github.io/the-tycoon-list/
 
 ---
 
