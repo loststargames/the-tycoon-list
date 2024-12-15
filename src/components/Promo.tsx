@@ -9,7 +9,7 @@ export const Promo: React.FC = () => {
       <Alert>
         <div className="flex">
           <img
-            src="/cd-market-logo.webp"
+            src="./cd-market-logo.webp"
             alt="CD Market Logo"
             className="h-16 w-auto rounded-xl"
           />
