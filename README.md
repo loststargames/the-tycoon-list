@@ -34,12 +34,12 @@ Add a new game to the array with:
 title: string; // Game title
 description: string; // Description of the game, not too long, not too short
 year: number | undefined; // Year, it can be the number eg 2010 or undefined which goes for unreleased games
-themes: Theme[]; // Choose from Theme in src/data/games/types.ts, if one is missing you can add it
-releaseDate?: string | "TBA";
+themes: Theme[]; // Choose from Theme enum in src/data/games/types.ts, if one is missing you can add it
+releaseDate?: string | "TBA"; // Only set if it's a future date, else, use year, if release date is TBA, set "TBA" and year as undefined
 platforms: Platform[]; // Platforms supported by the game, eg. PC, Mac...
 stores: Store[]; // choose one from Store
 links: LinkInfo[]; // url and Store name or a custom name, preferably use Store names
-gameplayType: GameplayType[];
+gameplayType: GameplayType[]; // Choose one from GameplayType enum
 pricing: Pricing[]; // choose one from Pricing
 sequelFamily?: string; // if the game has sequels, name it the same, for example "industryGiant", they all have the same property
 hasMultiplayer?: boolean; // optional, just include if the game actually has multiplayer
