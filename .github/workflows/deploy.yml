@@ -8,13 +8,14 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
-        with:
-          node-version: "18"
-      - run: npm ci
-      - run: npm run build
+  steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    - run: yarn install --frozen-lockfile
+    - run: yarn build
+    - run: yarn deploy
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
