@@ -41,7 +41,7 @@ export const Header: React.FC = () => {
   return (
     <header className="flex items-center justify-between p-4 border-b border-gray-200 dark:bg-zinc-900 dark:border-zinc-700">
       <div className="flex items-center gap-2">
-        <img src="/logo.svg" alt="Logo" className="h-8 w-auto" />
+        <img src="./logo.svg" alt="Logo" className="h-8 w-auto" />
         <div>
           <h1 className="text-2xl font-bold">The Tycoon List</h1>
           <h1 className="text-sm font-medium">
