@@ -91,4 +91,55 @@ export const gamesS: Game[] = [
     gameplayType: [GameplayType.Isometric],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "SimCasino",
+    description:
+      "Modern Casino Tycoon Simulation in full 3D glory. Build the casino. Set the odds. Expand into a luxury hotel/casino or go cheap & extract max profits. Keep the vault secure at all times, and beware of criminals & cheaters!!",
+    year: 2021,
+    themes: [Theme.Casino],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1158420/SimCasino",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
+  {
+    title: "Showrunner",
+    description:
+      "Create and run your own TV show! An isometric management game where you craft scripts, populate your world with characters and cast actors to play them. Hire and manage staff, develop your studio and gain a dedicated following.",
+    year: 2023,
+    themes: [Theme.TV],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/2058200/Showrunner/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.LessThan10],
+  },
+  {
+    title: "Snowtopia: Ski Resort Builder",
+    description:
+      "Build your ideal ski resort. Keep skiers smiling with fresh pistes and fine facilities. Ski, build and chill in the wintry world of Snowtopia where everyone is welcome!",
+    year: 2022,
+    themes: [Theme.SnowSki],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1124260/Snowtopia_Ski_Resort_Builder/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];

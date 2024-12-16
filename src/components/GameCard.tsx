@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import { Game } from "../data/games/types";
 import { Button } from "./ui/button";
-import { Link } from "lucide-react";
+import { Info, Link } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { allGames } from "../data/games";
 import { Badge } from "./ui/badge";
@@ -59,32 +59,34 @@ export const GameCard: React.FC<GameCardProps> = ({
       </CardHeader>
       <CardContent>
         <div>
-          <p className="text-sm mb-1 text-gray-500 dark:text-gray-400">
-            Year: {game.year}
-          </p>
-          <div className="flex flex-wrap">
+          {!!game.year && (
+            <p className="text-sm mb-1 text-gray-500 dark:text-gray-400">
+              Year: {game.year}
+            </p>
+          )}
+          <div className="flex flex-wrap gap-4">
             <div className="flex-1">
-              <p className="flex text-sm mb-1">
+              <p className="flex flex-col sm:flex-row text-sm mb-1">
                 <span className="mr-1 font-light">Themes:</span>
                 <span className="font-normal">{game.themes.join(", ")}</span>
               </p>
-              <p className="flex text-sm mb-1">
+              <p className="flex flex-col sm:flex-row text-sm mb-1">
                 <span className="mr-1 font-light">Platforms:</span>
                 <span className="font-normal">{game.platforms.join(", ")}</span>
               </p>
             </div>
             <div className="flex-1">
-              <p className="flex text-sm mb-1">
+              <p className="flex flex-col sm:flex-row text-sm mb-1">
                 <span className="mr-1 font-light">Gameplay Type:</span>
                 <span className="font-normal">
                   {game.gameplayType.join(", ")}
                 </span>
               </p>
-              <p className="flex text-sm mb-2">
+              <p className="flex flex-col sm:flex-row text-sm mb-2">
                 <span className="mr-1 font-light">Pricing:</span>
                 <span className="font-normal">{game.pricing.join(", ")}</span>
               </p>
-              <p className="flex text-sm mb-1">
+              <p className="flex flex-col sm:flex-row text-sm mb-1">
                 <span className="mr-1 font-light">Stores:</span>
                 <span className="font-normal">{game.stores.join(", ")}</span>
               </p>
@@ -98,6 +100,12 @@ export const GameCard: React.FC<GameCardProps> = ({
                   {sequels.map((s) => s.title).join(", ")}
                 </span>
               </p>
+            </div>
+          )}
+          {game.ttlNote && (
+            <div className="flex py-4">
+              <Info />
+              <p className="text-base ml-2">{game.ttlNote}</p>
             </div>
           )}
           {game.links && game.links.length > 0 && (

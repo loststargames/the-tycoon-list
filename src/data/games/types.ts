@@ -13,6 +13,7 @@ export enum Theme {
   Dungeon = "Dungeon",
   EmergencyServices = "Emergency Services",
   Esports = "Esports",
+  StreamerYoutuber = "Streamer / Youtuber",
   FactoryLayout = "Factory Layout",
   Farming = "Farming",
   FastFood = "Fast Food",
@@ -21,6 +22,7 @@ export enum Theme {
   GameDev = "Game Dev",
   GameStore = "Game Store",
   GeneralBusiness = "General Business",
+  OilPetrol = "Oil / Petrol",
   Hardware = "Hardware",
   Hospital = "Hospital",
   Hotel = "Hotel",
@@ -39,6 +41,7 @@ export enum Theme {
   Police = "Police",
   Prison = "Prison",
   ProductDevelopment = "Product Development",
+  PropertyRentals = "Property / Rentals",
   Railroads = "Railroads",
   Restaurant = "Restaurant",
   Retail = "Retail",
@@ -53,6 +56,7 @@ export enum Theme {
   UniversitySchool = "University / School",
   Winemaking = "Winemaking",
   Zoo = "Zoo",
+  SnowSki = "Snow / Ski Resort",
 }
 
 export enum Platform {
@@ -115,6 +119,7 @@ export interface Game {
   pricing: Pricing[];
   sequelFamily?: string;
   hasMultiplayer?: boolean;
+  ttlNote?: string;
 }
 
 export enum YearComparison {

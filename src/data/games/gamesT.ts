@@ -89,4 +89,100 @@ export const gamesT: Game[] = [
     pricing: [Pricing.MoreThan10LessThan30],
     sequelFamily: "thisIsThePolice",
   },
+  {
+    title: "Tycoon City: New York",
+    description:
+      "Description: Here's your chance to make it big in the Big Apple... New York City, the city that never sleeps! Go for broke building your own Manhattan empire, creating and customizing over 100 types of major businesses: run a hot nightclub, oversee a media conglomerate, open a lucrative Broadway theater - the choices are endless.",
+    year: 2006,
+    themes: [
+      Theme.GeneralBusiness,
+      Theme.Retail,
+      Theme.Restaurant,
+      Theme.CityView,
+    ],
+    platforms: [Platform.PC],
+    stores: [Store.Steam, Store.AbandonWare],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/9730/Tycoon_City_New_York/",
+        name: Store.Steam,
+      },
+      {
+        url: "https://archive.org/details/Tycoon_City_New_York_Atari_25713CDA_2006",
+        name: "Archive (added due to Steam broken version, not tested)",
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.Free],
+    ttlNote:
+      "WARNING: Steam version seems to be really broken. Game is good though... ",
+  },
+  {
+    title: "Turmoil",
+    description:
+      "Drill for oil like it's 1899! Turmoil offers players a visually charming, tongue-in-cheek take on the simulation genre inspired by the 19th century oil rush in North America.",
+    year: 2016,
+    themes: [Theme.OilPetrol],
+    platforms: [Platform.PC, Platform.Mac, Platform.Linux],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/361280/Turmoil/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.BuildingBlocks],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
+  {
+    title: "The Tenants",
+    description:
+      "Become a landlord and deal with problematic tenants as you build your rental property empire. Decide how to react to annoyed neighbors or police interventions. Will you design your apartment for a group of gamer friends or an aspiring musician looking for a new home?",
+    year: 2021,
+    themes: [Theme.PropertyRentals],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1009560/The_Tenants/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
+  {
+    title: "TasteMaker",
+    description:
+      "TasteMaker is a restaurant tycoon game. Design your own restaurant from the ground up, decorate, create a menu, hire and manage staff, and much more. Keep your customers happy and make a profit to keep the restaurant of your dreams from turning into a nightmare.",
+    year: 2023,
+    themes: [Theme.Restaurant],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1289340/TasteMaker/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
+  {
+    title: "The Invisible Hand",
+    description:
+      "Want to get rich, quick? Welcome to FERIOS, where you’ll be empowered to pursue wealth and success as a mid-level stockbroker! Your wildest dreams of wealth can come true… at the cost of everything else.",
+    year: 2021,
+    themes: [Theme.Financial],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/628200/The_Invisible_Hand/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.FirstPerson],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];

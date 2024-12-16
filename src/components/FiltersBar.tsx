@@ -104,6 +104,32 @@ export const FiltersBar: React.FC = () => {
       </div>
 
       <div className="flex flex-col gap-4 mt-4 sm:flex-row sm:items-center sm:gap-2 sm:mt-0">
+        <div className="flex-1">
+          <label className="block text-sm mb-1 dark:text-white">
+            Search Titles
+          </label>
+          <Input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => updateFilter("searchQuery", e.target.value)}
+            placeholder="Search titles..."
+          />
+        </div>
+
+        <div className="flex-1">
+          <label className="block text-sm mb-1 dark:text-white">
+            Search Descriptions
+          </label>
+          <Input
+            type="text"
+            value={searchDescriptionQuery}
+            onChange={(e) =>
+              updateFilter("searchDescriptionQuery", e.target.value)
+            }
+            placeholder="Search descriptions..."
+          />
+        </div>
+
         <div className="flex items-end gap-2 md:mr-4">
           <div className="w-40">
             <label className="block text-sm mb-1 dark:text-white">Year</label>
@@ -137,32 +163,6 @@ export const FiltersBar: React.FC = () => {
               </Button>
             ))}
           </div>
-        </div>
-
-        <div className="flex-1">
-          <label className="block text-sm mb-1 dark:text-white">
-            Search Titles
-          </label>
-          <Input
-            type="text"
-            value={searchQuery}
-            onChange={(e) => updateFilter("searchQuery", e.target.value)}
-            placeholder="Search titles..."
-          />
-        </div>
-
-        <div className="flex-1">
-          <label className="block text-sm mb-1 dark:text-white">
-            Search Descriptions
-          </label>
-          <Input
-            type="text"
-            value={searchDescriptionQuery}
-            onChange={(e) =>
-              updateFilter("searchDescriptionQuery", e.target.value)
-            }
-            placeholder="Search descriptions..."
-          />
         </div>
       </div>
 

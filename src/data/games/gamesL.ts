@@ -18,4 +18,21 @@ export const gamesL: Game[] = [
     gameplayType: [GameplayType.PointClick],
     pricing: [Pricing.LessThan10],
   },
+  {
+    title: "Let's School",
+    description:
+      "Dive into the exhilarating role of a headmaster entrusted to revive your alma mater! Beyond just bricks and mortar, train teachers, recruit students. Sculpt your school into a unique educational haven! Let's School!",
+    year: 2023,
+    themes: [Theme.UniversitySchool],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1937500/Lets_School/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];

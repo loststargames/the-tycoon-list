@@ -108,4 +108,21 @@ export const gamesG: Game[] = [
     gameplayType: [GameplayType.PointClick],
     pricing: [Pricing.LessThan10],
   },
+  {
+    title: "Good Company",
+    description:
+      "Good Company is an in-depth management sim about building a trail-blazing tech corporation. Assemble complex production lines, manage employee logistics, and sell high-quality products on the market to become the best company in the whole county!",
+    year: 2022,
+    themes: [Theme.ProductDevelopment, Theme.FactoryLayout, Theme.Hardware],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/911430/Good_Company/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];

@@ -58,3 +58,4 @@ Clone the project. Run `yarn` to install packages and `yarn dev` to run the app.
 
 - Images and videos for each game, images could be hosted here https://imgbox.com/
 - API integrations? Would need research
+- Get a Random game pick feature

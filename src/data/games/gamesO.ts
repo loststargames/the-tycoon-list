@@ -35,4 +35,38 @@ export const gamesO: Game[] = [
     gameplayType: [GameplayType.Isometric],
     pricing: [Pricing.Free],
   },
+  {
+    title: "Over the Counter",
+    description: "A pharmaceutical business management game.",
+    year: 2022,
+    themes: [Theme.Pharmaceutical],
+    platforms: [Platform.PC, Platform.Mac, Platform.Linux],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1626460/Over_the_Counter/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.Free],
+  },
+  {
+    title: "Office Management 101",
+    description:
+      "Office Management 101 is a satirical office life simulation tycoon game set in a fictional capitalistic dystopia. Step over competitors, drive your staff to the limit and milk your customers for every penny in the pursuit of spiraling success!",
+    year: 2022,
+    themes: [Theme.Office, Theme.ProductDevelopment],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/678390/Office_Management_101/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.MoreThan10LessThan30],
+    ttlNote: "WARNING: Abandoned Game",
+  },
 ];

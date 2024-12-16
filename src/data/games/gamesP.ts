@@ -179,4 +179,21 @@ export const gamesP: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.MoreThan30],
   },
+  {
+    title: "Plutocracy",
+    description:
+      "The business simulator Plutocracy gives you the chance to become wealthy and powerful to take control over the world. Where policy, laws, officials and people are only the chess pieces how do you play your game?",
+    year: 2019,
+    themes: [Theme.Industry, Theme.GeneralBusiness, Theme.OilPetrol],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/754500/Plutocracy/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.PointClick],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];

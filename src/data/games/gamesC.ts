@@ -126,6 +126,42 @@ export const gamesC: Game[] = [
     pricing: [Pricing.LessThan10],
   },
   {
+    title: "Coffee Inc",
+    description:
+      "As a founder and CEO, your role is to start up your coffee shop, manage coffee bean blends, create the best coffee products, hire and motivate the best talents, conduct effective marketing, manage financials, expand the business to multiple cities and build the biggest coffee empire!",
+    year: 2020,
+    themes: [Theme.Coffee, Theme.CityView],
+    platforms: [Platform.iOS],
+    stores: [Store.AppStore],
+    links: [
+      {
+        url: "https://apps.apple.com/us/app/coffee-inc-business-tycoon/id1455696607",
+        name: Store.AppStore,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.LessThan10],
+    sequelFamily: "coffeeInc",
+  },
+  {
+    title: "Coffee Inc 2",
+    description:
+      "Welcome to The Coffee Inc 2: the next generation of The Coffee Inc, a popular business simulation game in the world.",
+    year: 2022,
+    themes: [Theme.Coffee, Theme.CityView],
+    platforms: [Platform.iOS],
+    stores: [Store.AppStore],
+    links: [
+      {
+        url: "https://apps.apple.com/us/app/coffee-inc-2/id1573482724",
+        name: Store.AppStore,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.LessThan10],
+    sequelFamily: "coffeeInc",
+  },
+  {
     title: "Cities in Motion",
     description:
       "Manage transportation for commuters in four of the world's greatest cities - Vienna, Helsinki, Berlin, and Amsterdam",
