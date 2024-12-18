@@ -142,4 +142,21 @@ export const gamesS: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "SimAirport",
+    description:
+      "Build & Manage Your Airport. An International Hub or a Regional Masterpiece -- it's up to you. Buy more land to scale out, or escalators to scale up with MULTIPLE FLOORS. You're in full control in this modern business management tycoon!",
+    year: 2020,
+    themes: [Theme.Airport],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/598330/SimAirport/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown2D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];

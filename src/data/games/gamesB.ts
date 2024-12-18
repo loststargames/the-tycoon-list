@@ -105,4 +105,22 @@ export const gamesB: Game[] = [
     gameplayType: [GameplayType.ThirdPerson],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "Blood Bar Tycoon",
+    description:
+      "Blood Bar Tycoon is a vampire bar management game. Build bars and blood factories, lure humans to harvest their blood, process it, and serve your customers: other vampires. Research quirky machines and deal with hunters! Expand through Crimson City to become a mighty Elder!",
+    releaseDate: "04-02-2025",
+    year: 2025,
+    themes: [Theme.Brewery, Theme.Restaurant, Theme.AlternativeUniverse],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/2776780/Blood_Bar_Tycoon/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];

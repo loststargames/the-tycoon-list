@@ -69,4 +69,26 @@ export const gamesO: Game[] = [
     pricing: [Pricing.MoreThan10LessThan30],
     ttlNote: "WARNING: Abandoned Game",
   },
+  {
+    title: "Octohill Ski Tycoon",
+    description:
+      "Octohill is a casual game about building and managing your own ski resort. Mark ski trails, connect them with lifts and watch your snowmobiles rushing to rescue those daring skiers who went a little too far.",
+    releaseDate: "TBA",
+    year: 2025,
+    themes: [Theme.SnowSki],
+    platforms: [Platform.PC],
+    stores: [Store.Steam, Store.Itchio],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/3302160/Octohill_Ski_Tycoon/",
+        name: Store.Steam,
+      },
+      {
+        url: "https://deuxb.itch.io/octohill",
+        name: Store.Itchio,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.LessThan10],
+  },
 ];

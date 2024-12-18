@@ -69,4 +69,22 @@ export const gamesH: Game[] = [
     gameplayType: [GameplayType.Isometric],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "High Seas, High Profits!",
+    description:
+      "Live your medieval trader life! Buy low, sell high and explore the world! Buy ships, build businesses, find or train captains. Deal with pirates, manipulate mayors and challenge traders. React to hundreds of events that shape your very own procedurally-generated world!",
+    releaseDate: "TBA",
+    year: 2025,
+    themes: [Theme.SeaPirates, Theme.GeneralBusiness, Theme.CityView],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/2828490/High_Seas_High_Profits/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
 ];

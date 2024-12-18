@@ -196,4 +196,21 @@ export const gamesP: Game[] = [
     gameplayType: [GameplayType.PointClick],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "Production Line : Car factory simulation",
+    description:
+      "Production line is the new car factory management/simulation/tycoon game that pushes your organisational and entrepreneurship skills to the limit. Can you build the ultimate optimised, free-flowing car production line whilst beating the competition and still turn a profit?",
+    year: 2019,
+    themes: [Theme.Automobile, Theme.FactoryLayout],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/591370/Production_Line__Car_factory_simulation/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];

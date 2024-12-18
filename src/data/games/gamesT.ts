@@ -185,4 +185,38 @@ export const gamesT: Game[] = [
     gameplayType: [GameplayType.FirstPerson],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "The Movies",
+    description:
+      "The Movies allows players to run their own movie studio, including designing the studio itself and managing the careers of film stars. The game starts at the birth of cinema and continues into the future.",
+    year: 2005,
+    themes: [Theme.Movies],
+    platforms: [Platform.PC],
+    stores: [Store.AbandonWare],
+    links: [
+      {
+        url: "https://www.myabandonware.com/game/the-movies-bcv",
+        name: Store.AbandonWare,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.Free],
+  },
+  {
+    title: "This Grand Life 2",
+    description:
+      "A money-focused life simulator. Create characters with allergies and addictions. Manage their lives through financial booms and busts. Advance their careers, start a small business, invest in real estate and stocks - or roleplay a penniless hobo.",
+    year: 2024,
+    themes: [Theme.LifeSim, Theme.CityView],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/2459490/This_Grand_Life_2/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown2D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];
