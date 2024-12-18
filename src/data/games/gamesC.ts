@@ -2,6 +2,31 @@ import { Game, Theme, Platform, Store, GameplayType, Pricing } from "./types";
 
 export const gamesC: Game[] = [
   {
+    title: "City Game Studio",
+    description:
+      "Manage a game studio from the dawn of the gaming industry in 1976. Your journey starts with small indie titles and grows into a gaming empire. Develop, design, and conquer the industry. From humble beginnings to gaming legend – it’s your story, your studio, your legacy!",
+    year: 2021,
+    themes: [Theme.GameDev],
+    platforms: [
+      Platform.PC,
+      Platform.Mac,
+      Platform.Linux,
+    ],
+    stores: [Store.Steam, Store.GOG],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/726840/City_Game_Studio/",
+        name: Store.Steam,
+      },
+      {
+        url: "https://www.gog.com/en/game/city_game_studio_a_tycoon_about_game_dev",
+        name: Store.GOG,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
+  {
     title: "Capitalism",
     description:
       "The aim of Capitalism is to become the most profitable business in the world while competing in several different markets against a number of different corporations.",
@@ -197,6 +222,7 @@ export const gamesC: Game[] = [
     pricing: [Pricing.MoreThan10LessThan30],
     sequelFamily: "citiesInMotion",
   },
+
   {
     title: "Cartel Tycoon",
     description:
