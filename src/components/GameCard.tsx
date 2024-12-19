@@ -47,37 +47,27 @@ export const GameCard: React.FC<GameCardProps> = ({
   return (
     <Card className="dark:bg-zinc-900 h-full flex flex-col">
       <CardHeader className="pb-2 flex-none">
-        {upcoming ? (
+        {upcoming && (
           <div>
             <Badge variant="destructive" className="text-base">
               Not Released
             </Badge>
           </div>
-        ) : (
-          <div>
-            <Badge variant="released" className="text-base">
-              Released
-            </Badge>
-          </div>
         )}
-        <p className="text-sm mt-1">
-          <span className="font-light">Release Date:</span>{" "}
-          <span className="font-normal">
-            {game.releaseDate || "Not available"}
-          </span>
-        </p>
+        {game.releaseDate && (
+          <p className="text-sm mt-1">
+            <span className="font-light">Release Date:</span>{" "}
+            <span className="font-normal">{game.releaseDate}</span>
+          </p>
+        )}
         <CardTitle className="text-xl">{game.title}</CardTitle>
         <p className="text-base">{game.description}</p>
       </CardHeader>
       <CardContent className="flex-1 flex flex-col justify-between">
         <div>
-          {game.year ? (
+          {game.year && (
             <p className="text-sm mb-1 text-gray-500 dark:text-gray-400">
               Year: {game.year}
-            </p>
-          ) : (
-            <p className="text-sm mb-1 text-gray-500 dark:text-gray-400">
-              Year: TBA
             </p>
           )}
           <div className="flex flex-wrap gap-4">
@@ -143,7 +133,9 @@ export const GameCard: React.FC<GameCardProps> = ({
           )}
         </div>
 
-        {enableSteamWidgets && !isIframeLoaded && <WidgetSkeleton />}
+        {enableSteamWidgets && steamAppId && !isIframeLoaded && (
+          <WidgetSkeleton />
+        )}
         {enableSteamWidgets && steamAppId && (
           <div className="w-full mt-4">
             <iframe
