@@ -2,6 +2,22 @@ import { Game, Theme, Platform, Store, GameplayType, Pricing } from "./types";
 
 export const gamesR: Game[] = [
   {
+    title: "Railroad Tycoon",
+    description: "A series of business simulation games released in 1990, Railroad Tycoon Deluxe (1993), Railroad Tycoon II (1998), Railroad Tycoon 3 (2003) and Sid Meier's Railroads! (2006). Original version written by Sid Meier and published by Microprose. ",
+    year: 1990,
+    themes: [Theme.Industry, Theme.Railroads],
+    platforms: [Platform.DOS, Platform.Mac, Platform.PC, Platform.Linux],
+    stores: [Store.AbandonWare],
+    links: [ 
+      {
+        url: "https://en.wikipedia.org/wiki/Railroad_Tycoon",
+        name: "Wikipedia"
+      },
+    ],
+    gameplayType: [GameplayType.TopDown2D],
+    pricing: [Pricing.NotSet]
+  },
+  {
     title: "Rise of Industry",
     description:
       "Put your entrepreneurial skills to the test in the first title in the ROI series as you create & optimise intricate production lines. As an early 20th-Century industrialist, grow your empire & adapt to an ever-changing business landscape with unexpected events that could lead to boom…or bust.",
