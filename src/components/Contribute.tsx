@@ -4,7 +4,7 @@ import { HelpingHand, MessageCircle, NotebookPen, Users } from "lucide-react";
 
 export const Contribute: React.FC = () => {
   return (
-    <div className="flex flex-col sm:flex-row ml-6 mt-6 mb-6 gap-4">
+    <div className="flex flex-col lg:justify-between sm:flex-row ml-6 lg:mr-6 mt-6 mb-6 gap-4">
       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2">
         <div className="flex items-center">
           <MessageCircle />

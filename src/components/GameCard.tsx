@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState } from "react";
 import { Game } from "../data/games/types";
 import { Button } from "./ui/button";
 import { Info, Link } from "lucide-react";
@@ -15,6 +15,8 @@ export const GameCard: React.FC<GameCardProps> = ({
   game,
   enableSteamWidgets,
 }) => {
+  const [isIframeLoaded, setIsIframeLoaded] = useState(false);
+
   const steamLink = game.links.find((link) =>
     link.url.includes("store.steampowered.com")
   );
@@ -30,17 +32,21 @@ export const GameCard: React.FC<GameCardProps> = ({
   }, [game.sequelFamily]);
   const upcoming = useMemo(() => {
     if (game.releaseDate) {
-      return game.releaseDate === "TBA"
-        ? true
-        : new Date(game.releaseDate) > new Date();
-    } else {
-      return false;
+      return (
+        game.releaseDate === "TBA" || new Date(game.releaseDate) > new Date()
+      );
     }
-  }, [game.releaseDate]);
+
+    if (game.year) {
+      return new Date(game.year) > new Date();
+    }
+
+    return false;
+  }, [game.releaseDate, game.year]);
 
   return (
-    <Card className="dark:bg-zinc-900">
-      <CardHeader className="pb-2">
+    <Card className="dark:bg-zinc-900 h-full flex flex-col">
+      <CardHeader className="pb-2 flex-none">
         {upcoming && (
           <div>
             <Badge variant="destructive" className="text-base">
@@ -57,9 +63,9 @@ export const GameCard: React.FC<GameCardProps> = ({
         <CardTitle className="text-xl">{game.title}</CardTitle>
         <p className="text-base">{game.description}</p>
       </CardHeader>
-      <CardContent>
+      <CardContent className="flex-1 flex flex-col justify-between">
         <div>
-          {!!game.year && (
+          {game.year && (
             <p className="text-sm mb-1 text-gray-500 dark:text-gray-400">
               Year: {game.year}
             </p>
@@ -126,12 +132,16 @@ export const GameCard: React.FC<GameCardProps> = ({
             </div>
           )}
         </div>
+
+        {enableSteamWidgets && steamAppId && !isIframeLoaded && (
+          <WidgetSkeleton />
+        )}
         {enableSteamWidgets && steamAppId && (
-          <div className="relative w-full mt-4">
+          <div className="w-full mt-4">
             <iframe
               src={`https://store.steampowered.com/widget/${steamAppId}/`}
-              width="646"
-              height="190"
+              className="w-full h-[187px]"
+              onLoad={() => setIsIframeLoaded(true)}
             ></iframe>
           </div>
         )}
@@ -139,3 +149,7 @@ export const GameCard: React.FC<GameCardProps> = ({
     </Card>
   );
 };
+
+const WidgetSkeleton = () => (
+  <div className="w-full h-[187px] mt-4 bg-gray-200 dark:bg-gray-800 rounded-md animate-pulse" />
+);
