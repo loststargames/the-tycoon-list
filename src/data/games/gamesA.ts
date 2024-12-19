@@ -191,4 +191,45 @@ export const gamesA: Game[] = [
     gameplayType: [GameplayType.BuildingBlocks],
     pricing: [Pricing.NotSet],
   },
+  {
+    title: "A-Train (1985)",
+    description: "First in a long series of business simulation video games about trains. Released in December 1985 for the FM-7, NEC PC-8801, NEC PC-9801, X1 Turbo, MZ-2500, Famicom, and MSX2. The third game in the series (1990) was known as A-Train internationally, and A-Train III in Japan.",
+    year: 1985,
+    themes: [Theme.Railroads, Theme.Transportation],
+    platforms: [],
+    stores: [],
+    links: [
+      {
+        url: "https://en.wikipedia.org/wiki/A-Train",
+        name: "Wikipedia"
+      }
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.NotSet]
+  },
+  {
+    title: "A-Train (1990)",
+    description: "The internationally distributed A-Train, known as A-Train III within Japan. Released 1992 for DOS. Also released for 	PC-9800, FM-Towns, X68000, Amiga, DOS, Macintosh, PlayStation, Super Famicom, Windows 95, Virtual Console. Isometric train company builder with business simulation including stock market and investments. Developer was Artdink, publisher is Maxis in North America and Ocean Software in EU.",
+    year: 1990,
+    themes: [Theme.Railroads, Theme.Transportation],
+    platforms: [Platform.PC, Platform.Mac],
+    stores: [],
+    links: [
+      {
+        url: "https://www.myabandonware.com/game/a-train-1bn",
+        name: Store.AbandonWare
+      },
+      {
+        url: "https://en.wikipedia.org/wiki/A-Train_III",
+        name: "Wikipedia"
+      },
+      {
+        url: "https://www.macintoshrepository.org/4768-a-train",
+        name: Store.AbandonWare
+      }
+
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.NotSet]
+  }
 ];
