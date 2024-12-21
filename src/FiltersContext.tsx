@@ -35,6 +35,7 @@ interface FiltersContextProps {
   filters: FiltersState;
   setFilters: React.Dispatch<React.SetStateAction<FiltersState>>;
   filteredGames: Game[];
+  clearFilters: () => void;
 }
 
 const FiltersContext = createContext<FiltersContextProps | undefined>(
@@ -74,6 +75,22 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
   };
 
   const [filters, setFilters] = useState<FiltersState>(initialState);
+
+  const clearFilters = () => {
+    setFilters({
+      selectedThemes: [],
+      selectedYear: null,
+      yearComparison: YearComparison.SAME,
+      showUpcoming: true,
+      hasMultiplayer: false,
+      searchQuery: "",
+      searchDescriptionQuery: "",
+      selectedPlatforms: [],
+      selectedStores: [],
+      selectedGameplayTypes: [],
+      selectedPricing: [],
+    });
+  };
 
   // Update URL whenever filters change
   useEffect(() => {
@@ -228,7 +245,9 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
   }, [filters]);
 
   return (
-    <FiltersContext.Provider value={{ filters, setFilters, filteredGames }}>
+    <FiltersContext.Provider
+      value={{ filters, setFilters, filteredGames, clearFilters }}
+    >
       {children}
     </FiltersContext.Provider>
   );
