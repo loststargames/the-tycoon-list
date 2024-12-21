@@ -87,4 +87,22 @@ export const gamesH: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.NotSet],
   },
+  {
+    title: "Hollywood Animal",
+    description:
+      "Make your dreams come true — or crush someone else’s. Take the helm of a major Hollywood studio at the dawn of sound cinema, and guide it through decades of creative achievements and glamor, debauchery and dark deeds, tough choices and unpleasant compromises.",
+    releaseDate: "27-02-2025",
+    year: 2025,
+    themes: [Theme.Movies, Theme.CityView],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/2680550/Hollywood_Animal/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.NotSet],
+  },
 ];

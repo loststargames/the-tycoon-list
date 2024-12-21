@@ -69,6 +69,7 @@ export enum Platform {
   Linux = "Linux",
   Xbox = "Xbox",
   PlayStation = "PlayStation",
+  Browser = "Browser",
 }
 
 export enum Store {
