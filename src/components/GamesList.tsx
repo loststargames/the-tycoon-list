@@ -29,7 +29,7 @@ export const GamesList: React.FC = () => {
 
   return (
     <>
-      <div className="ml-6 mt-6 flex mt-2 items-center">
+      <div className="ml-6 mt-6 flex items-center">
         <p className="font-light">Displaying {filteredGames.length} games</p>
         <div className="flex items-center gap-2 ml-6">
           <Checkbox
