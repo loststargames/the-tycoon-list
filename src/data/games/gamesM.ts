@@ -78,11 +78,11 @@ export const gamesM: Game[] = [
     year: 1991,
     themes: [Theme.TV],
     platforms: [Platform.Browser],
-    stores: [Store.Browser],
+    stores: [Store.OwnWebsite],
     links: [
       {
         url: "https://www.madtv-online.com/",
-        name: Store.Browser,
+        name: Store.OwnWebsite,
       },
     ],
     gameplayType: [
@@ -91,5 +91,6 @@ export const gamesM: Game[] = [
       GameplayType.PointClick,
     ],
     pricing: [Pricing.Free],
+    hasMultiplayer: true,
   },
 ];

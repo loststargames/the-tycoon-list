@@ -81,7 +81,6 @@ export enum Store {
   PlayStore = "Play Store",
   AbandonWare = "Abandon Ware",
   OwnWebsite = "Own Website",
-  Browser = "Browser",
 }
 
 export enum GameplayType {

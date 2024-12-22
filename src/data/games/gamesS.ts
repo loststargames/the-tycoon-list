@@ -176,4 +176,22 @@ export const gamesS: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "Sim Companies",
+    description:
+      "Sim Companies is a slow paced multiplayer economy simulation game. You can build your business from ground up and trade with others.",
+    year: 2019,
+    themes: [Theme.GeneralBusiness],
+    platforms: [Platform.Browser],
+    stores: [Store.OwnWebsite],
+    links: [
+      {
+        url: "https://www.simcompanies.com/",
+        name: Store.OwnWebsite,
+      },
+    ],
+    gameplayType: [GameplayType.TextBased],
+    pricing: [Pricing.Free],
+    hasMultiplayer: true,
+  },
 ];

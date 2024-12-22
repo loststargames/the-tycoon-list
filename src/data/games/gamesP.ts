@@ -197,7 +197,7 @@ export const gamesP: Game[] = [
     pricing: [Pricing.MoreThan10LessThan30],
   },
   {
-    title: "Production Line : Car factory simulation",
+    title: "Production Line: Car factory simulation",
     description:
       "Production line is the new car factory management/simulation/tycoon game that pushes your organisational and entrepreneurship skills to the limit. Can you build the ultimate optimised, free-flowing car production line whilst beating the competition and still turn a profit?",
     year: 2019,
@@ -211,6 +211,23 @@ export const gamesP: Game[] = [
       },
     ],
     gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
+  {
+    title: "Project Highrise",
+    description:
+      "Project Highrise is a skyscraper construction and management sim...",
+    year: 2016,
+    themes: [Theme.Office, Theme.Retail, Theme.GeneralBusiness],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/423580/Project_Highrise/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.BuildingBlocks],
     pricing: [Pricing.MoreThan10LessThan30],
   },
 ];

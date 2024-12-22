@@ -107,4 +107,21 @@ export const gamesR: Game[] = [
     gameplayType: [GameplayType.PointClick, GameplayType.TextBased],
     pricing: [Pricing.Free],
   },
+  {
+    title: "Recipe for Disaster",
+    description:
+      "Recipe for Disaster is a management sim that captures the fast-paced, drama-filled environment of a professional kitchen and dining room. Build your dream restaurant, create recipes, design menus and manage your staff, all while contending with demanding customers and disastrous situations!",
+    year: 2022,
+    themes: [Theme.Restaurant],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1492360/Recipe_for_Disaster/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];
