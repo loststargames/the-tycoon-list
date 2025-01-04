@@ -105,4 +105,22 @@ export const gamesH: Game[] = [
     gameplayType: [GameplayType.Isometric],
     pricing: [Pricing.NotSet],
   },
+  {
+    title: "Hotel Architect",
+    description:
+      "Step into the chaotic 24/7 lifestyle of a hotel owner as you design and build grand hotels across the globe. Juggle the increasingly elaborate demands of disorderly guests, logistical nightmares and unexpected obstacles in Hotel Architect, the ultimate hotel construction and tycoon management game.",
+    releaseDate: "TBA",
+    year: 2025,
+    themes: [Theme.Hotel],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1602000/Hotel_Architect/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
 ];
