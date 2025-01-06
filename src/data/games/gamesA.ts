@@ -193,7 +193,7 @@ export const gamesA: Game[] = [
   },
   {
     title: "A-Train (1985)",
-    description: "First in a long series of business simulation video games about trains. Released in December 1985 for the FM-7, NEC PC-8801, NEC PC-9801, X1 Turbo, MZ-2500, Famicom, and MSX2. The third game in the series (1990) was known as A-Train internationally, and A-Train III in Japan.",
+    description: "First in a long series of business simulation video games about trains. Released in December 1985 for the FM-7, NEC PC-8801, NEC PC-9801, X1 Turbo, MZ-2500, Famicom, and MSX2. The third game in the series (1990) was known as A-Train internationally, and A-Train III in Japan. (The 1985 version does not seem to be available online.)",
     year: 1985,
     themes: [Theme.Railroads, Theme.Transportation],
     platforms: [],
@@ -205,7 +205,8 @@ export const gamesA: Game[] = [
       }
     ],
     gameplayType: [GameplayType.Isometric],
-    pricing: [Pricing.NotSet]
+    pricing: [Pricing.Free],
+    sequelFamily: "A-Train",
   },
   {
     title: "A-Train (1990)",
@@ -226,10 +227,15 @@ export const gamesA: Game[] = [
       {
         url: "https://www.macintoshrepository.org/4768-a-train",
         name: Store.AbandonWare
+      },
+      {
+        url: "https://openretro.org/amiga/a-train",
+        name: Store.AbandonWare
       }
 
     ],
     gameplayType: [GameplayType.Isometric],
-    pricing: [Pricing.NotSet]
+    pricing: [Pricing.Free],
+    sequelFamily: "A-Train",
   }
 ];

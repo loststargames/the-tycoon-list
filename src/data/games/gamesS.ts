@@ -160,6 +160,66 @@ export const gamesS: Game[] = [
     pricing: [Pricing.MoreThan10LessThan30],
   },
   {
+    title: "SimTower",
+    description: "A construction and management simulation released in 1994 for MS Windows and Macintosh System 7 building a vertical tower with elevators, managing the business of the tower, placing facilities and elevators in it. Developed by Yoot Saito and published by Maxis in North America and Europe. A sequel, Yoot Tower, was released in 1998. It was also released on 3DO and Sega Saturn",
+    year: 1994,
+    themes: [Theme.GeneralBusiness, Theme.ShoppingCentre, Theme.PropertyRentals, Theme.Office],
+    stores: [Store.AbandonWare],
+    links: [
+      {
+        url: "https://en.wikipedia.org/wiki/SimTower",
+        name: "Wikipedia",
+      },
+      {
+        url: "https://www.myabandonware.com/game/simtower-the-vertical-empire-3f2",
+        name: Store.AbandonWare
+      }
+    ],
+    gameplayType: [GameplayType.BuildingBlocks],
+    pricing: [Pricing.Free],
+    platforms: [Platform.PC, Platform.Mac]
+  },
+  {
+    title: "SimFarm",
+    description: "A video game where players build and maange a virtual farm, released as a spinoff of SimCity in 1993.",
+    year: 1995,
+    themes: [Theme.Farming],
+    platforms: [Platform.PC, Platform.Mac],
+    stores: [Store.AbandonWare],
+    links: [
+      {
+        url: "https://www.myabandonware.com/game/sim-farm-204",
+        name: Store.AbandonWare
+      },
+      {
+        url: "https://en.wikipedia.org/wiki/SimFarm",
+        name: "Wikipedia"
+      }
+    ],
+    gameplayType: [GameplayType.TopDown2D],
+    pricing: [Pricing.Free]
+  },
+  {
+    title: "SimHealth",
+    description: "A management simulation published in 1994 by Maxis to simulate the US health care system. Developed by Thinking Tools. Interface inspired by Simcity 2000",
+    year: 1994,
+    themes: [Theme.GeneralBusiness],
+    platforms: [Platform.DOS],
+    stores: [Store.AbandonWare],
+    links: [
+      {
+        url: "https://en.wikipedia.org/wiki/SimHealth",
+        name: "Wikipedia"
+      },
+      {
+        url: "https://www.myabandonware.com/game/simhealth-2am",
+        name: Store.AbandonWare
+      }
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.Free]
+  },
+  {
     title: "Smart Factory Tycoon",
     description:
       "Smart Factory Tycoon inspired by Little Big Workshop is a tycoon management game about running your dream factory with robots. Design your dream factory, plan all steps of production, research new technologies and become a tycoon!",
