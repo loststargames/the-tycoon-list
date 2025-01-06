@@ -18,4 +18,22 @@ export const gamesW: Game[] = [
     gameplayType: [GameplayType.TextBased],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "Wizdom Academy",
+    description:
+      "Build and manage your wizard academy as the headmaster. Recruit young students and guide their journey to become accomplished wizards. Control resources, customize your castle, and unlock tons of content. Start your legacy today!",
+    releaseDate: "TBA",
+    year: 2025,
+    themes: [Theme.UniversitySchool, Theme.AlternativeUniverse],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/2668000/Wizdom_Academy/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
 ];

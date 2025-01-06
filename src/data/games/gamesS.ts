@@ -159,4 +159,39 @@ export const gamesS: Game[] = [
     gameplayType: [GameplayType.TopDown2D],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "Smart Factory Tycoon",
+    description:
+      "Smart Factory Tycoon inspired by Little Big Workshop is a tycoon management game about running your dream factory with robots. Design your dream factory, plan all steps of production, research new technologies and become a tycoon!",
+    year: 2022,
+    themes: [Theme.FactoryLayout, Theme.ProductDevelopment, Theme.Hardware],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1755300/Smart_Factory_Tycoon/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
+  {
+    title: "Sim Companies",
+    description:
+      "Sim Companies is a slow paced multiplayer economy simulation game. You can build your business from ground up and trade with others.",
+    year: 2019,
+    themes: [Theme.GeneralBusiness],
+    platforms: [Platform.Browser],
+    stores: [Store.OwnWebsite],
+    links: [
+      {
+        url: "https://www.simcompanies.com/",
+        name: Store.OwnWebsite,
+      },
+    ],
+    gameplayType: [GameplayType.TextBased],
+    pricing: [Pricing.Free],
+    hasMultiplayer: true,
+  },
 ];

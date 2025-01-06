@@ -87,4 +87,40 @@ export const gamesH: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.NotSet],
   },
+  {
+    title: "Hollywood Animal",
+    description:
+      "Make your dreams come true — or crush someone else’s. Take the helm of a major Hollywood studio at the dawn of sound cinema, and guide it through decades of creative achievements and glamor, debauchery and dark deeds, tough choices and unpleasant compromises.",
+    releaseDate: "27-02-2025",
+    year: 2025,
+    themes: [Theme.Movies, Theme.CityView],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/2680550/Hollywood_Animal/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.NotSet],
+  },
+  {
+    title: "Hotel Architect",
+    description:
+      "Step into the chaotic 24/7 lifestyle of a hotel owner as you design and build grand hotels across the globe. Juggle the increasingly elaborate demands of disorderly guests, logistical nightmares and unexpected obstacles in Hotel Architect, the ultimate hotel construction and tycoon management game.",
+    releaseDate: "TBA",
+    year: 2025,
+    themes: [Theme.Hotel],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1602000/Hotel_Architect/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
 ];

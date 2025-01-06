@@ -32,9 +32,14 @@ export const GameCard: React.FC<GameCardProps> = ({
   }, [game.sequelFamily]);
   const upcoming = useMemo(() => {
     if (game.releaseDate) {
-      return (
-        game.releaseDate === "TBA" || new Date(game.releaseDate) > new Date()
-      );
+      if (game.releaseDate === "TBA") {
+        return true;
+      }
+
+      const [day, month, year] = game.releaseDate.split("-").map(Number);
+      const parsedDate = new Date(year, month - 1, day); // Months are 0-indexed in JS
+
+      return parsedDate > new Date();
     }
 
     if (game.year) {

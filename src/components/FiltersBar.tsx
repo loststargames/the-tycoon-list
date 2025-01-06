@@ -55,7 +55,7 @@ const comparisonOptions = [
 ];
 
 export const FiltersBar: React.FC = () => {
-  const { filters, setFilters } = useFilters();
+  const { filters, setFilters, clearFilters } = useFilters();
 
   const {
     selectedThemes,
@@ -80,7 +80,12 @@ export const FiltersBar: React.FC = () => {
 
   return (
     <div className="p-4 px-6 flex flex-col gap-4 bg-white border-t border-b-2 border-zinc-200 dark:bg-zinc-900 dark:border-t dark:border-b-2 dark:border-zinc-700">
-      <h1 className="text-xl font-semibold">Filters</h1>
+      <div className="flex justify-between items-center">
+        <h1 className="text-xl font-semibold">Filters</h1>
+        <Button variant="destructive" onClick={clearFilters}>
+          Clear Filters
+        </Button>
+      </div>
       <div className="flex items-center gap-2">
         <Checkbox
           id="upcoming"
@@ -112,7 +117,7 @@ export const FiltersBar: React.FC = () => {
             type="text"
             value={searchQuery}
             onChange={(e) => updateFilter("searchQuery", e.target.value)}
-            placeholder="Search titles..."
+            placeholder="Search Titles..."
           />
         </div>
 
@@ -172,7 +177,7 @@ export const FiltersBar: React.FC = () => {
           onValueChange={(val) =>
             updateFilter("selectedThemes", val as Theme[])
           }
-          defaultValue={selectedThemes}
+          value={selectedThemes}
           placeholder="Select Themes"
           variant="inverted"
           maxCount={20}
@@ -182,7 +187,7 @@ export const FiltersBar: React.FC = () => {
           onValueChange={(val) =>
             updateFilter("selectedPlatforms", val as Platform[])
           }
-          defaultValue={selectedPlatforms}
+          value={selectedPlatforms}
           placeholder="Select Platforms"
           variant="inverted"
         />
@@ -194,7 +199,7 @@ export const FiltersBar: React.FC = () => {
           onValueChange={(val) =>
             updateFilter("selectedGameplayTypes", val as GameplayType[])
           }
-          defaultValue={selectedGameplayTypes}
+          value={selectedGameplayTypes}
           placeholder="Select Gameplay Type"
           variant="inverted"
         />
@@ -203,7 +208,7 @@ export const FiltersBar: React.FC = () => {
           onValueChange={(val) =>
             updateFilter("selectedPricing", val as Pricing[])
           }
-          defaultValue={selectedPricing}
+          value={selectedPricing}
           placeholder="Select Pricing"
           variant="inverted"
         />
@@ -212,7 +217,7 @@ export const FiltersBar: React.FC = () => {
           onValueChange={(val) =>
             updateFilter("selectedStores", val as Store[])
           }
-          defaultValue={selectedStores}
+          value={selectedStores}
           placeholder="Select Stores"
           variant="inverted"
         />

@@ -69,7 +69,11 @@ export enum Platform {
   Linux = "Linux",
   Xbox = "Xbox",
   PlayStation = "PlayStation",
+<<<<<<< HEAD
   DOS = "DOS",
+=======
+  Browser = "Browser",
+>>>>>>> 1278bbdb1972f000d3e75cd047ef3fe7eb439c10
 }
 
 export enum Store {
@@ -81,7 +85,6 @@ export enum Store {
   PlayStore = "Play Store",
   AbandonWare = "Abandon Ware",
   OwnWebsite = "Own Website",
-  Browser = "Browser",
 }
 
 export enum GameplayType {

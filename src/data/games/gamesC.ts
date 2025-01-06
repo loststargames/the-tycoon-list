@@ -7,11 +7,7 @@ export const gamesC: Game[] = [
       "Manage a game studio from the dawn of the gaming industry in 1976. Your journey starts with small indie titles and grows into a gaming empire. Develop, design, and conquer the industry. From humble beginnings to gaming legend – it’s your story, your studio, your legacy!",
     year: 2021,
     themes: [Theme.GameDev],
-    platforms: [
-      Platform.PC,
-      Platform.Mac,
-      Platform.Linux,
-    ],
+    platforms: [Platform.PC, Platform.Mac, Platform.Linux],
     stores: [Store.Steam, Store.GOG],
     links: [
       {
@@ -260,7 +256,7 @@ export const gamesC: Game[] = [
   {
     title: "Computer Tycoon",
     description:
-      "Cartel Tycoon is a survival business sim inspired by the ‘80s and '90s narco trade. Expand and conquer, fight off rival thugs and evade the authorities. Earn people's loyalty and strive to overcome the doomed fate of a power-hungry drug lord.",
+      "Computer Tycoon is a fairly complex Business Grand Strategy game about Computer Evolution. Start in the 70s, invent until 2034, create the best computer systems, upgrade your infrastructure, lead a team, and alter computer history! It is time to 'Think Different'",
     year: 2022,
     themes: [Theme.Hardware],
     platforms: [Platform.PC],
