@@ -69,6 +69,7 @@ export enum Platform {
   Linux = "Linux",
   Xbox = "Xbox",
   PlayStation = "PlayStation",
+  DOS = "DOS",
   Browser = "Browser",
 }
 
