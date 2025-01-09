@@ -3,19 +3,39 @@ import { Game, Theme, Platform, Store, GameplayType, Pricing } from "./types";
 export const gamesR: Game[] = [
   {
     title: "Railroad Tycoon",
-    description: "A series of business simulation games released in 1990, Railroad Tycoon Deluxe (1993), Railroad Tycoon II (1998), Railroad Tycoon 3 (2003) and Sid Meier's Railroads! (2006). Original version written by Sid Meier and published by Microprose. ",
+    description:
+      "A series of business simulation games released in 1990, Railroad Tycoon Deluxe (1993), Railroad Tycoon II (1998), Railroad Tycoon 3 (2003) and Sid Meier's Railroads! (2006). Original version written by Sid Meier and published by Microprose.",
     year: 1990,
     themes: [Theme.Industry, Theme.Railroads],
     platforms: [Platform.DOS, Platform.Mac, Platform.PC, Platform.Linux],
     stores: [Store.AbandonWare],
-    links: [ 
+    links: [
       {
         url: "https://en.wikipedia.org/wiki/Railroad_Tycoon",
-        name: "Wikipedia"
+        name: "Wikipedia",
       },
     ],
     gameplayType: [GameplayType.TopDown2D],
-    pricing: [Pricing.NotSet]
+    pricing: [Pricing.NotSet],
+    sequelFamily: "railroadTycoon",
+  },
+  {
+    title: "Railroad Tycoon 3",
+    description:
+      "Railroad Tycoon 3 features 25 scenarios challenging players to recreate magnificent feats of railroading history from around the world.",
+    year: 2003,
+    themes: [Theme.Industry, Theme.Railroads],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/7610/Railroad_Tycoon_3/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.LessThan10],
+    sequelFamily: "railroadTycoon",
   },
   {
     title: "Rise of Industry",
@@ -139,5 +159,77 @@ export const gamesR: Game[] = [
     ],
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.MoreThan10LessThan30],
+  },
+  {
+    title: "Railway Empire",
+    description:
+      "In Railway Empire, you will create an elaborate and wide-ranging rail network, purchase over 40 different trains modelled in extraordinary detail, and buy or build railway stations, maintenance buildings, factories and tourist attractions to keep your travel network ahead of the competition.",
+    year: 2018,
+    themes: [Theme.Industry, Theme.Railroads],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/503940/Railway_Empire/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+    sequelFamily: "railwayEmpire",
+  },
+  {
+    title: "Railway Empire 2",
+    description:
+      "Don the coat of a clever entrepreneur, take over a small railway company in the early 1800s and turn your steam engines into the workhorses of the economy. Grow your company into the largest railway company of the continent and outsmart your competitors.",
+    year: 2023,
+    themes: [Theme.Industry, Theme.Railroads],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1644320/Railway_Empire_2/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+    sequelFamily: "railwayEmpire",
+  },
+  {
+    title: "Railroad Corporation",
+    description:
+      "Relive the pioneering spirit of the Golden Age of Steam by establishing your own railroad empire across 19th century North America. Bring settlements together, produce and trade goods and develop new technologies to stay ahead of the competition.",
+    year: 2023,
+    themes: [Theme.Industry, Theme.Railroads],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/797400/Railroad_Corporation/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+    sequelFamily: "railroadCorporation",
+  },
+  {
+    title: "Railroad Corporation 2",
+    description:
+      "The 20th century heralds the new age of electrification for the railroad, and a new opportunity to make your fortune. Build your corporation carefully, as you deploy modern electric and diesel locomotives, lay new tracks, transport goods and passengers, and stay ahead of the competition.",
+    year: 2024,
+    themes: [Theme.Industry, Theme.Railroads],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1677970/Railroad_Corporation_2/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+    sequelFamily: "railroadCorporation",
   },
 ];

@@ -161,9 +161,15 @@ export const gamesS: Game[] = [
   },
   {
     title: "SimTower",
-    description: "A construction and management simulation released in 1994 for MS Windows and Macintosh System 7 building a vertical tower with elevators, managing the business of the tower, placing facilities and elevators in it. Developed by Yoot Saito and published by Maxis in North America and Europe. A sequel, Yoot Tower, was released in 1998. It was also released on 3DO and Sega Saturn",
+    description:
+      "A construction and management simulation released in 1994 for MS Windows and Macintosh System 7 building a vertical tower with elevators, managing the business of the tower, placing facilities and elevators in it. Developed by Yoot Saito and published by Maxis in North America and Europe. A sequel, Yoot Tower, was released in 1998. It was also released on 3DO and Sega Saturn",
     year: 1994,
-    themes: [Theme.GeneralBusiness, Theme.ShoppingCentre, Theme.PropertyRentals, Theme.Office],
+    themes: [
+      Theme.GeneralBusiness,
+      Theme.ShoppingCentre,
+      Theme.PropertyRentals,
+      Theme.Office,
+    ],
     stores: [Store.AbandonWare],
     links: [
       {
@@ -172,16 +178,17 @@ export const gamesS: Game[] = [
       },
       {
         url: "https://www.myabandonware.com/game/simtower-the-vertical-empire-3f2",
-        name: Store.AbandonWare
-      }
+        name: Store.AbandonWare,
+      },
     ],
     gameplayType: [GameplayType.BuildingBlocks],
     pricing: [Pricing.Free],
-    platforms: [Platform.PC, Platform.Mac]
+    platforms: [Platform.PC, Platform.Mac],
   },
   {
     title: "SimFarm",
-    description: "A video game where players build and maange a virtual farm, released as a spinoff of SimCity in 1993.",
+    description:
+      "A video game where players build and maange a virtual farm, released as a spinoff of SimCity in 1993.",
     year: 1995,
     themes: [Theme.Farming],
     platforms: [Platform.PC, Platform.Mac],
@@ -189,19 +196,20 @@ export const gamesS: Game[] = [
     links: [
       {
         url: "https://www.myabandonware.com/game/sim-farm-204",
-        name: Store.AbandonWare
+        name: Store.AbandonWare,
       },
       {
         url: "https://en.wikipedia.org/wiki/SimFarm",
-        name: "Wikipedia"
-      }
+        name: "Wikipedia",
+      },
     ],
     gameplayType: [GameplayType.TopDown2D],
-    pricing: [Pricing.Free]
+    pricing: [Pricing.Free],
   },
   {
     title: "SimHealth",
-    description: "A management simulation published in 1994 by Maxis to simulate the US health care system. Developed by Thinking Tools. Interface inspired by Simcity 2000",
+    description:
+      "A management simulation published in 1994 by Maxis to simulate the US health care system. Developed by Thinking Tools. Interface inspired by Simcity 2000",
     year: 1994,
     themes: [Theme.GeneralBusiness],
     platforms: [Platform.DOS],
@@ -209,15 +217,15 @@ export const gamesS: Game[] = [
     links: [
       {
         url: "https://en.wikipedia.org/wiki/SimHealth",
-        name: "Wikipedia"
+        name: "Wikipedia",
       },
       {
         url: "https://www.myabandonware.com/game/simhealth-2am",
-        name: Store.AbandonWare
-      }
+        name: Store.AbandonWare,
+      },
     ],
     gameplayType: [GameplayType.Isometric],
-    pricing: [Pricing.Free]
+    pricing: [Pricing.Free],
   },
   {
     title: "Smart Factory Tycoon",
@@ -253,5 +261,23 @@ export const gamesS: Game[] = [
     gameplayType: [GameplayType.TextBased],
     pricing: [Pricing.Free],
     hasMultiplayer: true,
+  },
+  {
+    title: "Sid Meier's Railroads!",
+    description:
+      "Sid Meier's Railroads! marks the return of the watershed title in simulation/strategy gaming that launched the popular 'tycoon' genre, and inspired a new generation of games. Sid Meier's Railroads!",
+    year: 2006,
+    themes: [Theme.Industry, Theme.Railroads],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/7600/Sid_Meiers_Railroads/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.LessThan10],
+    sequelFamily: "railroadTycoon",
   },
 ];
