@@ -254,4 +254,21 @@ export const gamesT: Game[] = [
     gameplayType: [GameplayType.BuildingBlocks],
     pricing: [Pricing.Free],
   },
+  {
+    title: "The McDonald's Videogame",
+    description:
+      "Making money in a corporation like McDonald's is not easy! Behind every burger there is a complex process you need to master: from pastures to the slaughterhouse, from restaurants to branding. You'll discover all the dirty secrets that made us one of the biggest company in the world.",
+    year: 2019,
+    themes: [Theme.FastFood],
+    platforms: [Platform.Browser, Platform.PC, Platform.Mac],
+    stores: [Store.OwnWebsite],
+    links: [
+      {
+        url: "https://www.molleindustria.org/mcdonalds/",
+        name: Store.OwnWebsite,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown2D],
+    pricing: [Pricing.Free],
+  },
 ];
