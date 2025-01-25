@@ -91,4 +91,21 @@ export const gamesO: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.LessThan10],
   },
+  {
+    title: "Oiligarchy",
+    description:
+      "Delicious, profitable, stinky oil! Let's get stupid rich, huh? Trash the environment, bribe the politicians and squish the little peoples. Don't feel rich enough? Then Drill, Baby, Drill!",
+    year: 2008,
+    themes: [Theme.OilPetrol],
+    platforms: [Platform.Browser],
+    stores: [Store.OwnWebsite],
+    links: [
+      {
+        url: "https://armorgames.com/play/2607/oiligarchy",
+        name: Store.OwnWebsite,
+      },
+    ],
+    gameplayType: [GameplayType.BuildingBlocks],
+    pricing: [Pricing.Free],
+  },
 ];
