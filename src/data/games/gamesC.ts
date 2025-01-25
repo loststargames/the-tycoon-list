@@ -304,4 +304,39 @@ export const gamesC: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "Car Park Capital",
+    description:
+      "The car industry needs you to design and build the greatest car parks that simple town life hasn't seen before. Introduce the need for car commuting and turn neighborhoods into car parks! Use propaganda to convince people to pay you for it. Fight people that see through your oily business.",
+    releaseDate: "TBA",
+    year: undefined,
+    themes: [Theme.Automobile, Theme.Parking],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/3031880/Car_Park_Capital/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.NotSet],
+  },
+  {
+    title: "Corporation Inc.",
+    description:
+      "It's time to build the push-button company of your dreams. Corporation Inc is a game about building the best push-button corporation in the world. Create offices and hire workers to fill them. Push a profit and start researching new upgradeable and items. Hit your goals and get rewarded, it's like real life business management without the consequences!",
+    year: 2010,
+    themes: [Theme.Office],
+    platforms: [Platform.Browser],
+    stores: [Store.OwnWebsite],
+    links: [
+      {
+        url: "https://armorgames.com/play/7348/corporation-inc",
+        name: Store.OwnWebsite,
+      },
+    ],
+    gameplayType: [GameplayType.BuildingBlocks],
+    pricing: [Pricing.Free],
+  },
 ];

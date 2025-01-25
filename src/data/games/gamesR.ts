@@ -232,4 +232,21 @@ export const gamesR: Game[] = [
     pricing: [Pricing.MoreThan10LessThan30],
     sequelFamily: "railroadCorporation",
   },
+  {
+    title: "Recordshop Tycoon",
+    description:
+      "The recordshop business is not an easy one, you see. There are lots of factors you need to keep in mind, lots of variables you need to change based on your customers, your store, events in town, the list goes on.",
+    year: 2010,
+    themes: [Theme.Music],
+    platforms: [Platform.Browser],
+    stores: [Store.OwnWebsite],
+    links: [
+      {
+        url: "https://armorgames.com/play/6893/recordshop-tycoon",
+        name: Store.OwnWebsite,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown2D],
+    pricing: [Pricing.Free],
+  },
 ];

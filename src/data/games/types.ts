@@ -37,6 +37,7 @@ export enum Theme {
   NSFW = "NSFW",
   Office = "Office",
   OilPetrol = "Oil / Petrol",
+  Parking = "Parking",
   Pharmaceutical = "Pharmaceutical",
   Police = "Police",
   Prison = "Prison",

@@ -35,4 +35,22 @@ export const gamesL: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "Let's Build a Dungeon",
+    description:
+      "Manage a game studio making the world’s greatest MMORPG. Hire designers, coders, and testers, create a fantasy world, then welcome hundreds of virtual players. If they get bored they will cancel their subscription and your investors will have your head. You can even play the game you create.",
+    releaseDate: "TBA",
+    year: undefined,
+    themes: [Theme.Dungeon, Theme.GameDev],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/2365790/Lets_Build_a_Dungeon/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown2D],
+    pricing: [Pricing.NotSet],
+  },
 ];

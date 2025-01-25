@@ -219,9 +219,10 @@ export const gamesT: Game[] = [
     gameplayType: [GameplayType.TopDown2D],
     pricing: [Pricing.MoreThan10LessThan30],
   },
-	{
+  {
     title: "The Executive - Movie Industry Tycoon",
-    description: "Shape the history of the Hollywood movie industry in this sandbox business simulation game. Create the movies you've always wanted to see, hire the best team, research cutting-edge technologies, and dominate the Box Office. Can you rise from a small studio to a Hollywood giant?",
+    description:
+      "Shape the history of the Hollywood movie industry in this sandbox business simulation game. Create the movies you've always wanted to see, hire the best team, research cutting-edge technologies, and dominate the Box Office. Can you rise from a small studio to a Hollywood giant?",
     releaseDate: "TBA",
     year: 2025,
     themes: [Theme.Movies],
@@ -235,5 +236,22 @@ export const gamesT: Game[] = [
     ],
     gameplayType: [GameplayType.Isometric],
     pricing: [Pricing.NotSet],
-	},
+  },
+  {
+    title: "Theme Hotel",
+    description:
+      "Build and manage your very own hotel. Keep guests happy and try to remain profitable as you strive to achieve a 5-star rating.",
+    year: 2011,
+    themes: [Theme.Hotel],
+    platforms: [Platform.Browser],
+    stores: [Store.OwnWebsite],
+    links: [
+      {
+        url: "https://armorgames.com/play/12688/theme-hotel",
+        name: Store.OwnWebsite,
+      },
+    ],
+    gameplayType: [GameplayType.BuildingBlocks],
+    pricing: [Pricing.Free],
+  },
 ];
