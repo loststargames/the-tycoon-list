@@ -36,4 +36,21 @@ export const gamesW: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.NotSet],
   },
+  {
+    title: "War for the Overworld",
+    description:
+      "Tired of invading dungeons? It's time you built your own! War for the Overworld is a Dungeon Management Game that employs your favourite aspects of the RTS and God Game genres. Carve out your Dungeon and conquer the Overworld!",
+    year: 2015,
+    themes: [Theme.Dungeon],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/230190/War_for_the_Overworld/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];

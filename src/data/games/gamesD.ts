@@ -35,4 +35,21 @@ export const gamesD: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "Definitely Not Fried Chicken",
+    description:
+      "Definitely Not Fried Chicken is a business management sim with a Twist! Grow your drugs trade through legitimate fronts by managing both sides of the business. Acquire new 'businesses', meet new clientele, Develop more potent narcotics, make lots of money and leave a city in ruin!",
+    year: 2023,
+    themes: [Theme.CrimeGangsters],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1036240/Definitely_Not_Fried_Chicken/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];
