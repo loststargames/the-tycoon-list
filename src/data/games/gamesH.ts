@@ -91,7 +91,7 @@ export const gamesH: Game[] = [
     title: "Hollywood Animal",
     description:
       "Make your dreams come true — or crush someone else’s. Take the helm of a major Hollywood studio at the dawn of sound cinema, and guide it through decades of creative achievements and glamor, debauchery and dark deeds, tough choices and unpleasant compromises.",
-    releaseDate: "27-02-2025",
+    releaseDate: "10-04-2025",
     year: 2025,
     themes: [Theme.Movies, Theme.CityView],
     platforms: [Platform.PC],

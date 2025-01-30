@@ -280,4 +280,22 @@ export const gamesS: Game[] = [
     pricing: [Pricing.LessThan10],
     sequelFamily: "railroadTycoon",
   },
+  {
+    title: "Skingdom",
+    description:
+      "Create your own ski realm in Skingdom, a ski resort construction and management game! Arrange your resort, draw your slopes and build your lifts, hotels and shops. Take care of your budget, hire staff and invest in upgrades for your ski resort to reach the top of the mountain!",
+    releaseDate: "TBA",
+    year: 2025,
+    themes: [Theme.SnowSki],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/3244160/Skingdom/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
 ];

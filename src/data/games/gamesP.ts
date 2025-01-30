@@ -230,4 +230,21 @@ export const gamesP: Game[] = [
     gameplayType: [GameplayType.BuildingBlocks],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "Puffin Planes",
+    description:
+      "A casual airline management game set on Earth and Mars. Supports singleplayer and Steam co-op.",
+    year: 2024,
+    themes: [Theme.Airline],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/2897240/Puffin_Planes",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TextBased],
+    pricing: [Pricing.LessThan10],
+  },
 ];
