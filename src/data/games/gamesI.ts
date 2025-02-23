@@ -92,4 +92,27 @@ export const gamesI: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "ISP Tycoon - Landline & Mobile Carrier Magnate",
+    description:
+      "Build your telecom empire in ISP Tycoon: Landline & Mobile Carrier Magnate. Design networks, innovate with cutting-edge tech, and manage finances to connect a city to the digital age.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [
+      Theme.Telecommunications,
+      Theme.CityView,
+      Theme.GeneralBusiness,
+      Theme.Office,
+    ],
+    platforms: [Platform.PC,Platform.Mac],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1691550/ISP_Tycoon__Landline__Mobile_Carrier_Magnate/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
 ];
