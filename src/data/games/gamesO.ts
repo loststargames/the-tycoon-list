@@ -73,7 +73,6 @@ export const gamesO: Game[] = [
     title: "Octohill Ski Tycoon",
     description:
       "Octohill is a casual game about building and managing your own ski resort. Mark ski trails, connect them with lifts and watch your snowmobiles rushing to rescue those daring skiers who went a little too far.",
-    releaseDate: "TBA",
     year: 2025,
     themes: [Theme.SnowSki],
     platforms: [Platform.PC],

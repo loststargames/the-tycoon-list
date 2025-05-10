@@ -73,7 +73,6 @@ export const gamesH: Game[] = [
     title: "High Seas, High Profits!",
     description:
       "Live your medieval trader life! Buy low, sell high and explore the world! Buy ships, build businesses, find or train captains. Deal with pirates, manipulate mayors and challenge traders. React to hundreds of events that shape your very own procedurally-generated world!",
-    releaseDate: "TBA",
     year: 2025,
     themes: [Theme.SeaPirates, Theme.GeneralBusiness, Theme.CityView],
     platforms: [Platform.PC],
@@ -85,7 +84,7 @@ export const gamesH: Game[] = [
       },
     ],
     gameplayType: [GameplayType.TopDown3D],
-    pricing: [Pricing.NotSet],
+    pricing: [Pricing.LessThan10],
   },
   {
     title: "Hollywood Animal",
