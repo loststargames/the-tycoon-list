@@ -22,7 +22,6 @@ export const gamesW: Game[] = [
     title: "Wizdom Academy",
     description:
       "Build and manage your wizard academy as the headmaster. Recruit young students and guide their journey to become accomplished wizards. Control resources, customize your castle, and unlock tons of content. Start your legacy today!",
-    releaseDate: "TBA",
     year: 2025,
     themes: [Theme.UniversitySchool, Theme.AlternativeUniverse],
     platforms: [Platform.PC],
@@ -34,7 +33,7 @@ export const gamesW: Game[] = [
       },
     ],
     gameplayType: [GameplayType.TopDown3D],
-    pricing: [Pricing.NotSet],
+    pricing: [Pricing.LessThan10],
   },
   {
     title: "War for the Overworld",
