@@ -234,7 +234,7 @@ export const gamesT: Game[] = [
       },
     ],
     gameplayType: [GameplayType.Isometric],
-    pricing: [Pricing.MoreThan10LessThan30],
+    pricing: [Pricing.LessThan10],
   },
   {
     title: "Theme Hotel",
