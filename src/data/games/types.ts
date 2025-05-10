@@ -26,6 +26,7 @@ export enum Theme {
   Hotel = "Hotel",
   Humour = "Humour",
   Industry = "Industry",
+  Telecommunications = "Telecommunications",
   LifeSim = "Life Simulator",
   Movies = "Movies",
   Museum = "Museum",
