@@ -223,11 +223,11 @@ export const gamesT: Game[] = [
     title: "The Executive - Movie Industry Tycoon",
     description:
       "Shape the history of the Hollywood movie industry in this sandbox business simulation game. Create the movies you've always wanted to see, hire the best team, research cutting-edge technologies, and dominate the Box Office. Can you rise from a small studio to a Hollywood giant?",
-    releaseDate: "TBA",
+    releaseDate: "02.11.2025",
     year: 2025,
     themes: [Theme.Movies],
     platforms: [Platform.PC],
-    stores: [Store.Steam],
+    stores: [Store.MoreThan10LessThan30],
     links: [
       {
         url: "https://store.steampowered.com/app/2315430/?utm_source=TycoonList",
@@ -235,7 +235,7 @@ export const gamesT: Game[] = [
       },
     ],
     gameplayType: [GameplayType.Isometric],
-    pricing: [Pricing.NotSet],
+    pricing: [Pricing.MoreThan10LessThan30],
   },
   {
     title: "Theme Hotel",
