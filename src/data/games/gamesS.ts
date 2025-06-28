@@ -298,4 +298,20 @@ export const gamesS: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.NotSet],
   },
+  {
+	title: "Soda Story - Brewing Tycoon";
+	description: "Take on the challenge of running a Soda brewing operation, all while participating in the current season of the hit reality TV show “Prisoneers.” Will you win your freedom?"
+	year: 2022,
+	themes: Theme[Theme.Brewery, Theme.FactoryLayout, Theme.Prison];
+	platforms: Platform[Platform.PC];
+	stores: Store[Store.Steam];
+	links: [
+      {
+        url: "https://store.steampowered.com/app/1088750/Soda_Story__Brewing_Tycoon/",
+        name: Store.Steam,
+      },
+    ],
+	gameplayType: GameplayType[GameplayType.TopDown3D];
+	pricing: Pricing[Pricing.MoreThan10LessThan30]; 
+  }
 ];
