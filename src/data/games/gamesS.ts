@@ -300,7 +300,7 @@ export const gamesS: Game[] = [
   },
   {
 	title: "Soda Story - Brewing Tycoon";
-	description: "Take on the challenge of running a Soda brewing operation, all while participating in the current season of the hit reality TV show “Prisoneers.” Will you win your freedom?"
+	description: "Take on the challenge of running a Soda brewing operation, all while participating in the current season of the hit reality TV show 'Prisoneers'. Will you win your freedom?"
 	year: 2022,
 	themes: Theme[Theme.Brewery, Theme.FactoryLayout, Theme.Prison];
 	platforms: Platform[Platform.PC];
