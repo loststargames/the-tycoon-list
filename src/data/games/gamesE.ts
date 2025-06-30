@@ -105,4 +105,22 @@ export const gamesE: Game[] = [
     pricing: [Pricing.MoreThan30],
     sequelFamily: "evilGenius",
   },
+  {
+    title: "E-Shop Tycoon",
+    description:
+      "E-Shop Tycoon is an isometric online shopping company management game. Fill up your warehouses, take orders, hire employees, expand and customize your offices. Protect your site against hackers, improve your reputation on social media.",
+    releaseDate: "05-08-2025",
+    year: 2025,
+    themes: [Theme.GeneralBusiness, Theme.Retail],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/2871960/EShop_Tycoon/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.NotSet],
+  },
 ];

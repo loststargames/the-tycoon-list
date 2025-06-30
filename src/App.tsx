@@ -6,8 +6,6 @@ import { ThemeProvider } from "./ThemeContext";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./components/ui/tabs";
 import { Promo } from "./components/Promo";
 import { Contribute } from "./components/Contribute";
-import { Button } from "./components/ui/button";
-import { Users } from "lucide-react";
 
 export const App: React.FC = () => {
   return (
@@ -32,18 +30,7 @@ export const App: React.FC = () => {
           </TabsContent>
           <TabsContent value="bestGames">
             <div className="flex m-8 my-16">
-              <p className="text-lg">
-                Soon... Join the editorial team on Discord!{" "}
-              </p>
-              <a
-                href="https://discord.gg/3BqYCxZfFT"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button variant="default" className="ml-4 flex items-center">
-                  <Users className="mr-2" /> Join Discord
-                </Button>
-              </a>
+              <p className="text-lg">Work In Progress...</p>
             </div>
           </TabsContent>
         </Tabs>

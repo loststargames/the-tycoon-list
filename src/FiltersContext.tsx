@@ -128,6 +128,12 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
     setSearchParams(params);
   }, [filters, setSearchParams]);
 
+  // Parse date in DD-MM-YYYY format
+  const parseDate = (dateString: string) => {
+    const [day, month, year] = dateString.split("-").map(Number);
+    return new Date(year, month - 1, day);
+  };
+
   // Compute filteredGames based on filters
   const filteredGames = useMemo(() => {
     let result = allGames.slice(); // copy to avoid mutations
@@ -236,6 +242,12 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
       // Prioritize games with "TBA" release date or undefined year
       if (a.releaseDate === "TBA" || a.year === undefined) return -1;
       if (b.releaseDate === "TBA" || b.year === undefined) return 1;
+
+      const now = new Date();
+
+      // Prioritize games with future release dates
+      if (a.releaseDate && parseDate(a.releaseDate) > now) return -1;
+      if (b.releaseDate && parseDate(b.releaseDate) > now) return 1;
 
       // Sort the remaining by year (descending order)
       return b.year - a.year;
