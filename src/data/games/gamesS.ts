@@ -299,8 +299,9 @@ export const gamesS: Game[] = [
     pricing: [Pricing.NotSet],
   },
   {
-    title: "Soda Story - Brewing Tycoon";
-    description: "Take on the challenge of running a Soda brewing operation, all while participating in the current season of the hit reality TV show 'Prisoneers'. Will you win your freedom?"
+    title: "Soda Story - Brewing Tycoon",
+    description:
+      "Take on the challenge of running a Soda brewing operation, all while participating in the current season of the hit reality TV show 'Prisoneers'. Will you win your freedom?",
     year: 2022,
     themes: [Theme.Brewery, Theme.FactoryLayout, Theme.Prison],
     platforms: [Platform.PC],
@@ -313,5 +314,5 @@ export const gamesS: Game[] = [
     ],
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.MoreThan10LessThan30],
-  }
+  },
 ];
