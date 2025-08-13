@@ -35,4 +35,21 @@ export const gamesF: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "Fantasy Zoo",
+    description:
+      "Fantasy Zoo is a thematic zoo builder where you build zoo for fantasy animals in a fantasy world. Fill the zoo with animals and monsters from mythology and fantasy pop culture. Manage and build the zoo with help of magic.",
+    year: 2025,
+    themes: [Theme.Zoo],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1951060/Fantasy_Zoo/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.LessThan10],
+  },
 ];
