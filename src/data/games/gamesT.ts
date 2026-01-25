@@ -270,4 +270,56 @@ export const gamesT: Game[] = [
     gameplayType: [GameplayType.TopDown2D],
     pricing: [Pricing.Free],
   },
+  {
+    title: "Transport Fever",
+    description:
+      "Transport Fever is a railroad-focused tycoon game. Players start in 1850 and build up a thriving transport company. As an emerging transport tycoon, the player constructs stations, airports, harbors and makes money by connecting areas requiring transport services. Build up your own Empire!",
+    year: 2016,
+    themes: [Theme.Railroads, Theme.Transportation, Theme.Cityview],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/446800/Transport_Fever/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
+    {
+    title: "Transport Fever 2",
+    description:
+      "The classic transport simulation genre has a new gold standard with Transport Fever 2. Discover a whole new world by navigating transport routes through land, water and air. May progress and prosperity find their way!",
+    year: 2019,
+    themes: [Theme.Railroads, Theme.Transportation, Theme.Cityview],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1066780/Transport_Fever_2/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan30],
+  },
+    {
+    title: "Transport Fever 3",
+    description:
+      " Transport Fever 3, the ultimate transport tycoon returns, bigger, deeper, and more dynamic than ever. Build the routes that transform the world across land, sea, and sky using over a century of evolving transport options. Design and build your ideal transport network.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [Theme.Railroads, Theme.Transportation, Theme.Cityview],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/3493540/Transport_Fever_3/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
 ];
