@@ -52,4 +52,21 @@ export const gamesW: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "Werner Waffenwerke: Arms Tycoon",
+    description:
+      "Take on the role of the spoilt sole heir to a once powerful industrial family and, after the death of your grandfather, take over a weapons manufacturer whose history lies hidden in the trials and tribulations of the 1940s. Design your own weapons, research new technologies, build factories, and sell to numerous interested parties as you lead the company back to its place in the sun.",
+    year: 2025,
+    themes: [Theme.Arms, Theme.Industry],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/3048030/Werner_Waffenwerke_Arms_Tycoon/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];

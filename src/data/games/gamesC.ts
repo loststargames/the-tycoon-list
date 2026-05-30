@@ -128,12 +128,17 @@ export const gamesC: Game[] = [
   {
     title: "CD Market",
     description:
-      "A music label simulation game, it's mostly text-based focused on simulation. Set in the 90's (CD's golden era). You will be able to manage your artists, handle contracts, scout new artists, make tours, market releases, increase hype, participate in awards, sell as many records as possible, and much more!",
-    year: 2024,
+      "CD Market is a music industry management sim where you build a record label on your own terms, from vinyl to digital. Stay small, or grow into something bigger. Discover artists, shape careers, and survive decades of changing formats, trends, rivals, and crises.",
+    year: 2026,
+    releaseDate: "17-07-2026",
     themes: [Theme.Music, Theme.MusicLabel],
-    platforms: [Platform.iOS, Platform.Android],
-    stores: [Store.AppStore, Store.PlayStore],
+    platforms: [Platform.PC, Platform.iOS, Platform.Android],
+    stores: [Store.Steam, Store.AppStore, Store.PlayStore],
     links: [
+      {
+        url: "https://store.steampowered.com/app/4622330/CD_Market__Music_Label_Sim/",
+        name: Store.Steam,
+      },
       {
         url: "https://apps.apple.com/us/app/cd-market/id6670562960",
         name: Store.AppStore,

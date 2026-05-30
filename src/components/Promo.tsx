@@ -1,6 +1,6 @@
 import React from "react";
 import { Alert, AlertDescription, AlertTitle } from "./ui/alert";
-import { Apple, Play } from "lucide-react";
+import { Apple, Play, Gamepad2 } from "lucide-react";
 import { Button } from "./ui/button";
 
 export const Promo: React.FC = () => {
@@ -20,8 +20,8 @@ export const Promo: React.FC = () => {
                 Check out my game, CD Market
               </AlertTitle>
               <AlertDescription className="font-medium">
-                A music label simulation game set in the 90s for iOS and
-                Android.
+                A music label simulation game. Available on mobile and desktop
+                platforms.
               </AlertDescription>
               <AlertDescription>
                 <a
@@ -37,6 +37,15 @@ export const Promo: React.FC = () => {
 
           {/* Buttons Section */}
           <div className="flex flex-col sm:flex-row sm:items-center gap-2">
+            <a
+              href="https://store.steampowered.com/app/4622330/CD_Market__Music_Label_Sim/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="outline" className="w-full sm:w-auto">
+                <Gamepad2 className="mr-1" /> Steam
+              </Button>
+            </a>
             <a
               href="https://apps.apple.com/us/app/cd-market/id6670562960"
               target="_blank"

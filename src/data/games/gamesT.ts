@@ -254,6 +254,28 @@ export const gamesT: Game[] = [
     pricing: [Pricing.Free],
   },
   {
+    title: "The Boss Gangster: Criminal Empire",
+    description:
+      "Rise from street hustler to kingpin in a seamless open-world sandbox with no loading screens. Hustle, manage businesses, build your criminal empire, and outsmart the law in a city that reacts to every move. Run nightclubs, warehouses, and production chains while balancing staff, supply chains, and escalating police consequences.",
+    year: 2025,
+    themes: [
+      Theme.CrimeGangsters,
+      Theme.Nightclub,
+      Theme.CityView,
+      Theme.GeneralBusiness,
+    ],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/2774040/The_Boss_Gangster_Criminal_Empire/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.ThirdPerson],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
+  {
     title: "The McDonald's Videogame",
     description:
       "Making money in a corporation like McDonald's is not easy! Behind every burger there is a complex process you need to master: from pastures to the slaughterhouse, from restaurants to branding. You'll discover all the dirty secrets that made us one of the biggest company in the world.",

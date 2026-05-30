@@ -19,6 +19,24 @@ export const gamesS: Game[] = [
     pricing: [Pricing.LessThan10],
   },
   {
+    title: "Starport Merchants",
+    description:
+      "From rags to riches, build your merchant empire in this space trader tycoon. Haul cargo, mine asteroids, run factories, trade stocks, command a fleet or even colonize an entire planet. Grow to become a gazillionaire as you outsmart the competition and expand your business across the planets.",
+    year: 2026,
+    releaseDate: "TBA",
+    themes: [Theme.Merchant, Theme.Space],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4546370/Starport_Merchants/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.PointClick, GameplayType.TextBased],
+    pricing: [Pricing.NotSet],
+  },
+  {
     title: "Surviving Mars",
     description:
       "There will be challenges to overcome. Execute your strategy and improve your colony’s chances of survival while unlocking the mysteries of this alien world. Are you ready? Mars is waiting for you.",

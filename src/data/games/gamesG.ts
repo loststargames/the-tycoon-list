@@ -125,4 +125,21 @@ export const gamesG: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "Gunsmith",
+    description:
+      "Build up your own arms manufacturing company. Find your factory, buy resources, produce a wide range of military equipment to sell to the highest bidder. Unlock machines, research technologies, manage utilities, and expand your factory as you grow your reputation with clients around the globe.",
+    year: 2018,
+    themes: [Theme.Arms, Theme.FactoryLayout, Theme.Industry],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/620190/Gunsmith/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];

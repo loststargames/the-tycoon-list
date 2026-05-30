@@ -19,6 +19,48 @@ export const gamesE: Game[] = [
     pricing: [Pricing.LessThan10],
   },
   {
+    title: "Endless Superhero HQ",
+    description:
+      "A turn-based management game where you take charge of a superhero headquarters. Build up your HQ, assemble and train a team of heroes, assign them to global crises, and compete against rival HQs to become the world's most trusted defenders.",
+    year: 2024,
+    themes: [Theme.AlternativeUniverse, Theme.GeneralBusiness],
+    platforms: [Platform.iOS],
+    stores: [Store.AppStore, Store.OwnWebsite],
+    links: [
+      {
+        url: "https://superherohq.endlessflux.com/",
+        name: Store.OwnWebsite,
+      },
+      {
+        url: "https://apps.apple.com/us/app/endless-superhero-hq/id6737332704",
+        name: Store.AppStore,
+      },
+    ],
+    gameplayType: [GameplayType.TextBased],
+    pricing: [Pricing.Freemium],
+  },
+  {
+    title: "Endless TV Tycoon",
+    description:
+      "Oversee broadcast, cable, and streaming networks, and create blockbuster hits from your production studio. From writing scripts, running auditions, and shooting episodes to editing, test-screening, and scheduling shows, you're in charge. Approve pilots, renew hits, cancel flops, and manage ad contracts while outsmarting the competition.",
+    year: 2022,
+    themes: [Theme.TV],
+    platforms: [Platform.iOS],
+    stores: [Store.AppStore, Store.OwnWebsite],
+    links: [
+      {
+        url: "https://endlesstvtycoon.com/",
+        name: Store.OwnWebsite,
+      },
+      {
+        url: "https://apps.apple.com/us/app/endless-tv-tycoon/id1505768107",
+        name: Store.AppStore,
+      },
+    ],
+    gameplayType: [GameplayType.TextBased],
+    pricing: [Pricing.Freemium],
+  },
+  {
     title: "Esports Life Tycoon",
     description:
       "Manage your own esports squad, expand your gaming house, and defeat legendary teams to become the best in the world!",
