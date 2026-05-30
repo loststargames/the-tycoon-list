@@ -24,7 +24,7 @@ export const gamesS: Game[] = [
       "From rags to riches, build your merchant empire in this space trader tycoon. Haul cargo, mine asteroids, run factories, trade stocks, command a fleet or even colonize an entire planet. Grow to become a gazillionaire as you outsmart the competition and expand your business across the planets.",
     year: 2026,
     releaseDate: "TBA",
-    themes: [Theme.Merchant, Theme.Space],
+    themes: [Theme.Merchant, Theme.Space, Theme.GeneralBusiness],
     platforms: [Platform.PC],
     stores: [Store.Steam],
     links: [

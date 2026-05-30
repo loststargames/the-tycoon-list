@@ -74,7 +74,12 @@ export const gamesH: Game[] = [
     description:
       "Live your medieval trader life! Buy low, sell high and explore the world! Buy ships, build businesses, find or train captains. Deal with pirates, manipulate mayors and challenge traders. React to hundreds of events that shape your very own procedurally-generated world!",
     year: 2025,
-    themes: [Theme.SeaPirates, Theme.GeneralBusiness, Theme.CityView],
+    themes: [
+      Theme.SeaPirates,
+      Theme.GeneralBusiness,
+      Theme.CityView,
+      Theme.Merchant,
+    ],
     platforms: [Platform.PC],
     stores: [Store.Steam],
     links: [
