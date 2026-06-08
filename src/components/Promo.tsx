@@ -11,7 +11,7 @@ export const Promo: React.FC = () => {
           {/* Left Section (Logo + Text) */}
           <div className="flex items-start gap-4">
             <img
-              src="./cd-market-logo.webp"
+              src="./cd-market-logo.png"
               alt="CD Market Logo"
               className="h-16 w-auto rounded-xl"
             />
