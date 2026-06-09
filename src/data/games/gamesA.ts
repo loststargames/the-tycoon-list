@@ -89,6 +89,24 @@ export const gamesA: Game[] = [
     pricing: [Pricing.LessThan10],
   },
   {
+    title: "Aqua Mundo",
+    description:
+      "Inspired by classic theme park games, Aqua Mundo lets you build the waterpark of your dreams. Design pools, lazy rivers, and water slides while sculpting an immersive thematic world. Balance creative freedom with management challenges like staff, filtration systems, and guest satisfaction in sandbox and career modes.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [Theme.ThemePark],
+    platforms: [Platform.PC, Platform.Mac],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/2773790/Aqua_Mundo/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
+  {
     title: "AirlineSim",
     description:
       "Manage and grow your own virtual airline in this business simulation. Plan operations by acquiring aircraft and scheduling flights. Monitor finances using realistic tools as you cooperate and compete with other players on a real-time market and turn your company into a flourishing business.",
