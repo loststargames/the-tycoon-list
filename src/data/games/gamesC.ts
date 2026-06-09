@@ -109,6 +109,23 @@ export const gamesC: Game[] = [
     pricing: [Pricing.LessThan10],
   },
   {
+    title: "Casino Resort Tower",
+    description:
+      "Build a casino resort skyscraper that comes alive. Run the casino floor with blackjack, slots, and poker while managing hotels, restaurants, staff quarters, and lounges. Design a vertical world where guests and staff react to your layout in real time as your tower grows upward, floor by floor.",
+    year: 2023,
+    themes: [Theme.Casino, Theme.Hotel],
+    platforms: [Platform.PC, Platform.Mac],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1457030/Casino_Resort_Tower/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.BuildingBlocks],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
+  {
     title: "Chart Wars 3",
     description:
       "The game puts you in charge of your very own record company, you must hire bands, release and promote records, and arrange tours, all whilst balancing the books, expanding your label and competing with intelligent computer opponents.",
