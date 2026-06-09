@@ -92,6 +92,30 @@ export const gamesP: Game[] = [
     sequelFamily: "pizzaConnection",
   },
   {
+    title: "Pizza Empire",
+    description:
+      "A pizza chain tycoon set in 1990s New York. Pick locations, hire staff, craft menus, and expand across boroughs—while navigating rival pizzerias, city politics, and deals with the mafia to grow your empire.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [
+      Theme.Restaurant,
+      Theme.FastFood,
+      Theme.CrimeGangsters,
+      Theme.Humour,
+      Theme.CityView,
+    ],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1532790/Pizza_Empire/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
+  {
     title: "Planet Coaster",
     description:
       "Planet Coaster® - the future of coaster park simulation games has arrived! Surprise, delight and thrill incredible crowds as you build your coaster park empire - let your imagination run wild, and share your success with the world.",

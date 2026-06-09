@@ -38,6 +38,25 @@ export const gamesR: Game[] = [
     sequelFamily: "railroadTycoon",
   },
   {
+    title: "Rail Estate",
+    description:
+      "Outbid your rivals in blind auctions for key railway routes, build and upgrade tracks, and compete to create the most profitable network. A real-time multiplayer strategy game with procedurally generated maps, single-player campaigns, and board-game-style resource management.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [Theme.Railroads, Theme.Transportation],
+    platforms: [Platform.PC, Platform.Mac],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/3762240/Rail_Estate/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown2D],
+    pricing: [Pricing.NotSet],
+    hasMultiplayer: true,
+  },
+  {
     title: "Rise of Industry",
     description:
       "Put your entrepreneurial skills to the test in the first title in the ROI series as you create & optimise intricate production lines. As an early 20th-Century industrialist, grow your empire & adapt to an ever-changing business landscape with unexpected events that could lead to boom…or bust.",

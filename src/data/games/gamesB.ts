@@ -2,6 +2,24 @@ import { Game, Theme, Platform, Store, GameplayType, Pricing } from "./types";
 
 export const gamesB: Game[] = [
   {
+    title: "Bering Tonnage",
+    description:
+      "Build and automate a cargo fleet across over 250 real-world ports in this maritime tycoon. Route ships through strategic canals, navigate tropical cyclones and geopolitical sanctions, and grow a small shipping company into a global logistics empire.",
+    year: 2026,
+    releaseDate: "28-08-2026",
+    themes: [Theme.Transportation, Theme.Merchant, Theme.GeneralBusiness],
+    platforms: [Platform.PC, Platform.Linux],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4610080/Bering_Tonnage/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TextBased, GameplayType.PointClick],
+    pricing: [Pricing.NotSet],
+  },
+  {
     title: "Big Biz Tycoon",
     description:
       "The objective of the game is to create a successful business by developing products. As products are sold, the player earns money depending on the production rate and price of the product. This enables them to hire employees and decorate the office building. ",

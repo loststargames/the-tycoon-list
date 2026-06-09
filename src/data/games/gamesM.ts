@@ -36,6 +36,28 @@ export const gamesM: Game[] = [
     pricing: [Pricing.MoreThan10LessThan30],
   },
   {
+    title: "Mars Attracts",
+    description:
+      "A theme park management game set on Mars in the Mars Attacks™ universe. Play as devious Martians building an amusement park empire—abduct humans from across history, design enclosures, run rides and amenities, and keep your Martian guests entertained while turning a profit.",
+    year: 2025,
+    themes: [
+      Theme.ThemePark,
+      Theme.Space,
+      Theme.Humour,
+      Theme.AlternativeUniverse,
+    ],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/2760580/Mars_Attracts/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
+  {
     title: "Mad Games Tycoon",
     description:
       "Form your own game studio set in the early 1980s in a small garage. Develop your own game ideas, create a team and develop megahit video games. Research new technologies, train your staff and upgrade your office space, going from a lowly garage to a huge building. Expand your business and dominate the world market for video games!",

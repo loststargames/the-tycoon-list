@@ -127,6 +127,24 @@ export const gamesS: Game[] = [
     pricing: [Pricing.MoreThan10LessThan30],
   },
   {
+    title: "Studio Sim",
+    description:
+      "Build a film and television empire in a living entertainment industry beginning in the 1980s. Create and manage productions, cast unique talent, outmaneuver rival studios, climb the box office, and chase television ratings in this immersive, old-school studio tycoon.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [Theme.Movies, Theme.TV],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4516210/Studio_Sim/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TextBased],
+    pricing: [Pricing.NotSet],
+  },
+  {
     title: "Showrunner",
     description:
       "Create and run your own TV show! An isometric management game where you craft scripts, populate your world with characters and cast actors to play them. Hire and manage staff, develop your studio and gain a dedicated following.",
@@ -142,6 +160,24 @@ export const gamesS: Game[] = [
     ],
     gameplayType: [GameplayType.Isometric],
     pricing: [Pricing.LessThan10],
+  },
+  {
+    title: "Scream Operator: Haunted House Manager",
+    description:
+      "A spooky pixel-art management sim where you operate your own haunted house dark ride from the control room. Balance scares with smart business choices—load guests, trigger pre-shows, route carts, sustain your scare-score, and spend Prestige to automate systems and upgrade the ride.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [Theme.ThemePark, Theme.Humour],
+    platforms: [Platform.PC, Platform.Mac, Platform.Linux],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4480080/Scream_Operator_Haunted_House_Manager/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.PointClick, GameplayType.FirstPerson],
+    pricing: [Pricing.NotSet],
   },
   {
     title: "Snowtopia: Ski Resort Builder",

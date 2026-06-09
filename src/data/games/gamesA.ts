@@ -89,6 +89,24 @@ export const gamesA: Game[] = [
     pricing: [Pricing.LessThan10],
   },
   {
+    title: "Agro Tycoon",
+    description:
+      "A management simulator with charming isometric pixel art where you are the CEO of your own agricultural operation. Start with a modest plot of land, buy and manage a fleet of farm machinery, expand across neighboring fields, hire staff, and grow a small plantation into an agribusiness powerhouse.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [Theme.Farming, Theme.GeneralBusiness],
+    platforms: [Platform.PC, Platform.Linux],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4660350/Agro_Tycoon/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.NotSet],
+  },
+  {
     title: "Aqua Mundo",
     description:
       "Inspired by classic theme park games, Aqua Mundo lets you build the waterpark of your dreams. Design pools, lazy rivers, and water slides while sculpting an immersive thematic world. Balance creative freedom with management challenges like staff, filtration systems, and guest satisfaction in sandbox and career modes.",
