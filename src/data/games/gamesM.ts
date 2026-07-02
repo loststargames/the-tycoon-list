@@ -58,6 +58,24 @@ export const gamesM: Game[] = [
     pricing: [Pricing.MoreThan10LessThan30],
   },
   {
+    title: "Motorsport Park Manager",
+    description:
+      "Build and customize your own motorsports park in this classic tycoon simulation. Design detailed circuits from go-kart tracks and autocross courses to professional race venues, expand your facilities, and grow from a local track into a world-renowned racing destination.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [Theme.Automobile, Theme.ThemePark],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4140740/Motorsport_Park_Manager/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
+  {
     title: "Mad Games Tycoon",
     description:
       "Form your own game studio set in the early 1980s in a small garage. Develop your own game ideas, create a team and develop megahit video games. Research new technologies, train your staff and upgrade your office space, going from a lowly garage to a huge building. Expand your business and dominate the world market for video games!",

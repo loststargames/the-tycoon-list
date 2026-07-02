@@ -2,6 +2,24 @@ import { Game, Theme, Platform, Store, GameplayType, Pricing } from "./types";
 
 export const gamesA: Game[] = [
   {
+    title: "Alpine Architect",
+    description:
+      "Design, build, and manage your dream ski resort on a living mountain. Place lifts and draw ski runs, build restaurants and lodging, monitor snow quality, manage guest flow, and balance your economy through dynamic weather from bluebird mornings to freezing storms.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [Theme.SnowSki],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/2693420/Alpine_Architect/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown2D],
+    pricing: [Pricing.NotSet],
+  },
+  {
     title: "Airport CEO",
     description:
       "Manage and expand your own airport, handle logistics, and grow your business.",
