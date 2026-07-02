@@ -40,9 +40,9 @@ export const gamesR: Game[] = [
   {
     title: "Rail Estate",
     description:
-      "Outbid your rivals in blind auctions for key railway routes, build and upgrade tracks, and compete to create the most profitable network. A real-time multiplayer strategy game with procedurally generated maps, single-player campaigns, and board-game-style resource management.",
-    year: undefined,
-    releaseDate: "TBA",
+      "Outbid your rivals in auctions for key railway routes, build and upgrade your tracks to dominate the rail economy. Compete to create the most profitable network, balancing speed, capacity, and maintenance in a dynamic simulation.",
+    year: 2026,
+    releaseDate: "16-07-2026",
     themes: [Theme.Railroads, Theme.Transportation],
     platforms: [Platform.PC, Platform.Mac],
     stores: [Store.Steam],
