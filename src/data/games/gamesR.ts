@@ -57,6 +57,24 @@ export const gamesR: Game[] = [
     hasMultiplayer: true,
   },
   {
+    title: "Racetrack Tycoon",
+    description:
+      "Build race tracks, expand your venue, and attract racing series in a true 1:1 scale simulation. Host everything from amateur club meets to world championship events while managing your budget, meeting demanding series requirements, and entertaining tens of thousands of fans.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [Theme.Automobile, Theme.ThemePark],
+    platforms: [Platform.PC, Platform.Mac],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4561550/Racetrack_Tycoon/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown2D],
+    pricing: [Pricing.NotSet],
+  },
+  {
     title: "Rise of Industry",
     description:
       "Put your entrepreneurial skills to the test in the first title in the ROI series as you create & optimise intricate production lines. As an early 20th-Century industrialist, grow your empire & adapt to an ever-changing business landscape with unexpected events that could lead to boom…or bust.",
