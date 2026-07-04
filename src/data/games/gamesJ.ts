@@ -19,6 +19,24 @@ export const gamesJ: Game[] = [
     pricing: [Pricing.Free],
   },
   {
+    title: "Justice Project",
+    description:
+      "A courthouse management tycoon where you build and run your own operational courthouse. Design the layout, hire and train staff, schedule hearings and trials, and balance case backlogs, budget, and reputation from small-town traffic courts to high-profile criminal trials.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [Theme.CrimeGangsters],
+    platforms: [Platform.PC, Platform.Mac],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4634840/Justice_Project/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
+  {
     title: "Jurassic World Evolution",
     description:
       "Place yourself at the heart of the Jurassic franchise and build your own Jurassic World. Bioengineer dinosaurs that think, feel and react intelligently to the world around them and face threats posed by espionage, breakouts and devastating tropical storms in an uncertain world where life always finds a way.",
