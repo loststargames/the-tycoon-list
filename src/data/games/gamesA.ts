@@ -194,6 +194,24 @@ export const gamesA: Game[] = [
     pricing: [Pricing.LessThan10],
   },
   {
+    title: "Auto Empire Tycoon",
+    description:
+      "Start in the 1950s with a small factory and a single dealership. Research new technologies, design cars, manage production, keep your dealerships stocked, and outpace your rivals to build your own automotive empire in this isometric tycoon simulation.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [Theme.Automobile, Theme.CityView],
+    platforms: [Platform.PC, Platform.Mac, Platform.Linux],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4809560/Auto_Empire_Tycoon/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.NotSet],
+  },
+  {
     title: "Automation - The Car Company Tycoon Game",
     description:
       "Make your dream cars a reality with Automation’s unparalleled car and engine design tools. Gain a competitive edge through smart engineering and business decisions to help you build an automotive empire. Will you become an industry leader, or just a footnote in automotive history?",
