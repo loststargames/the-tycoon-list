@@ -4,6 +4,23 @@ export const gamesH: Game[] = [
   {
     title: "Hardware Tycoon",
     description:
+      "From 1986 to 2026, design and engineer the world's most advanced CPUs. Run your own fabs or manufacture for rivals, research groundbreaking tech, manage your team, buy and build offices, and dominate the market through decades of cutthroat competition.",
+    year: 2026,
+    themes: [Theme.Hardware],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4490710/Hardware_Tycoon/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
+  {
+    title: "Hardware Tycoon (itch.io)",
+    description:
       "Hardware Tycoon is a free simulation/management game where you run your own hardware company, influence the market, and compete with other companies - either only to stay afloat or revolutionize the industry.",
     year: 2021,
     themes: [Theme.Hardware],
