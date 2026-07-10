@@ -198,6 +198,42 @@ export const gamesR: Game[] = [
     pricing: [Pricing.MoreThan10LessThan30],
   },
   {
+    title: "Restaurant Empire",
+    description:
+      "Starting with nothing except some cash and a passion for food, build a restaurant from the bottom up—hire waiters, decorate, and even cook the meals. With business strategy, role-playing elements, and sandbox mode across three huge cities and over 30 playable chefs, buy, build, outsell and underprice your competition.",
+    year: 2003,
+    themes: [Theme.Restaurant],
+    platforms: [Platform.PC],
+    stores: [Store.GOG],
+    links: [
+      {
+        url: "https://www.gog.com/en/game/restaurant_empire",
+        name: Store.GOG,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.LessThan10],
+    sequelFamily: "restaurantEmpire",
+  },
+  {
+    title: "Restaurant Empire II",
+    description:
+      "Restaurant Empire 2 is a comprehensive restaurant business simulation featuring 4 cuisines, 600 recipes, 4 huge cities, 2 campaigns with 34 missions, 1400 interior objects, and a mix of business strategy and role-playing gameplay including cooking contests.",
+    year: 2009,
+    themes: [Theme.Restaurant],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/32900/Restaurant_Empire_II/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+    sequelFamily: "restaurantEmpire",
+  },
+  {
     title: "Railway Empire",
     description:
       "In Railway Empire, you will create an elaborate and wide-ranging rail network, purchase over 40 different trains modelled in extraordinary detail, and buy or build railway stations, maintenance buildings, factories and tourist attractions to keep your travel network ahead of the competition.",
