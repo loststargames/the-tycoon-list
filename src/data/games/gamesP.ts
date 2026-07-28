@@ -255,6 +255,24 @@ export const gamesP: Game[] = [
     pricing: [Pricing.MoreThan10LessThan30],
   },
   {
+    title: "Project manager SIM",
+    description:
+      "Manage the most unpredictable resource - people - in this WASD tycoon! Plan projects, hire a dream team, assign tasks to specialists, and monitor the budget while upgrading your office. Balance between team burnout, complex contracts, and the wrath of upper management.",
+    year: 2026,
+    releaseDate: "29-07-2026",
+    themes: [Theme.Office, Theme.ProductDevelopment, Theme.Software],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4454610/Project_manager_SIM/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown2D],
+    pricing: [Pricing.NotSet],
+  },
+  {
     title: "Puffin Planes",
     description:
       "A casual airline management game set on Earth and Mars. Supports singleplayer and Steam co-op.",
