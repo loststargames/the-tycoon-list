@@ -5,6 +5,7 @@ export enum Theme {
   Arms = "Arms",
   Automobile = "Automobile",
   Brewery = "Brewery",
+  CampgroundResort = "Campground / Holiday Resort",
   Casino = "Casino",
   CityBuilder = "City Builder",
   CityView = "City View",
