@@ -36,6 +36,23 @@ export const gamesF: Game[] = [
     pricing: [Pricing.MoreThan10LessThan30],
   },
   {
+    title: "Fantasy Brothel Manager",
+    description:
+      "A sex comedy management sim where you build and run brothels for magical creatures. Shape rooms, hire staff, cater to quirky fantasy clients, and turn chaos into profit.",
+    year: 2027,
+    themes: [Theme.NSFW, Theme.Humour, Theme.AlternativeUniverse],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/3555680/Fantasy_Brothel_Manager/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
+  {
     title: "Fantasy Zoo",
     description:
       "Fantasy Zoo is a thematic zoo builder where you build zoo for fantasy animals in a fantasy world. Fill the zoo with animals and monsters from mythology and fantasy pop culture. Manage and build the zoo with help of magic.",
