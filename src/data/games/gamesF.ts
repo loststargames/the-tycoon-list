@@ -40,6 +40,7 @@ export const gamesF: Game[] = [
     description:
       "A sex comedy management sim where you build and run brothels for magical creatures. Shape rooms, hire staff, cater to quirky fantasy clients, and turn chaos into profit.",
     year: 2027,
+    releaseDate: "TBA",
     themes: [Theme.NSFW, Theme.Humour, Theme.AlternativeUniverse],
     platforms: [Platform.PC],
     stores: [Store.Steam],
