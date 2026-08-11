@@ -19,6 +19,24 @@ export const gamesM: Game[] = [
     pricing: [Pricing.MoreThan10LessThan30],
   },
   {
+    title: "MMOS: MMO Simulator",
+    description:
+      "The MMO management sim where you operate a living MMORPG. Paint zones, design classes, gear, quests and dungeons, and run the economy. Then thousands of autonomous adventurers move in, form guilds, run and rate your dungeons, and pay the subscriptions that fund you.",
+    year: 2026,
+    releaseDate: "TBA",
+    themes: [Theme.GameDev, Theme.Software, Theme.Dungeon],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4873130/MMOS_MMO_Simulator/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
+  {
     title: "Movies Tycoon",
     description:
       "Movies Tycoon is a simulation game where you dive into the world of film-making. Start with a humble studio, scout and manage top talent, customize unique characters, and direct blockbuster films.",
