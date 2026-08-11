@@ -8,7 +8,9 @@ export const Contribute: React.FC = () => {
       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2">
         <div className="flex items-center">
           <MessageCircle />
-          <p className="ml-2">To discuss and coordinate about TTL!</p>
+          <p className="ml-2">
+            To discuss, coordinate and propose games for TTL!
+          </p>
         </div>
         <a
           href="https://discord.gg/3BqYCxZfFT"
