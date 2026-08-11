@@ -2,6 +2,24 @@ import { Game, Theme, Platform, Store, GameplayType, Pricing } from "./types";
 
 export const gamesA: Game[] = [
   {
+    title: "AI Lab Tycoon",
+    description:
+      "Start in 2016 with a skeptical investor's check and build an AI lab into a superintelligence empire. Recruit talent, acquire compute, train and release models, turn research into products, navigate funding and runway, and outmaneuver rival labs on the race to ASI.",
+    year: 2026,
+    releaseDate: "TBA",
+    themes: [Theme.Startup, Theme.ProductDevelopment, Theme.Software],
+    platforms: [Platform.PC, Platform.Mac, Platform.Linux],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/5015590/AI_Lab_Tycoon/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.NotSet],
+  },
+  {
     title: "Alpine Architect",
     description:
       "Design, build, and manage your dream ski resort on a living mountain. Place lifts and draw ski runs, build restaurants and lodging, monitor snow quality, manage guest flow, and balance your economy through dynamic weather from bluebird mornings to freezing storms.",
