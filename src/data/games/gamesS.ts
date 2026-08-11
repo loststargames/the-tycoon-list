@@ -335,6 +335,24 @@ export const gamesS: Game[] = [
     sequelFamily: "railroadTycoon",
   },
   {
+    title: "Ski-E-O! Ski Resort Tycoon",
+    description:
+      "Build the cozy ski resort of your dreams. Paint trails onto real mountains, connect lifts, and place lodges and après bars while managing snow, weather, and thousands of guests with unique needs across living, region-specific peaks.",
+    year: 2026,
+    releaseDate: "03-11-2026",
+    themes: [Theme.SnowSki],
+    platforms: [Platform.PC, Platform.Mac],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4493130/SkiEO_Ski_Resort_Tycoon/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
+  {
     title: "Skingdom",
     description:
       "Create your own ski realm in Skingdom, a ski resort construction and management game! Arrange your resort, draw your slopes and build your lifts, hotels and shops. Take care of your budget, hire staff and invest in upgrades for your ski resort to reach the top of the mountain!",
