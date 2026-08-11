@@ -7,7 +7,7 @@ export const gamesA: Game[] = [
       "Start in 2016 with a skeptical investor's check and build an AI lab into a superintelligence empire. Recruit talent, acquire compute, train and release models, turn research into products, navigate funding and runway, and outmaneuver rival labs on the race to ASI.",
     year: 2026,
     releaseDate: "TBA",
-    themes: [Theme.Startup, Theme.ProductDevelopment, Theme.Software],
+    themes: [Theme.AILLMs, Theme.Startup, Theme.ProductDevelopment, Theme.Software],
     platforms: [Platform.PC, Platform.Mac, Platform.Linux],
     stores: [Store.Steam],
     links: [

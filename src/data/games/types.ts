@@ -1,6 +1,7 @@
 export enum Theme {
   Airline = "Airline",
   Airport = "Airport",
+  AILLMs = "AI / LLMs",
   AlternativeUniverse = "Alternative Universe",
   Arms = "Arms",
   Automobile = "Automobile",
