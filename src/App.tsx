@@ -6,6 +6,8 @@ import { ThemeProvider } from "./ThemeContext";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./components/ui/tabs";
 import { Promo } from "./components/Promo";
 import { Contribute } from "./components/Contribute";
+import { BestGames } from "./components/BestGames";
+import { RandomGame } from "./components/RandomGame";
 
 export const App: React.FC = () => {
   return (
@@ -23,15 +25,19 @@ export const App: React.FC = () => {
               <TabsTrigger value="bestGames" className="text-base">
                 Best Tycoon Games
               </TabsTrigger>
+              <TabsTrigger value="randomGame" className="text-base">
+                Random Game
+              </TabsTrigger>
             </TabsList>
           </div>
           <TabsContent value="gamesList">
             <GamesList />
           </TabsContent>
           <TabsContent value="bestGames">
-            <div className="flex m-8 my-16">
-              <p className="text-lg">Work In Progress...</p>
-            </div>
+            <BestGames />
+          </TabsContent>
+          <TabsContent value="randomGame">
+            <RandomGame />
           </TabsContent>
         </Tabs>
         <Promo />

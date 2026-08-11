@@ -12,7 +12,7 @@ import {
 import { MultiSelect } from "./ui/multi-select";
 import { ChevronLeft, ChevronRight, Equal } from "lucide-react";
 import { Button } from "./ui/button";
-import { useFilters } from "../FiltersContext";
+import { useFilters } from "../hooks/useFilters";
 
 const themes = Object.values(Theme);
 const platforms = Object.values(Platform);
@@ -62,6 +62,7 @@ export const FiltersBar: React.FC = () => {
     selectedYear,
     yearComparison,
     showUpcoming,
+    hasDiscount,
     hasMultiplayer,
     searchQuery,
     searchDescriptionQuery,
@@ -94,6 +95,15 @@ export const FiltersBar: React.FC = () => {
         />
         <label htmlFor="upcoming" className="dark:text-white">
           Show Upcoming Games
+        </label>
+        <Checkbox
+          id="discount"
+          checked={hasDiscount}
+          onCheckedChange={(checked) => updateFilter("hasDiscount", !!checked)}
+          className="ml-4"
+        />
+        <label htmlFor="discount" className="dark:text-white">
+          On Sale
         </label>
         <Checkbox
           id="multiplayer"

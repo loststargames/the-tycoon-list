@@ -121,7 +121,7 @@ export const gamesE: Game[] = [
     stores: [Store.Steam],
     links: [
       {
-        url: "https://store.steampowered.com/app/1543280/Espresso_Tycoon/",
+        url: "https://store.steampowered.com/app/3720/Evil_Genius/",
         name: Store.Steam,
       },
     ],
@@ -150,19 +150,19 @@ export const gamesE: Game[] = [
   {
     title: "E-Shop Tycoon",
     description:
-      "E-Shop Tycoon is an isometric online shopping company management game. Fill up your warehouses, take orders, hire employees, expand and customize your offices. Protect your site against hackers, improve your reputation on social media.",
-    releaseDate: "05-08-2025",
-    year: 2025,
-    themes: [Theme.GeneralBusiness, Theme.Retail],
+      "Embark on an e-commerce startup journey in E-Shop Tycoon! Optimize warehouse logistics, hire and train staff, and design unique office spaces as your business grows. Handle industry events and marketing crises. Come grow your startup into an e-commerce giant!",
+    releaseDate: "28-07-2026",
+    year: 2026,
+    themes: [Theme.GeneralBusiness, Theme.Retail, Theme.Office, Theme.Startup],
     platforms: [Platform.PC],
     stores: [Store.Steam],
     links: [
       {
-        url: "https://store.steampowered.com/app/2871960/EShop_Tycoon/",
+        url: "https://store.steampowered.com/app/4249850/EShop_Tycoon/",
         name: Store.Steam,
       },
     ],
-    gameplayType: [GameplayType.Isometric],
-    pricing: [Pricing.NotSet],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
   },
 ];

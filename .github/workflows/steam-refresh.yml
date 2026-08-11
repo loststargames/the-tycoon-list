@@ -1,0 +1,53 @@
+name: Refresh Steam Data
+
+on:
+  schedule:
+    # 1st and 15th of each month, 05:00 UTC
+    - cron: "0 5 1,15 * *"
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Fetch Steam stats
+        run: node scripts/fetch-steam.mjs
+
+      - name: Commit if changed
+        id: commit
+        run: |
+          git config user.email "cdmarketgame@gmail.com"
+          git config user.name "loststargames"
+          if git diff --quiet src/data/steam-stats.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes."
+            exit 0
+          fi
+          git add src/data/steam-stats.json
+          git commit -m "chore: refresh Steam stats"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # A push made with GITHUB_TOKEN does not trigger other workflows, so
+      # deploy.yml will not pick this up. Build and publish here instead.
+      - run: yarn install --frozen-lockfile
+        if: steps.commit.outputs.changed == 'true'
+
+      - run: yarn build
+        if: steps.commit.outputs.changed == 'true'
+
+      - name: Deploy to GitHub Pages
+        if: steps.commit.outputs.changed == 'true'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist

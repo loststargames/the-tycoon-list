@@ -5,6 +5,13 @@ import { Info, Link } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { allGames } from "../data/games";
 import { Badge } from "./ui/badge";
+import {
+  getPositivePercent,
+  getReviewHue,
+  getSteamAppId,
+  getSteamStats,
+} from "../lib/steam";
+import { isUpcoming } from "../lib/games";
 
 interface GameCardProps {
   game: Game;
@@ -17,12 +24,9 @@ export const GameCard: React.FC<GameCardProps> = ({
 }) => {
   const [isIframeLoaded, setIsIframeLoaded] = useState(false);
 
-  const steamLink = game.links.find((link) =>
-    link.url.includes("store.steampowered.com")
-  );
-  const steamAppId = steamLink
-    ? steamLink.url.match(/\/app\/(\d+)/)?.[1]
-    : null;
+  const steamAppId = getSteamAppId(game);
+  const steamStats = getSteamStats(game);
+  const reviewPercent = getPositivePercent(steamStats);
   const sequels = useMemo(() => {
     if (game.sequelFamily) {
       return allGames.filter((g) => g.sequelFamily === game.sequelFamily);
@@ -30,24 +34,7 @@ export const GameCard: React.FC<GameCardProps> = ({
       return null;
     }
   }, [game.sequelFamily]);
-  const upcoming = useMemo(() => {
-    if (game.releaseDate) {
-      if (game.releaseDate === "TBA") {
-        return true;
-      }
-
-      const [day, month, year] = game.releaseDate.split("-").map(Number);
-      const parsedDate = new Date(year, month - 1, day); // Months are 0-indexed in JS
-
-      return parsedDate > new Date();
-    }
-
-    if (game.year) {
-      return new Date(game.year) > new Date();
-    }
-
-    return false;
-  }, [game.releaseDate, game.year]);
+  const upcoming = useMemo(() => isUpcoming(game), [game]);
 
   return (
     <Card className="dark:bg-zinc-900 h-full flex flex-col">
@@ -65,7 +52,26 @@ export const GameCard: React.FC<GameCardProps> = ({
             <span className="font-normal">{game.releaseDate}</span>
           </p>
         )}
-        <CardTitle className="text-xl">{game.title}</CardTitle>
+        <CardTitle className="text-xl">
+          {game.title}
+          {reviewPercent !== null && steamStats && (
+            <span className="ml-2 text-base font-normal text-gray-500 dark:text-gray-400 whitespace-nowrap">
+              [
+              <span
+                className="review-score font-semibold"
+                style={
+                  {
+                    "--score-hue": getReviewHue(reviewPercent),
+                  } as React.CSSProperties
+                }
+              >
+                {reviewPercent}%
+              </span>{" "}
+              - {steamStats.totalReviews.toLocaleString()}{" "}
+              {steamStats.totalReviews === 1 ? "review" : "reviews"}]
+            </span>
+          )}
+        </CardTitle>
         <p className="text-base">{game.description}</p>
       </CardHeader>
       <CardContent className="flex-1 flex flex-col justify-between">

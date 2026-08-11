@@ -21,6 +21,15 @@ body {
   min-height: 100vh;
 }
 
+/* Review percentage, tinted red-to-green via --score-hue set on the element. */
+.review-score {
+  color: hsl(var(--score-hue) 78% 36%);
+}
+
+.dark .review-score {
+  color: hsl(var(--score-hue) 72% 62%);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

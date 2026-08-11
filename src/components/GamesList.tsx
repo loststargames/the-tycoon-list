@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { GameCard } from "./GameCard";
 import { Checkbox } from "./ui/checkbox";
-import { useFilters } from "../FiltersContext";
+import { useFilters } from "../hooks/useFilters";
 import { useInfiniteScroll } from "../hooks/useInfiniteScroll";
 
 export const GamesList: React.FC = () => {

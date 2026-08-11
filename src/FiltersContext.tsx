@@ -1,12 +1,9 @@
-import React, {
-  createContext,
-  useContext,
-  useEffect,
-  useMemo,
-  useState,
-} from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { allGames } from "./data/games";
+import { hasDiscount as gameHasDiscount } from "./lib/steam";
+import { isUpcoming, parseReleaseDate } from "./lib/games";
+import { FiltersContext, FiltersState } from "./hooks/useFilters";
 import {
   Theme,
   Platform,
@@ -14,33 +11,7 @@ import {
   GameplayType,
   Pricing,
   YearComparison,
-  Game,
 } from "./data/games/types";
-
-interface FiltersState {
-  selectedThemes: Theme[];
-  selectedYear: number | null;
-  yearComparison: YearComparison;
-  showUpcoming: boolean;
-  hasMultiplayer: boolean;
-  searchQuery: string;
-  searchDescriptionQuery: string;
-  selectedPlatforms: Platform[];
-  selectedStores: Store[];
-  selectedGameplayTypes: GameplayType[];
-  selectedPricing: Pricing[];
-}
-
-interface FiltersContextProps {
-  filters: FiltersState;
-  setFilters: React.Dispatch<React.SetStateAction<FiltersState>>;
-  filteredGames: Game[];
-  clearFilters: () => void;
-}
-
-const FiltersContext = createContext<FiltersContextProps | undefined>(
-  undefined
-);
 
 export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
   children,
@@ -61,6 +32,7 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
       (searchParams.get("yearComparison") as YearComparison) ||
       YearComparison.SAME,
     showUpcoming: searchParams.get("showUpcoming") !== "false",
+    hasDiscount: searchParams.get("hasDiscount") === "true",
     hasMultiplayer: searchParams.get("hasMultiplayer") === "true",
     searchQuery: searchParams.get("searchQuery") || "",
     searchDescriptionQuery: searchParams.get("searchDescriptionQuery") || "",
@@ -82,6 +54,7 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
       selectedYear: null,
       yearComparison: YearComparison.SAME,
       showUpcoming: true,
+      hasDiscount: false,
       hasMultiplayer: false,
       searchQuery: "",
       searchDescriptionQuery: "",
@@ -100,6 +73,7 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
       selectedYear,
       yearComparison,
       showUpcoming,
+      hasDiscount,
       hasMultiplayer,
       searchQuery,
       searchDescriptionQuery,
@@ -114,6 +88,7 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
     if (yearComparison !== YearComparison.SAME)
       params.yearComparison = yearComparison;
     if (!showUpcoming) params.showUpcoming = "false";
+    if (hasDiscount) params.hasDiscount = "true";
     if (hasMultiplayer) params.hasMultiplayer = "true";
     if (searchQuery) params.searchQuery = searchQuery;
     if (searchDescriptionQuery)
@@ -128,12 +103,6 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
     setSearchParams(params);
   }, [filters, setSearchParams]);
 
-  // Parse date in DD-MM-YYYY format
-  const parseDate = (dateString: string) => {
-    const [day, month, year] = dateString.split("-").map(Number);
-    return new Date(year, month - 1, day);
-  };
-
   // Compute filteredGames based on filters
   const filteredGames = useMemo(() => {
     let result = allGames.slice(); // copy to avoid mutations
@@ -143,6 +112,7 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
       selectedYear,
       yearComparison,
       showUpcoming,
+      hasDiscount,
       hasMultiplayer,
       searchQuery,
       searchDescriptionQuery,
@@ -177,12 +147,12 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
 
     // Filter Upcoming Releases
     if (!showUpcoming) {
-      const now = new Date();
-      result = result.filter(
-        (g) =>
-          !g.releaseDate ||
-          (g.releaseDate !== "TBA" && new Date(g.releaseDate) <= now)
-      );
+      result = result.filter((g) => !isUpcoming(g));
+    }
+
+    // Filter by Steam Discount
+    if (hasDiscount) {
+      result = result.filter(gameHasDiscount);
     }
 
     // Filter by Multiplayer
@@ -246,8 +216,8 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
       const now = new Date();
 
       // Prioritize games with future release dates
-      if (a.releaseDate && parseDate(a.releaseDate) > now) return -1;
-      if (b.releaseDate && parseDate(b.releaseDate) > now) return 1;
+      if (a.releaseDate && parseReleaseDate(a.releaseDate) > now) return -1;
+      if (b.releaseDate && parseReleaseDate(b.releaseDate) > now) return 1;
 
       // Sort the remaining by year (descending order)
       return b.year - a.year;
@@ -263,12 +233,4 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
       {children}
     </FiltersContext.Provider>
   );
-};
-
-export const useFilters = () => {
-  const context = useContext(FiltersContext);
-  if (!context) {
-    throw new Error("useFilters must be used within a FiltersProvider");
-  }
-  return context;
 };

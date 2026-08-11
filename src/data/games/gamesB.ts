@@ -6,7 +6,7 @@ export const gamesB: Game[] = [
     description:
       "Build and automate a cargo fleet across over 250 real-world ports in this maritime tycoon. Route ships through strategic canals, navigate tropical cyclones and geopolitical sanctions, and grow a small shipping company into a global logistics empire.",
     year: 2026,
-    releaseDate: "28-08-2026",
+    releaseDate: "02-10-2026",
     themes: [Theme.Transportation, Theme.Merchant, Theme.GeneralBusiness],
     platforms: [Platform.PC, Platform.Linux],
     stores: [Store.Steam],
