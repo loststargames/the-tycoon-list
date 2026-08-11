@@ -363,9 +363,10 @@ export const gamesC: Game[] = [
   },
   {
     title: "Camping Keeper",
-    description: "Build your campground from the ground up: tent sites, cabins, showers, pools, and the pipes and power lines behind them. Watch autonomous campers live, complain... and review you. Set prices, hire staff, and climb from a muddy one-star field to a five-star resort.",
+    description:
+      "Build your campground from the ground up: tent sites, cabins, showers, pools, and the pipes and power lines behind them. Watch autonomous campers live, complain... and review you. Set prices, hire staff, and climb from a muddy one-star field to a five-star resort.",
     year: undefined,
-    releaseDate: "2027",
+    releaseDate: "TBA",
     themes: [Theme.CampgroundResort],
     platforms: [Platform.PC],
     stores: [Store.Steam],
