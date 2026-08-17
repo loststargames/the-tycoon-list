@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T15:41:29.876Z",
+  "generatedAt": "2026-08-15T05:22:11.949Z",
   "apps": {
     "3720": {
       "name": "Evil Genius",
@@ -19,7 +19,7 @@
       "totalReviews": 3603,
       "totalPositive": 3356,
       "totalNegative": 247,
-      "fetchedAt": "2026-08-11T15:36:13.983Z"
+      "fetchedAt": "2026-08-15T05:17:19.778Z"
     },
     "7600": {
       "name": "Sid Meier's Railroads!",
@@ -36,10 +36,10 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 3459,
+      "totalReviews": 3460,
       "totalPositive": 2457,
-      "totalNegative": 1002,
-      "fetchedAt": "2026-08-11T15:40:22.059Z"
+      "totalNegative": 1003,
+      "fetchedAt": "2026-08-15T05:21:09.739Z"
     },
     "7610": {
       "name": "Railroad Tycoon 3",
@@ -59,7 +59,7 @@
       "totalReviews": 1259,
       "totalPositive": 975,
       "totalNegative": 284,
-      "fetchedAt": "2026-08-11T15:39:03.381Z"
+      "fetchedAt": "2026-08-15T05:19:57.025Z"
     },
     "9730": {
       "name": "Tycoon City: New York",
@@ -79,7 +79,7 @@
       "totalReviews": 288,
       "totalPositive": 123,
       "totalNegative": 165,
-      "fetchedAt": "2026-08-11T15:40:48.510Z"
+      "fetchedAt": "2026-08-15T05:21:34.105Z"
     },
     "11590": {
       "name": "Hospital Tycoon",
@@ -99,7 +99,7 @@
       "totalReviews": 591,
       "totalPositive": 236,
       "totalNegative": 355,
-      "fetchedAt": "2026-08-11T15:36:59.679Z"
+      "fetchedAt": "2026-08-15T05:18:00.639Z"
     },
     "32900": {
       "name": "Restaurant Empire II",
@@ -122,7 +122,7 @@
       "totalReviews": 380,
       "totalPositive": 288,
       "totalNegative": 92,
-      "fetchedAt": "2026-08-11T15:39:29.595Z"
+      "fetchedAt": "2026-08-15T05:20:21.261Z"
     },
     "73010": {
       "name": "Cities in Motion",
@@ -139,10 +139,10 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 1089,
-      "totalPositive": 843,
+      "totalReviews": 1088,
+      "totalPositive": 842,
       "totalNegative": 246,
-      "fetchedAt": "2026-08-11T15:35:24.424Z"
+      "fetchedAt": "2026-08-15T05:16:36.140Z"
     },
     "201490": {
       "name": "Airline Tycoon 2",
@@ -163,7 +163,7 @@
       "totalReviews": 574,
       "totalPositive": 103,
       "totalNegative": 471,
-      "fetchedAt": "2026-08-11T15:34:06.906Z"
+      "fetchedAt": "2026-08-15T05:15:28.079Z"
     },
     "208520": {
       "name": "Omerta - City of Gangsters",
@@ -184,7 +184,7 @@
       "totalReviews": 2395,
       "totalPositive": 1605,
       "totalNegative": 790,
-      "fetchedAt": "2026-08-11T15:38:07.580Z"
+      "fetchedAt": "2026-08-15T05:19:05.682Z"
     },
     "225420": {
       "name": "Cities in Motion 2",
@@ -205,7 +205,7 @@
       "totalReviews": 2496,
       "totalPositive": 1448,
       "totalNegative": 1048,
-      "fetchedAt": "2026-08-11T15:35:27.775Z"
+      "fetchedAt": "2026-08-15T05:16:38.907Z"
     },
     "230190": {
       "name": "War for the Overworld",
@@ -227,7 +227,7 @@
       "totalReviews": 8104,
       "totalPositive": 6964,
       "totalNegative": 1140,
-      "fetchedAt": "2026-08-11T15:41:23.990Z"
+      "fetchedAt": "2026-08-15T05:22:06.568Z"
     },
     "233450": {
       "name": "Prison Architect",
@@ -246,10 +246,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 73670,
+      "totalReviews": 73674,
       "totalPositive": 65746,
-      "totalNegative": 7924,
-      "fetchedAt": "2026-08-11T15:38:40.061Z"
+      "totalNegative": 7928,
+      "fetchedAt": "2026-08-15T05:19:35.276Z"
     },
     "239820": {
       "name": "Game Dev Tycoon",
@@ -269,10 +269,10 @@
       ],
       "reviewScore": 9,
       "reviewScoreDesc": "Overwhelmingly Positive",
-      "totalReviews": 45044,
-      "totalPositive": 42881,
-      "totalNegative": 2163,
-      "fetchedAt": "2026-08-11T15:36:38.979Z"
+      "totalReviews": 45049,
+      "totalPositive": 42884,
+      "totalNegative": 2165,
+      "fetchedAt": "2026-08-15T05:17:41.509Z"
     },
     "243040": {
       "name": "Startopia",
@@ -292,7 +292,7 @@
       "totalReviews": 971,
       "totalPositive": 877,
       "totalNegative": 94,
-      "fetchedAt": "2026-08-11T15:39:44.342Z"
+      "fetchedAt": "2026-08-15T05:20:34.843Z"
     },
     "271360": {
       "name": "Industry Giant 2",
@@ -313,7 +313,7 @@
       "totalReviews": 1021,
       "totalPositive": 878,
       "totalNegative": 143,
-      "fetchedAt": "2026-08-11T15:37:20.567Z"
+      "fetchedAt": "2026-08-15T05:18:19.547Z"
     },
     "285110": {
       "name": "GearCity",
@@ -332,10 +332,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 1499,
-      "totalPositive": 1345,
+      "totalReviews": 1500,
+      "totalPositive": 1346,
       "totalNegative": 154,
-      "fetchedAt": "2026-08-11T15:36:44.889Z"
+      "fetchedAt": "2026-08-15T05:17:46.954Z"
     },
     "285310": {
       "name": "RollerCoaster Tycoon®: Deluxe",
@@ -353,10 +353,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 8262,
-      "totalPositive": 7791,
+      "totalReviews": 8266,
+      "totalPositive": 7795,
       "totalNegative": 471,
-      "fetchedAt": "2026-08-11T15:39:14.952Z"
+      "fetchedAt": "2026-08-15T05:20:07.846Z"
     },
     "285330": {
       "name": "RollerCoaster Tycoon® 2: Triple Thrill Pack",
@@ -374,10 +374,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 5838,
-      "totalPositive": 5231,
+      "totalReviews": 5842,
+      "totalPositive": 5235,
       "totalNegative": 607,
-      "fetchedAt": "2026-08-11T15:39:20.787Z"
+      "fetchedAt": "2026-08-15T05:20:13.239Z"
     },
     "293760": {
       "name": "Automation - The Car Company Tycoon Game",
@@ -398,10 +398,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 17804,
-      "totalPositive": 16714,
-      "totalNegative": 1090,
-      "fetchedAt": "2026-08-11T15:34:34.772Z"
+      "totalReviews": 17819,
+      "totalPositive": 16728,
+      "totalNegative": 1091,
+      "fetchedAt": "2026-08-15T05:15:52.491Z"
     },
     "331920": {
       "name": "Airline Tycoon Deluxe",
@@ -418,18 +418,18 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 675,
-      "totalPositive": 568,
-      "totalNegative": 107,
-      "fetchedAt": "2026-08-11T15:34:03.939Z"
+      "totalReviews": 677,
+      "totalPositive": 569,
+      "totalNegative": 108,
+      "fetchedAt": "2026-08-15T05:15:25.362Z"
     },
     "341000": {
       "name": "Mad Games Tycoon",
       "type": "game",
       "isFree": false,
-      "priceCents": 1499,
+      "priceCents": 749,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 50,
       "releaseDate": "Sep 13, 2016",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/341000/header.jpg?t=1740737867",
@@ -444,7 +444,7 @@
       "totalReviews": 4423,
       "totalPositive": 4015,
       "totalNegative": 408,
-      "fetchedAt": "2026-08-11T15:37:58.754Z"
+      "fetchedAt": "2026-08-15T05:18:57.552Z"
     },
     "344850": {
       "name": "Big Pharma",
@@ -463,10 +463,10 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 1938,
-      "totalPositive": 1500,
+      "totalReviews": 1939,
+      "totalPositive": 1501,
       "totalNegative": 438,
-      "fetchedAt": "2026-08-11T15:34:46.742Z"
+      "fetchedAt": "2026-08-15T05:16:03.572Z"
     },
     "361280": {
       "name": "Turmoil",
@@ -485,10 +485,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 16093,
-      "totalPositive": 14959,
+      "totalReviews": 16099,
+      "totalPositive": 14965,
       "totalNegative": 1134,
-      "fetchedAt": "2026-08-11T15:40:51.513Z"
+      "fetchedAt": "2026-08-15T05:21:36.783Z"
     },
     "361320": {
       "name": "Casino Inc.",
@@ -509,7 +509,7 @@
       "totalReviews": 403,
       "totalPositive": 348,
       "totalNegative": 55,
-      "fetchedAt": "2026-08-11T15:35:14.859Z"
+      "fetchedAt": "2026-08-15T05:16:27.828Z"
     },
     "362620": {
       "name": "Software Inc.",
@@ -529,10 +529,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 7787,
-      "totalPositive": 7338,
+      "totalReviews": 7790,
+      "totalPositive": 7341,
       "totalNegative": 449,
-      "fetchedAt": "2026-08-11T15:39:53.092Z"
+      "fetchedAt": "2026-08-15T05:20:42.891Z"
     },
     "377900": {
       "name": "Empire TV Tycoon",
@@ -555,7 +555,7 @@
       "totalReviews": 900,
       "totalPositive": 709,
       "totalNegative": 191,
-      "fetchedAt": "2026-08-11T15:36:01.081Z"
+      "fetchedAt": "2026-08-15T05:17:08.852Z"
     },
     "384080": {
       "name": "Industry Manager: Future Technologies",
@@ -575,7 +575,7 @@
       "totalReviews": 313,
       "totalPositive": 182,
       "totalNegative": 131,
-      "fetchedAt": "2026-08-11T15:37:26.414Z"
+      "fetchedAt": "2026-08-15T05:18:25.082Z"
     },
     "393920": {
       "name": "Auto Dealership Tycoon",
@@ -596,7 +596,7 @@
       "totalReviews": 187,
       "totalPositive": 95,
       "totalNegative": 92,
-      "fetchedAt": "2026-08-11T15:34:28.139Z"
+      "fetchedAt": "2026-08-15T05:15:47.109Z"
     },
     "404640": {
       "name": "Game Tycoon 2",
@@ -618,7 +618,7 @@
       "totalReviews": 248,
       "totalPositive": 121,
       "totalNegative": 127,
-      "fetchedAt": "2026-08-11T15:36:47.938Z"
+      "fetchedAt": "2026-08-15T05:17:49.814Z"
     },
     "423580": {
       "name": "Project Highrise",
@@ -636,10 +636,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 4807,
-      "totalPositive": 4080,
+      "totalReviews": 4810,
+      "totalPositive": 4083,
       "totalNegative": 727,
-      "fetchedAt": "2026-08-11T15:38:54.616Z"
+      "fetchedAt": "2026-08-15T05:19:48.880Z"
     },
     "428690": {
       "name": "Youtubers Life",
@@ -660,18 +660,18 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 15413,
-      "totalPositive": 11930,
+      "totalReviews": 15415,
+      "totalPositive": 11932,
       "totalNegative": 3483,
-      "fetchedAt": "2026-08-11T15:41:29.876Z"
+      "fetchedAt": "2026-08-15T05:22:11.949Z"
     },
     "443810": {
       "name": "This Is the Police",
       "type": "game",
       "isFree": false,
-      "priceCents": 374,
+      "priceCents": 1499,
       "currency": "USD",
-      "discountPercent": 75,
+      "discountPercent": 0,
       "releaseDate": "Aug 2, 2016",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/443810/header.jpg?t=1725011264",
@@ -682,10 +682,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 11198,
-      "totalPositive": 9222,
-      "totalNegative": 1976,
-      "fetchedAt": "2026-08-11T15:40:42.576Z"
+      "totalReviews": 11206,
+      "totalPositive": 9228,
+      "totalNegative": 1978,
+      "fetchedAt": "2026-08-15T05:21:28.636Z"
     },
     "446800": {
       "name": "Transport Fever",
@@ -702,10 +702,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 10835,
-      "totalPositive": 9024,
-      "totalNegative": 1811,
-      "fetchedAt": "2026-08-11T15:41:12.201Z"
+      "totalReviews": 10838,
+      "totalPositive": 9028,
+      "totalNegative": 1810,
+      "fetchedAt": "2026-08-15T05:21:55.740Z"
     },
     "450120": {
       "name": "Capitalism Plus",
@@ -726,7 +726,7 @@
       "totalReviews": 120,
       "totalPositive": 100,
       "totalNegative": 20,
-      "fetchedAt": "2026-08-11T15:35:05.374Z"
+      "fetchedAt": "2026-08-15T05:16:19.685Z"
     },
     "464920": {
       "name": "Surviving Mars",
@@ -744,10 +744,10 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 28689,
-      "totalPositive": 22899,
-      "totalNegative": 5790,
-      "fetchedAt": "2026-08-11T15:39:50.221Z"
+      "totalReviews": 28697,
+      "totalPositive": 22901,
+      "totalNegative": 5796,
+      "fetchedAt": "2026-08-15T05:20:40.180Z"
     },
     "486860": {
       "name": "MMORPG Tycoon 2",
@@ -767,10 +767,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 3090,
-      "totalPositive": 2670,
+      "totalReviews": 3093,
+      "totalPositive": 2673,
       "totalNegative": 420,
-      "fetchedAt": "2026-08-11T15:37:47.202Z"
+      "fetchedAt": "2026-08-15T05:18:44.007Z"
     },
     "493340": {
       "name": "Planet Coaster",
@@ -791,10 +791,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 72072,
-      "totalPositive": 65829,
-      "totalNegative": 6243,
-      "fetchedAt": "2026-08-11T15:38:34.199Z"
+      "totalReviews": 72091,
+      "totalPositive": 65845,
+      "totalNegative": 6246,
+      "fetchedAt": "2026-08-15T05:19:29.960Z"
     },
     "494730": {
       "name": "Galacticare",
@@ -816,7 +816,7 @@
       "totalReviews": 653,
       "totalPositive": 566,
       "totalNegative": 87,
-      "fetchedAt": "2026-08-11T15:36:41.937Z"
+      "fetchedAt": "2026-08-15T05:17:44.256Z"
     },
     "503940": {
       "name": "Railway Empire",
@@ -834,10 +834,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 9703,
+      "totalReviews": 9704,
       "totalPositive": 8026,
-      "totalNegative": 1677,
-      "fetchedAt": "2026-08-11T15:39:32.568Z"
+      "totalNegative": 1678,
+      "fetchedAt": "2026-08-15T05:20:24.032Z"
     },
     "521090": {
       "name": "Industry Giant",
@@ -859,7 +859,7 @@
       "totalReviews": 76,
       "totalPositive": 58,
       "totalNegative": 18,
-      "fetchedAt": "2026-08-11T15:37:17.696Z"
+      "fetchedAt": "2026-08-15T05:18:16.864Z"
     },
     "521150": {
       "name": "Another Brick in The Mall",
@@ -878,18 +878,18 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 2446,
+      "totalReviews": 2445,
       "totalPositive": 2030,
-      "totalNegative": 416,
-      "fetchedAt": "2026-08-11T15:34:37.738Z"
+      "totalNegative": 415,
+      "fetchedAt": "2026-08-15T05:15:55.235Z"
     },
     "535930": {
       "name": "Two Point Hospital",
       "type": "game",
       "isFree": false,
-      "priceCents": 2999,
+      "priceCents": 749,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 75,
       "releaseDate": "Aug 29, 2018",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/535930/header.jpg?t=1763648286",
@@ -899,10 +899,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 34849,
-      "totalPositive": 32048,
-      "totalNegative": 2801,
-      "fetchedAt": "2026-08-11T15:40:39.657Z"
+      "totalReviews": 34857,
+      "totalPositive": 32055,
+      "totalNegative": 2802,
+      "fetchedAt": "2026-08-15T05:21:25.845Z"
     },
     "588160": {
       "name": "Pizza Connection 3",
@@ -923,7 +923,7 @@
       "totalReviews": 1109,
       "totalPositive": 554,
       "totalNegative": 555,
-      "fetchedAt": "2026-08-11T15:38:28.252Z"
+      "fetchedAt": "2026-08-15T05:19:24.562Z"
     },
     "591370": {
       "name": "Production Line : Car factory simulation",
@@ -943,9 +943,9 @@
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
       "totalReviews": 3481,
-      "totalPositive": 2857,
-      "totalNegative": 624,
-      "fetchedAt": "2026-08-11T15:38:51.709Z"
+      "totalPositive": 2858,
+      "totalNegative": 623,
+      "fetchedAt": "2026-08-15T05:19:46.161Z"
     },
     "598330": {
       "name": "SimAirport",
@@ -965,10 +965,10 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 4040,
-      "totalPositive": 3202,
+      "totalReviews": 4041,
+      "totalPositive": 3203,
       "totalNegative": 838,
-      "fetchedAt": "2026-08-11T15:40:16.290Z"
+      "fetchedAt": "2026-08-15T05:21:04.427Z"
     },
     "598990": {
       "name": "Pizza Connection",
@@ -989,7 +989,7 @@
       "totalReviews": 97,
       "totalPositive": 67,
       "totalNegative": 30,
-      "fetchedAt": "2026-08-11T15:38:22.415Z"
+      "fetchedAt": "2026-08-15T05:19:19.043Z"
     },
     "599000": {
       "name": "Pizza Connection 2",
@@ -1010,7 +1010,7 @@
       "totalReviews": 316,
       "totalPositive": 244,
       "totalNegative": 72,
-      "fetchedAt": "2026-08-11T15:38:25.349Z"
+      "fetchedAt": "2026-08-15T05:19:21.752Z"
     },
     "606800": {
       "name": "Startup Company",
@@ -1030,10 +1030,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 6216,
-      "totalPositive": 5049,
+      "totalReviews": 6217,
+      "totalPositive": 5050,
       "totalNegative": 1167,
-      "fetchedAt": "2026-08-11T15:39:58.856Z"
+      "fetchedAt": "2026-08-15T05:20:48.241Z"
     },
     "620190": {
       "name": "Gunsmith",
@@ -1058,7 +1058,7 @@
       "totalReviews": 1050,
       "totalPositive": 757,
       "totalNegative": 293,
-      "fetchedAt": "2026-08-11T15:36:53.829Z"
+      "fetchedAt": "2026-08-15T05:17:55.162Z"
     },
     "628200": {
       "name": "The Invisible Hand",
@@ -1081,7 +1081,7 @@
       "totalReviews": 691,
       "totalPositive": 557,
       "totalNegative": 134,
-      "fetchedAt": "2026-08-11T15:41:00.429Z"
+      "fetchedAt": "2026-08-15T05:21:44.892Z"
     },
     "638200": {
       "name": "Capitalism 2",
@@ -1100,10 +1100,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 577,
-      "totalPositive": 477,
+      "totalReviews": 578,
+      "totalPositive": 478,
       "totalNegative": 100,
-      "fetchedAt": "2026-08-11T15:35:08.551Z"
+      "fetchedAt": "2026-08-15T05:16:22.408Z"
     },
     "648350": {
       "name": "Jurassic World Evolution",
@@ -1121,10 +1121,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 55236,
-      "totalPositive": 48293,
+      "totalReviews": 55242,
+      "totalPositive": 48299,
       "totalNegative": 6943,
-      "fetchedAt": "2026-08-11T15:37:35.292Z"
+      "fetchedAt": "2026-08-15T05:18:33.228Z"
     },
     "652660": {
       "name": "ESport Manager",
@@ -1148,7 +1148,7 @@
       "totalReviews": 179,
       "totalPositive": 74,
       "totalNegative": 105,
-      "fetchedAt": "2026-08-11T15:36:07.430Z"
+      "fetchedAt": "2026-08-15T05:17:14.352Z"
     },
     "671440": {
       "name": "Rise of Industry",
@@ -1167,10 +1167,10 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 4191,
-      "totalPositive": 3064,
+      "totalReviews": 4190,
+      "totalPositive": 3063,
       "totalNegative": 1127,
-      "fetchedAt": "2026-08-11T15:39:12.015Z"
+      "fetchedAt": "2026-08-15T05:20:05.193Z"
     },
     "673610": {
       "name": "Airport CEO",
@@ -1189,10 +1189,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 8313,
-      "totalPositive": 6910,
-      "totalNegative": 1403,
-      "fetchedAt": "2026-08-11T15:34:00.973Z"
+      "totalReviews": 8318,
+      "totalPositive": 6914,
+      "totalNegative": 1404,
+      "fetchedAt": "2026-08-15T05:15:22.694Z"
     },
     "678390": {
       "name": "Office Management 101",
@@ -1215,7 +1215,7 @@
       "totalReviews": 98,
       "totalPositive": 62,
       "totalNegative": 36,
-      "fetchedAt": "2026-08-11T15:38:16.489Z"
+      "fetchedAt": "2026-08-15T05:19:13.707Z"
     },
     "683900": {
       "name": "RollerCoaster Tycoon® Classic",
@@ -1233,10 +1233,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 3091,
-      "totalPositive": 2813,
+      "totalReviews": 3093,
+      "totalPositive": 2815,
       "totalNegative": 278,
-      "fetchedAt": "2026-08-11T15:39:17.921Z"
+      "fetchedAt": "2026-08-15T05:20:10.529Z"
     },
     "686680": {
       "name": "Computer Tycoon",
@@ -1257,10 +1257,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 1012,
-      "totalPositive": 862,
+      "totalReviews": 1013,
+      "totalPositive": 863,
       "totalNegative": 150,
-      "fetchedAt": "2026-08-11T15:35:37.464Z"
+      "fetchedAt": "2026-08-15T05:16:47.132Z"
     },
     "700600": {
       "name": "Evil Genius 2: World Domination",
@@ -1278,10 +1278,10 @@
       ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
-      "totalReviews": 13224,
+      "totalReviews": 13225,
       "totalPositive": 9139,
-      "totalNegative": 4085,
-      "fetchedAt": "2026-08-11T15:36:17.296Z"
+      "totalNegative": 4086,
+      "fetchedAt": "2026-08-15T05:17:22.452Z"
     },
     "703080": {
       "name": "Planet Zoo",
@@ -1300,10 +1300,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 97193,
-      "totalPositive": 88437,
-      "totalNegative": 8756,
-      "fetchedAt": "2026-08-11T15:38:45.934Z"
+      "totalReviews": 97236,
+      "totalPositive": 88475,
+      "totalNegative": 8761,
+      "fetchedAt": "2026-08-15T05:19:40.700Z"
     },
     "722660": {
       "name": "Startup Freak",
@@ -1325,7 +1325,7 @@
       "totalReviews": 53,
       "totalPositive": 37,
       "totalNegative": 16,
-      "fetchedAt": "2026-08-11T15:39:55.961Z"
+      "fetchedAt": "2026-08-15T05:20:45.573Z"
     },
     "726840": {
       "name": "City Game Studio: Your Game Dev Adventure Begins",
@@ -1346,10 +1346,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 1882,
-      "totalPositive": 1726,
+      "totalReviews": 1883,
+      "totalPositive": 1727,
       "totalNegative": 156,
-      "fetchedAt": "2026-08-11T15:35:01.895Z"
+      "fetchedAt": "2026-08-15T05:16:17.024Z"
     },
     "750520": {
       "name": "Arcade Tycoon ™ : Simulation Game",
@@ -1372,7 +1372,7 @@
       "totalReviews": 553,
       "totalPositive": 453,
       "totalNegative": 100,
-      "fetchedAt": "2026-08-11T15:34:09.891Z"
+      "fetchedAt": "2026-08-15T05:15:30.798Z"
     },
     "754500": {
       "name": "Plutocracy",
@@ -1392,18 +1392,18 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 1371,
-      "totalPositive": 1095,
-      "totalNegative": 276,
-      "fetchedAt": "2026-08-11T15:38:48.793Z"
+      "totalReviews": 1370,
+      "totalPositive": 1092,
+      "totalNegative": 278,
+      "fetchedAt": "2026-08-15T05:19:43.385Z"
     },
     "785740": {
       "name": "This Is the Police 2",
       "type": "game",
       "isFree": false,
-      "priceCents": 374,
+      "priceCents": 1499,
       "currency": "USD",
-      "discountPercent": 75,
+      "discountPercent": 0,
       "releaseDate": "Jul 31, 2018",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/785740/header.jpg?t=1727253481",
@@ -1414,10 +1414,10 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 6567,
-      "totalPositive": 4939,
-      "totalNegative": 1628,
-      "fetchedAt": "2026-08-11T15:40:45.444Z"
+      "totalReviews": 6575,
+      "totalPositive": 4945,
+      "totalNegative": 1630,
+      "fetchedAt": "2026-08-15T05:21:31.379Z"
     },
     "797400": {
       "name": "Railroad Corporation",
@@ -1435,10 +1435,10 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 1492,
-      "totalPositive": 1097,
+      "totalReviews": 1493,
+      "totalPositive": 1098,
       "totalNegative": 395,
-      "fetchedAt": "2026-08-11T15:39:38.501Z"
+      "fetchedAt": "2026-08-15T05:20:29.513Z"
     },
     "832360": {
       "name": "Hotel Magnate",
@@ -1461,7 +1461,7 @@
       "totalReviews": 491,
       "totalPositive": 287,
       "totalNegative": 204,
-      "fetchedAt": "2026-08-11T15:37:02.723Z"
+      "fetchedAt": "2026-08-15T05:18:03.304Z"
     },
     "886900": {
       "name": "Chef: A Restaurant Tycoon Game",
@@ -1481,7 +1481,7 @@
       "totalReviews": 1489,
       "totalPositive": 1094,
       "totalNegative": 395,
-      "fetchedAt": "2026-08-11T15:35:34.560Z"
+      "fetchedAt": "2026-08-15T05:16:44.456Z"
     },
     "897410": {
       "name": "Esports Life Tycoon",
@@ -1505,7 +1505,7 @@
       "totalReviews": 714,
       "totalPositive": 434,
       "totalNegative": 280,
-      "fetchedAt": "2026-08-11T15:36:04.153Z"
+      "fetchedAt": "2026-08-15T05:17:11.601Z"
     },
     "911430": {
       "name": "Good Company",
@@ -1524,18 +1524,18 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 1789,
-      "totalPositive": 1314,
+      "totalReviews": 1791,
+      "totalPositive": 1316,
       "totalNegative": 475,
-      "fetchedAt": "2026-08-11T15:36:50.949Z"
+      "fetchedAt": "2026-08-15T05:17:52.490Z"
     },
     "983380": {
       "name": "Car Manufacture",
       "type": "game",
       "isFree": false,
-      "priceCents": 1999,
+      "priceCents": 1199,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 40,
       "releaseDate": "Aug 1, 2024",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/983380/header.jpg?t=1758276817",
@@ -1547,10 +1547,10 @@
       ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
-      "totalReviews": 1397,
-      "totalPositive": 923,
-      "totalNegative": 474,
-      "fetchedAt": "2026-08-11T15:35:40.347Z"
+      "totalReviews": 1399,
+      "totalPositive": 926,
+      "totalNegative": 473,
+      "fetchedAt": "2026-08-15T05:16:49.791Z"
     },
     "1009560": {
       "name": "The Tenants",
@@ -1569,18 +1569,18 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 7756,
-      "totalPositive": 6119,
+      "totalReviews": 7759,
+      "totalPositive": 6122,
       "totalNegative": 1637,
-      "fetchedAt": "2026-08-11T15:40:54.458Z"
+      "fetchedAt": "2026-08-15T05:21:39.471Z"
     },
     "1036240": {
       "name": "Definitely Not Fried Chicken",
       "type": "game",
       "isFree": false,
-      "priceCents": 374,
+      "priceCents": 2499,
       "currency": "USD",
-      "discountPercent": 85,
+      "discountPercent": 0,
       "releaseDate": "Sep 29, 2023",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1036240/header.jpg?t=1770980851",
@@ -1593,7 +1593,7 @@
       "totalReviews": 2553,
       "totalPositive": 1869,
       "totalNegative": 684,
-      "fetchedAt": "2026-08-11T15:35:58.022Z"
+      "fetchedAt": "2026-08-15T05:17:06.187Z"
     },
     "1042380": {
       "name": "Hundred Days - Winemaking Simulator",
@@ -1615,7 +1615,7 @@
       "totalReviews": 1097,
       "totalPositive": 847,
       "totalNegative": 250,
-      "fetchedAt": "2026-08-11T15:37:05.700Z"
+      "fetchedAt": "2026-08-15T05:18:05.987Z"
     },
     "1066780": {
       "name": "Transport Fever 2",
@@ -1635,10 +1635,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 32351,
-      "totalPositive": 29215,
-      "totalNegative": 3136,
-      "fetchedAt": "2026-08-11T15:41:15.166Z"
+      "totalReviews": 32376,
+      "totalPositive": 29239,
+      "totalNegative": 3137,
+      "fetchedAt": "2026-08-15T05:21:58.400Z"
     },
     "1088750": {
       "name": "Soda Story - Brewing Tycoon",
@@ -1658,15 +1658,15 @@
       "totalReviews": 66,
       "totalPositive": 60,
       "totalNegative": 6,
-      "fetchedAt": "2026-08-11T15:40:30.855Z"
+      "fetchedAt": "2026-08-15T05:21:17.834Z"
     },
     "1123830": {
       "name": "Farm Manager 2021",
       "type": "game",
       "isFree": false,
-      "priceCents": 1999,
+      "priceCents": 259,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 87,
       "releaseDate": "May 6, 2021",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1123830/header.jpg?t=1786018178",
@@ -1681,7 +1681,7 @@
       "totalReviews": 2382,
       "totalPositive": 1883,
       "totalNegative": 499,
-      "fetchedAt": "2026-08-11T15:36:23.627Z"
+      "fetchedAt": "2026-08-15T05:17:27.875Z"
     },
     "1124260": {
       "name": "Snowtopia: Ski Resort Builder",
@@ -1700,10 +1700,10 @@
       ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
-      "totalReviews": 1269,
-      "totalPositive": 786,
+      "totalReviews": 1271,
+      "totalPositive": 788,
       "totalNegative": 483,
-      "fetchedAt": "2026-08-11T15:40:13.386Z"
+      "fetchedAt": "2026-08-15T05:21:01.652Z"
     },
     "1129570": {
       "name": "Industry Giant 4.0",
@@ -1724,7 +1724,7 @@
       "totalReviews": 559,
       "totalPositive": 206,
       "totalNegative": 353,
-      "fetchedAt": "2026-08-11T15:37:23.530Z"
+      "fetchedAt": "2026-08-15T05:18:22.284Z"
     },
     "1158420": {
       "name": "SimCasino",
@@ -1747,15 +1747,15 @@
       "totalReviews": 757,
       "totalPositive": 558,
       "totalNegative": 199,
-      "fetchedAt": "2026-08-11T15:40:01.769Z"
+      "fetchedAt": "2026-08-15T05:20:50.983Z"
     },
     "1220140": {
       "name": "Cartel Tycoon",
       "type": "game",
       "isFree": false,
-      "priceCents": 749,
+      "priceCents": 2999,
       "currency": "USD",
-      "discountPercent": 75,
+      "discountPercent": 0,
       "releaseDate": "Jul 26, 2022",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1220140/header.jpg?t=1781529139",
@@ -1767,18 +1767,18 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 3799,
-      "totalPositive": 2891,
-      "totalNegative": 908,
-      "fetchedAt": "2026-08-11T15:35:30.978Z"
+      "totalReviews": 3801,
+      "totalPositive": 2892,
+      "totalNegative": 909,
+      "fetchedAt": "2026-08-15T05:16:41.741Z"
     },
     "1226970": {
       "name": "Disco Simulator",
       "type": "game",
       "isFree": false,
-      "priceCents": 1499,
+      "priceCents": 299,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 80,
       "releaseDate": "Mar 5, 2024",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1226970/header.jpg?t=1783534166",
@@ -1790,10 +1790,10 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 219,
+      "totalReviews": 218,
       "totalPositive": 167,
-      "totalNegative": 52,
-      "fetchedAt": "2026-08-11T15:35:52.274Z"
+      "totalNegative": 51,
+      "fetchedAt": "2026-08-15T05:17:00.702Z"
     },
     "1244460": {
       "name": "Jurassic World Evolution 2",
@@ -1811,10 +1811,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 46844,
-      "totalPositive": 42317,
-      "totalNegative": 4527,
-      "fetchedAt": "2026-08-11T15:37:38.278Z"
+      "totalReviews": 46885,
+      "totalPositive": 42354,
+      "totalNegative": 4531,
+      "fetchedAt": "2026-08-15T05:18:35.961Z"
     },
     "1257610": {
       "name": "Prison Architect 2",
@@ -1835,7 +1835,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:38:42.999Z"
+      "fetchedAt": "2026-08-15T05:19:37.923Z"
     },
     "1289340": {
       "name": "TasteMaker",
@@ -1858,7 +1858,7 @@
       "totalReviews": 1295,
       "totalPositive": 1078,
       "totalNegative": 217,
-      "fetchedAt": "2026-08-11T15:40:57.412Z"
+      "fetchedAt": "2026-08-15T05:21:42.236Z"
     },
     "1326270": {
       "name": "Festival Tycoon 🎪",
@@ -1880,7 +1880,7 @@
       "totalReviews": 230,
       "totalPositive": 176,
       "totalNegative": 54,
-      "fetchedAt": "2026-08-11T15:36:26.969Z"
+      "fetchedAt": "2026-08-15T05:17:30.622Z"
     },
     "1331550": {
       "name": "Big Ambitions",
@@ -1891,7 +1891,7 @@
       "discountPercent": 0,
       "releaseDate": "Mar 10, 2023",
       "comingSoon": false,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1331550/header.jpg?t=1781802607",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1331550/6ef350077eee961864c78ac396a16195ef385fae/header.jpg?t=1786734443",
       "genres": [
         "Indie",
         "Simulation",
@@ -1899,18 +1899,18 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 13334,
-      "totalPositive": 12348,
+      "totalReviews": 13352,
+      "totalPositive": 12366,
       "totalNegative": 986,
-      "fetchedAt": "2026-08-11T15:34:55.665Z"
+      "fetchedAt": "2026-08-15T05:16:11.655Z"
     },
     "1342330": {
       "name": "Mad Games Tycoon 2",
       "type": "game",
       "isFree": false,
-      "priceCents": 2499,
+      "priceCents": 1499,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 40,
       "releaseDate": "May 31, 2023",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1342330/header.jpg?t=1740737900",
@@ -1922,10 +1922,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 7759,
-      "totalPositive": 7282,
+      "totalReviews": 7762,
+      "totalPositive": 7285,
       "totalNegative": 477,
-      "fetchedAt": "2026-08-11T15:38:01.644Z"
+      "fetchedAt": "2026-08-15T05:19:00.236Z"
     },
     "1368820": {
       "name": "RollerCoaster Tycoon® 3: Complete Edition",
@@ -1943,10 +1943,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 2971,
-      "totalPositive": 2594,
-      "totalNegative": 377,
-      "fetchedAt": "2026-08-11T15:39:23.653Z"
+      "totalReviews": 2976,
+      "totalPositive": 2598,
+      "totalNegative": 378,
+      "fetchedAt": "2026-08-15T05:20:15.930Z"
     },
     "1386780": {
       "name": "City of Gangsters",
@@ -1967,7 +1967,7 @@
       "totalReviews": 1557,
       "totalPositive": 1137,
       "totalNegative": 420,
-      "fetchedAt": "2026-08-11T15:35:43.368Z"
+      "fetchedAt": "2026-08-15T05:16:52.581Z"
     },
     "1388580": {
       "name": "Blooming Business: Casino",
@@ -1989,7 +1989,7 @@
       "totalReviews": 230,
       "totalPositive": 160,
       "totalNegative": 70,
-      "fetchedAt": "2026-08-11T15:34:49.789Z"
+      "fetchedAt": "2026-08-15T05:16:06.310Z"
     },
     "1457030": {
       "name": "Casino Resort Tower",
@@ -2011,7 +2011,7 @@
       "totalReviews": 133,
       "totalPositive": 125,
       "totalNegative": 8,
-      "fetchedAt": "2026-08-11T15:35:17.973Z"
+      "fetchedAt": "2026-08-15T05:16:30.596Z"
     },
     "1492360": {
       "name": "Recipe for Disaster",
@@ -2031,10 +2031,10 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 721,
-      "totalPositive": 509,
+      "totalReviews": 722,
+      "totalPositive": 510,
       "totalNegative": 212,
-      "fetchedAt": "2026-08-11T15:39:26.627Z"
+      "fetchedAt": "2026-08-15T05:20:18.594Z"
     },
     "1532790": {
       "name": "Pizza Empire",
@@ -2054,7 +2054,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:38:31.156Z"
+      "fetchedAt": "2026-08-15T05:19:27.261Z"
     },
     "1536610": {
       "name": "OpenTTD",
@@ -2073,18 +2073,18 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 16894,
-      "totalPositive": 16001,
-      "totalNegative": 893,
-      "fetchedAt": "2026-08-11T15:38:10.623Z"
+      "totalReviews": 16903,
+      "totalPositive": 16009,
+      "totalNegative": 894,
+      "fetchedAt": "2026-08-15T05:19:08.381Z"
     },
     "1543280": {
       "name": "Espresso Tycoon",
       "type": "game",
       "isFree": false,
-      "priceCents": 1999,
+      "priceCents": 279,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 86,
       "releaseDate": "Jun 7, 2023",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1543280/header.jpg?t=1775733786",
@@ -2094,21 +2094,21 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 1299,
-      "totalPositive": 1097,
+      "totalReviews": 1301,
+      "totalPositive": 1099,
       "totalNegative": 202,
-      "fetchedAt": "2026-08-11T15:36:10.503Z"
+      "fetchedAt": "2026-08-15T05:17:17.055Z"
     },
     "1602000": {
       "name": "Hotel Architect",
       "type": "game",
       "isFree": false,
-      "priceCents": 2339,
+      "priceCents": 2999,
       "currency": "USD",
-      "discountPercent": 22,
+      "discountPercent": 0,
       "releaseDate": "May 14, 2026",
       "comingSoon": false,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1602000/7813ea36e2e83d94bba3ea370b4ea4ff5e438462/header_alt_assets_9.jpg?t=1786023129",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1602000/c354511dec4c3eec7a00f336a7a7cfc335b3aa45/header.jpg?t=1786023129",
       "genres": [
         "Casual",
         "Indie",
@@ -2117,10 +2117,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 2209,
-      "totalPositive": 2071,
-      "totalNegative": 138,
-      "fetchedAt": "2026-08-11T15:37:14.708Z"
+      "totalReviews": 2234,
+      "totalPositive": 2097,
+      "totalNegative": 137,
+      "fetchedAt": "2026-08-15T05:18:14.225Z"
     },
     "1626460": {
       "name": "Over the Counter",
@@ -2141,7 +2141,7 @@
       "totalReviews": 413,
       "totalPositive": 376,
       "totalNegative": 37,
-      "fetchedAt": "2026-08-11T15:38:13.603Z"
+      "fetchedAt": "2026-08-15T05:19:11.044Z"
     },
     "1641650": {
       "name": "Airline Manager",
@@ -2159,10 +2159,10 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 3285,
-      "totalPositive": 2330,
-      "totalNegative": 955,
-      "fetchedAt": "2026-08-11T15:34:24.758Z"
+      "totalReviews": 3290,
+      "totalPositive": 2333,
+      "totalNegative": 957,
+      "fetchedAt": "2026-08-15T05:15:44.421Z"
     },
     "1644320": {
       "name": "Railway Empire 2",
@@ -2180,18 +2180,18 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 2639,
-      "totalPositive": 1914,
-      "totalNegative": 725,
-      "fetchedAt": "2026-08-11T15:39:35.537Z"
+      "totalReviews": 2641,
+      "totalPositive": 1915,
+      "totalNegative": 726,
+      "fetchedAt": "2026-08-15T05:20:26.762Z"
     },
     "1649080": {
       "name": "Two Point Campus",
       "type": "game",
       "isFree": false,
-      "priceCents": 2999,
+      "priceCents": 449,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 85,
       "releaseDate": "Aug 9, 2022",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649080/header.jpg?t=1763646611",
@@ -2203,10 +2203,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 8108,
-      "totalPositive": 7114,
+      "totalReviews": 8113,
+      "totalPositive": 7119,
       "totalNegative": 994,
-      "fetchedAt": "2026-08-11T15:40:33.797Z"
+      "fetchedAt": "2026-08-15T05:21:20.518Z"
     },
     "1649950": {
       "name": "News Tower",
@@ -2224,10 +2224,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 4525,
-      "totalPositive": 4255,
-      "totalNegative": 270,
-      "fetchedAt": "2026-08-11T15:38:04.578Z"
+      "totalReviews": 4531,
+      "totalPositive": 4260,
+      "totalNegative": 271,
+      "fetchedAt": "2026-08-15T05:19:02.960Z"
     },
     "1677970": {
       "name": "Railroad Corporation 2",
@@ -2248,7 +2248,7 @@
       "totalReviews": 411,
       "totalPositive": 293,
       "totalNegative": 118,
-      "fetchedAt": "2026-08-11T15:39:41.431Z"
+      "fetchedAt": "2026-08-15T05:20:32.180Z"
     },
     "1691550": {
       "name": "ISP Tycoon - Landline & Mobile Carrier Magnate",
@@ -2269,7 +2269,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:37:29.424Z"
+      "fetchedAt": "2026-08-15T05:18:27.761Z"
     },
     "1755300": {
       "name": "Smart Factory Tycoon",
@@ -2289,10 +2289,10 @@
       ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
-      "totalReviews": 922,
-      "totalPositive": 558,
-      "totalNegative": 364,
-      "fetchedAt": "2026-08-11T15:40:19.169Z"
+      "totalReviews": 925,
+      "totalPositive": 560,
+      "totalNegative": 365,
+      "fetchedAt": "2026-08-15T05:21:07.091Z"
     },
     "1793090": {
       "name": "Blockbuster Inc.",
@@ -2313,7 +2313,7 @@
       "totalReviews": 638,
       "totalPositive": 332,
       "totalNegative": 306,
-      "fetchedAt": "2026-08-11T15:34:52.730Z"
+      "fetchedAt": "2026-08-15T05:16:08.977Z"
     },
     "1847240": {
       "name": "Game Dev Story",
@@ -2336,7 +2336,7 @@
       "totalReviews": 1484,
       "totalPositive": 1336,
       "totalNegative": 148,
-      "fetchedAt": "2026-08-11T15:36:36.033Z"
+      "fetchedAt": "2026-08-15T05:17:38.803Z"
     },
     "1937500": {
       "name": "Let's School",
@@ -2355,10 +2355,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 7385,
-      "totalPositive": 6848,
-      "totalNegative": 537,
-      "fetchedAt": "2026-08-11T15:37:41.330Z"
+      "totalReviews": 7388,
+      "totalPositive": 6850,
+      "totalNegative": 538,
+      "fetchedAt": "2026-08-15T05:18:38.654Z"
     },
     "1951060": {
       "name": "Fantasy Zoo",
@@ -2380,7 +2380,7 @@
       "totalReviews": 41,
       "totalPositive": 36,
       "totalNegative": 5,
-      "fetchedAt": "2026-08-11T15:36:33.134Z"
+      "fetchedAt": "2026-08-15T05:17:36.027Z"
     },
     "2058200": {
       "name": "Showrunner",
@@ -2403,15 +2403,15 @@
       "totalReviews": 114,
       "totalPositive": 82,
       "totalNegative": 32,
-      "fetchedAt": "2026-08-11T15:40:07.604Z"
+      "fetchedAt": "2026-08-15T05:20:56.337Z"
     },
     "2185060": {
       "name": "Two Point Museum",
       "type": "game",
       "isFree": false,
-      "priceCents": 2999,
+      "priceCents": 2009,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 33,
       "releaseDate": "Mar 4, 2025",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2185060/f518d1aa2754296e280ba3fe0d2bd4392fa6e3eb/header.jpg?t=1782285831",
@@ -2423,10 +2423,10 @@
       ],
       "reviewScore": 9,
       "reviewScoreDesc": "Overwhelmingly Positive",
-      "totalReviews": 13050,
-      "totalPositive": 12446,
-      "totalNegative": 604,
-      "fetchedAt": "2026-08-11T15:40:36.672Z"
+      "totalReviews": 13074,
+      "totalPositive": 12471,
+      "totalNegative": 603,
+      "fetchedAt": "2026-08-15T05:21:23.186Z"
     },
     "2315430": {
       "name": "The Executive - Movie Industry Tycoon",
@@ -2444,10 +2444,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 1096,
-      "totalPositive": 881,
+      "totalReviews": 1097,
+      "totalPositive": 882,
       "totalNegative": 215,
-      "fetchedAt": "2026-08-11T15:41:06.375Z"
+      "fetchedAt": "2026-08-15T05:21:50.245Z"
     },
     "2365790": {
       "name": "Let's Build a Dungeon",
@@ -2469,7 +2469,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:37:44.328Z"
+      "fetchedAt": "2026-08-15T05:18:41.326Z"
     },
     "2400770": {
       "name": "Dungeon Tycoon",
@@ -2487,10 +2487,10 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 1908,
-      "totalPositive": 1445,
-      "totalNegative": 463,
-      "fetchedAt": "2026-08-11T15:35:55.093Z"
+      "totalReviews": 1912,
+      "totalPositive": 1448,
+      "totalNegative": 464,
+      "fetchedAt": "2026-08-15T05:17:03.458Z"
     },
     "2459490": {
       "name": "This Grand Life 2",
@@ -2512,7 +2512,7 @@
       "totalReviews": 310,
       "totalPositive": 274,
       "totalNegative": 36,
-      "fetchedAt": "2026-08-11T15:41:03.394Z"
+      "fetchedAt": "2026-08-15T05:21:47.561Z"
     },
     "2659050": {
       "name": "Movies Tycoon",
@@ -2529,21 +2529,21 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 529,
+      "totalReviews": 530,
       "totalPositive": 375,
-      "totalNegative": 154,
-      "fetchedAt": "2026-08-11T15:37:50.106Z"
+      "totalNegative": 155,
+      "fetchedAt": "2026-08-15T05:18:49.448Z"
     },
     "2668000": {
       "name": "Wizdom Academy",
       "type": "game",
       "isFree": false,
-      "priceCents": 1759,
+      "priceCents": 2199,
       "currency": "USD",
-      "discountPercent": 20,
+      "discountPercent": 0,
       "releaseDate": "Apr 17, 2025",
       "comingSoon": false,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2668000/7c82d67a2ae9fab3a40bd6f1ee42b8704b13c5c5/header_alt_assets_1.jpg?t=1785433539",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2668000/7c82d67a2ae9fab3a40bd6f1ee42b8704b13c5c5/header_alt_assets_1.jpg?t=1786537690",
       "genres": [
         "Simulation",
         "Strategy",
@@ -2551,10 +2551,10 @@
       ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
-      "totalReviews": 230,
-      "totalPositive": 141,
+      "totalReviews": 231,
+      "totalPositive": 142,
       "totalNegative": 89,
-      "fetchedAt": "2026-08-11T15:41:20.993Z"
+      "fetchedAt": "2026-08-15T05:22:03.809Z"
     },
     "2680550": {
       "name": "Hollywood Animal",
@@ -2573,10 +2573,10 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 4160,
-      "totalPositive": 3048,
+      "totalReviews": 4161,
+      "totalPositive": 3049,
       "totalNegative": 1112,
-      "fetchedAt": "2026-08-11T15:37:11.738Z"
+      "fetchedAt": "2026-08-15T05:18:11.431Z"
     },
     "2688950": {
       "name": "Planet Coaster 2",
@@ -2587,17 +2587,17 @@
       "discountPercent": 0,
       "releaseDate": "Nov 6, 2024",
       "comingSoon": false,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2688950/header.jpg?t=1782479925",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2688950/header.jpg?t=1786540751",
       "genres": [
         "Simulation",
         "Strategy"
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 14218,
-      "totalPositive": 10501,
-      "totalNegative": 3717,
-      "fetchedAt": "2026-08-11T15:38:37.135Z"
+      "totalReviews": 14255,
+      "totalPositive": 10535,
+      "totalNegative": 3720,
+      "fetchedAt": "2026-08-15T05:19:32.643Z"
     },
     "2693420": {
       "name": "Alpine Architect",
@@ -2608,7 +2608,7 @@
       "discountPercent": 0,
       "releaseDate": "To be announced",
       "comingSoon": true,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2693420/f285b79a6c896bedf5857b0b4a81ded607fa496b/header.jpg?t=1777747725",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2693420/f285b79a6c896bedf5857b0b4a81ded607fa496b/header.jpg?t=1786722718",
       "genres": [
         "Casual",
         "Indie",
@@ -2619,7 +2619,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:33:57.893Z"
+      "fetchedAt": "2026-08-15T05:15:20.008Z"
     },
     "2715810": {
       "name": "AirlineSim",
@@ -2643,7 +2643,7 @@
       "totalReviews": 109,
       "totalPositive": 87,
       "totalNegative": 22,
-      "fetchedAt": "2026-08-11T15:34:21.756Z"
+      "fetchedAt": "2026-08-15T05:15:41.706Z"
     },
     "2760580": {
       "name": "Mars Attracts",
@@ -2664,10 +2664,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 259,
-      "totalPositive": 235,
+      "totalReviews": 260,
+      "totalPositive": 236,
       "totalNegative": 24,
-      "fetchedAt": "2026-08-11T15:37:52.981Z"
+      "fetchedAt": "2026-08-15T05:18:52.178Z"
     },
     "2773790": {
       "name": "Aqua Mundo",
@@ -2689,7 +2689,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:34:18.791Z"
+      "fetchedAt": "2026-08-15T05:15:39.011Z"
     },
     "2774040": {
       "name": "The Boss Gangster: Criminal Empire",
@@ -2711,10 +2711,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 397,
-      "totalPositive": 329,
-      "totalNegative": 68,
-      "fetchedAt": "2026-08-11T15:41:09.195Z"
+      "totalReviews": 402,
+      "totalPositive": 332,
+      "totalNegative": 70,
+      "fetchedAt": "2026-08-15T05:21:52.973Z"
     },
     "2776780": {
       "name": "Blood Bar Tycoon",
@@ -2734,10 +2734,10 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 817,
-      "totalPositive": 651,
+      "totalReviews": 816,
+      "totalPositive": 650,
       "totalNegative": 166,
-      "fetchedAt": "2026-08-11T15:34:58.871Z"
+      "fetchedAt": "2026-08-15T05:16:14.348Z"
     },
     "2789460": {
       "name": "Ale Abbey - Monastery Brewery Tycoon",
@@ -2760,7 +2760,7 @@
       "totalReviews": 1343,
       "totalPositive": 1197,
       "totalNegative": 146,
-      "fetchedAt": "2026-08-11T15:34:40.700Z"
+      "fetchedAt": "2026-08-15T05:15:58.100Z"
     },
     "2828490": {
       "name": "High Seas, High Profits!",
@@ -2781,7 +2781,7 @@
       "totalReviews": 169,
       "totalPositive": 148,
       "totalNegative": 21,
-      "fetchedAt": "2026-08-11T15:37:08.666Z"
+      "fetchedAt": "2026-08-15T05:18:08.683Z"
     },
     "2897240": {
       "name": "Puffin Planes",
@@ -2804,7 +2804,7 @@
       "totalReviews": 353,
       "totalPositive": 335,
       "totalNegative": 18,
-      "fetchedAt": "2026-08-11T15:39:00.476Z"
+      "fetchedAt": "2026-08-15T05:19:54.305Z"
     },
     "3004670": {
       "name": "Casino Tycoon",
@@ -2824,7 +2824,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:35:11.622Z"
+      "fetchedAt": "2026-08-15T05:16:25.126Z"
     },
     "3031880": {
       "name": "Car Park Capital",
@@ -2846,7 +2846,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:35:46.350Z"
+      "fetchedAt": "2026-08-15T05:16:55.291Z"
     },
     "3048030": {
       "name": "Werner Waffenwerke: Arms Tycoon",
@@ -2868,7 +2868,7 @@
       "totalReviews": 19,
       "totalPositive": 18,
       "totalNegative": 1,
-      "fetchedAt": "2026-08-11T15:41:27.014Z"
+      "fetchedAt": "2026-08-15T05:22:09.248Z"
     },
     "3244160": {
       "name": "Skingdom",
@@ -2891,15 +2891,15 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:40:27.963Z"
+      "fetchedAt": "2026-08-15T05:21:15.125Z"
     },
     "3299460": {
       "name": "Arcade Empire Tycoon",
       "type": "game",
       "isFree": false,
-      "priceCents": 299,
+      "priceCents": 499,
       "currency": "USD",
-      "discountPercent": 40,
+      "discountPercent": 0,
       "releaseDate": "Nov 10, 2024",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3299460/header.jpg?t=1765219610",
@@ -2913,7 +2913,7 @@
       "totalReviews": 28,
       "totalPositive": 21,
       "totalNegative": 7,
-      "fetchedAt": "2026-08-11T15:34:12.841Z"
+      "fetchedAt": "2026-08-15T05:15:33.483Z"
     },
     "3302160": {
       "name": "Octohill Ski Tycoon",
@@ -2936,7 +2936,7 @@
       "totalReviews": 42,
       "totalPositive": 36,
       "totalNegative": 6,
-      "fetchedAt": "2026-08-11T15:38:19.447Z"
+      "fetchedAt": "2026-08-15T05:19:16.386Z"
     },
     "3493540": {
       "name": "Transport Fever 3",
@@ -2958,7 +2958,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:41:18.049Z"
+      "fetchedAt": "2026-08-15T05:22:01.055Z"
     },
     "3555680": {
       "name": "Fantasy Brothel Manager",
@@ -2969,7 +2969,7 @@
       "discountPercent": 0,
       "releaseDate": "2027",
       "comingSoon": true,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3555680/b49087d292daf75fc84c425b344897bdeb19f8d8/header.jpg?t=1786092041",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3555680/d9db0f23a7abe148cfe8f144c61dbd7738bbb6a8/header_alt_assets_0.jpg?t=1786535468",
       "genres": [
         "Simulation",
         "Strategy"
@@ -2979,7 +2979,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:36:29.960Z"
+      "fetchedAt": "2026-08-15T05:17:33.329Z"
     },
     "3762240": {
       "name": "Rail Estate",
@@ -2997,10 +2997,10 @@
       ],
       "reviewScore": 7,
       "reviewScoreDesc": "Positive",
-      "totalReviews": 40,
-      "totalPositive": 38,
+      "totalReviews": 41,
+      "totalPositive": 39,
       "totalNegative": 2,
-      "fetchedAt": "2026-08-11T15:39:06.265Z"
+      "fetchedAt": "2026-08-15T05:19:59.788Z"
     },
     "4140740": {
       "name": "Motorsport Park Manager",
@@ -3022,18 +3022,18 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:37:55.861Z"
+      "fetchedAt": "2026-08-15T05:18:54.859Z"
     },
     "4249850": {
       "name": "E-Shop Tycoon",
       "type": "game",
       "isFree": false,
-      "priceCents": 909,
+      "priceCents": 1399,
       "currency": "USD",
-      "discountPercent": 35,
+      "discountPercent": 0,
       "releaseDate": "Jul 28, 2026",
       "comingSoon": false,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4249850/89c708329b69dfa7b088e8e90857ac252459848b/header.jpg?t=1786455374",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4249850/89c708329b69dfa7b088e8e90857ac252459848b/header.jpg?t=1786528437",
       "genres": [
         "Casual",
         "Indie",
@@ -3042,10 +3042,10 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 541,
-      "totalPositive": 390,
-      "totalNegative": 151,
-      "fetchedAt": "2026-08-11T15:36:20.638Z"
+      "totalReviews": 556,
+      "totalPositive": 400,
+      "totalNegative": 156,
+      "fetchedAt": "2026-08-15T05:17:25.198Z"
     },
     "4454610": {
       "name": "Project manager SIM",
@@ -3065,10 +3065,10 @@
       ],
       "reviewScore": 7,
       "reviewScoreDesc": "Positive",
-      "totalReviews": 12,
-      "totalPositive": 12,
+      "totalReviews": 13,
+      "totalPositive": 13,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:38:57.540Z"
+      "fetchedAt": "2026-08-15T05:19:51.544Z"
     },
     "4480080": {
       "name": "Scream Operator: Haunted House Manager",
@@ -3091,7 +3091,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:40:10.494Z"
+      "fetchedAt": "2026-08-15T05:20:58.993Z"
     },
     "4490710": {
       "name": "Hardware Tycoon",
@@ -3114,7 +3114,7 @@
       "totalReviews": 32,
       "totalPositive": 22,
       "totalNegative": 10,
-      "fetchedAt": "2026-08-11T15:36:56.783Z"
+      "fetchedAt": "2026-08-15T05:17:57.964Z"
     },
     "4493130": {
       "name": "Ski-E-O! Ski Resort Tycoon",
@@ -3125,7 +3125,7 @@
       "discountPercent": 0,
       "releaseDate": "Nov 3, 2026",
       "comingSoon": true,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4493130/d7819d7afe404d47f0e51dd3398701c7ee6bb29f/header.jpg?t=1786410298",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4493130/d7819d7afe404d47f0e51dd3398701c7ee6bb29f/header.jpg?t=1786559022",
       "genres": [
         "Simulation",
         "Strategy",
@@ -3136,7 +3136,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:40:24.961Z"
+      "fetchedAt": "2026-08-15T05:21:12.388Z"
     },
     "4516210": {
       "name": "Studio Sim",
@@ -3159,7 +3159,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:40:04.722Z"
+      "fetchedAt": "2026-08-15T05:20:53.687Z"
     },
     "4546370": {
       "name": "Starport Merchants",
@@ -3180,7 +3180,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:39:47.235Z"
+      "fetchedAt": "2026-08-15T05:20:37.487Z"
     },
     "4561550": {
       "name": "Racetrack Tycoon",
@@ -3200,7 +3200,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:39:09.122Z"
+      "fetchedAt": "2026-08-15T05:20:02.520Z"
     },
     "4610080": {
       "name": "Bering Tonnage",
@@ -3221,7 +3221,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:34:43.671Z"
+      "fetchedAt": "2026-08-15T05:16:00.841Z"
     },
     "4622330": {
       "name": "CD Market - Music Label Sim",
@@ -3239,10 +3239,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 110,
-      "totalPositive": 108,
+      "totalReviews": 112,
+      "totalPositive": 110,
       "totalNegative": 2,
-      "fetchedAt": "2026-08-11T15:35:21.247Z"
+      "fetchedAt": "2026-08-15T05:16:33.282Z"
     },
     "4634840": {
       "name": "Justice Project",
@@ -3264,7 +3264,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:37:32.352Z"
+      "fetchedAt": "2026-08-15T05:18:30.497Z"
     },
     "4660350": {
       "name": "Agro Tycoon",
@@ -3287,7 +3287,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:34:15.846Z"
+      "fetchedAt": "2026-08-15T05:15:36.204Z"
     },
     "4809560": {
       "name": "Auto Empire Tycoon",
@@ -3307,7 +3307,29 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:34:31.110Z"
+      "fetchedAt": "2026-08-15T05:15:49.788Z"
+    },
+    "4873130": {
+      "name": "MMOS: MMO Simulator",
+      "type": "game",
+      "isFree": false,
+      "priceCents": null,
+      "currency": null,
+      "discountPercent": 0,
+      "releaseDate": "Q4 2026",
+      "comingSoon": true,
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4873130/bf22e7b803782430c50d9fabd553aeb0627ff1f6/header.jpg?t=1785442492",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "reviewScore": 0,
+      "reviewScoreDesc": "No user reviews",
+      "totalReviews": 0,
+      "totalPositive": 0,
+      "totalNegative": 0,
+      "fetchedAt": "2026-08-15T05:18:46.679Z"
     },
     "4920900": {
       "name": "Camping Keeper",
@@ -3330,7 +3352,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:35:49.284Z"
+      "fetchedAt": "2026-08-15T05:16:57.966Z"
     },
     "5015590": {
       "name": "AI Lab Tycoon",
@@ -3352,7 +3374,7 @@
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-08-11T15:33:55.007Z"
+      "fetchedAt": "2026-08-15T05:15:17.370Z"
     }
   }
 }
