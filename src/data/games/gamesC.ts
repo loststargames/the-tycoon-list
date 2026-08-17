@@ -379,4 +379,22 @@ export const gamesC: Game[] = [
     gameplayType: [GameplayType.Isometric],
     pricing: [Pricing.NotSet],
   },
+  {
+    title: "Campsite Architect",
+    description:
+      "Build, manage, and live in your own campsite at the beach. Grow it from a humble campground to a luxurious holiday resort. Every guest brings their own personality, needs, and story.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [Theme.CampgroundResort],
+    platforms: [Platform.PC, Platform.Mac],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/3896980/Campsite_Architect/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown2D],
+    pricing: [Pricing.NotSet],
+  },
 ];
