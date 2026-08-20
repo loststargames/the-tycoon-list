@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { allGames } from "../data/games";
 import { Badge } from "./ui/badge";
 import {
+  formatSteamPrice,
   getPositivePercent,
   getReviewHue,
   getSteamAppId,
@@ -27,6 +28,7 @@ export const GameCard: React.FC<GameCardProps> = ({
   const steamAppId = getSteamAppId(game);
   const steamStats = getSteamStats(game);
   const reviewPercent = getPositivePercent(steamStats);
+  const steamPrice = formatSteamPrice(steamStats);
   const sequels = useMemo(() => {
     if (game.sequelFamily) {
       return allGames.filter((g) => g.sequelFamily === game.sequelFamily);
@@ -101,7 +103,16 @@ export const GameCard: React.FC<GameCardProps> = ({
               </p>
               <p className="flex flex-col sm:flex-row text-sm mb-2">
                 <span className="mr-1 font-light">Pricing:</span>
-                <span className="font-normal">{game.pricing.join(", ")}</span>
+                <span className="font-normal">
+                  {steamPrice ?? game.pricing.join(", ")}
+                  {steamPrice &&
+                    steamStats &&
+                    steamStats.discountPercent > 0 && (
+                      <span className="ml-1 text-green-600 dark:text-green-400">
+                        -{steamStats.discountPercent}%
+                      </span>
+                    )}
+                </span>
               </p>
               <p className="flex flex-col sm:flex-row text-sm mb-1">
                 <span className="mr-1 font-light">Stores:</span>

@@ -46,6 +46,14 @@ export const getPositivePercent = (
 export const hasDiscount = (game: Game): boolean =>
   (getSteamStats(game)?.discountPercent ?? 0) > 0;
 
+/** Steam store price from the snapshot, or null when unknown / unavailable. */
+export const formatSteamPrice = (stats: SteamAppStats | null): string | null => {
+  if (!stats) return null;
+  if (stats.isFree) return "Free";
+  if (stats.priceCents === null) return null;
+  return `$${(stats.priceCents / 100).toFixed(2)}`;
+};
+
 /**
  * Maps a review percentage onto a red-to-green hue.
  *

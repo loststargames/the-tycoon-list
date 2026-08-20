@@ -7,6 +7,7 @@ import { Badge } from "./ui/badge";
 import { Checkbox } from "./ui/checkbox";
 import {
   SteamAppStats,
+  formatSteamPrice,
   getPositivePercent,
   getReviewHue,
   getSteamAppId,
@@ -31,12 +32,6 @@ const columns: { key: SortKey; label: string; align: "left" | "right" }[] = [
   { key: "year", label: "Year", align: "right" },
   { key: "price", label: "Price", align: "right" },
 ];
-
-const formatPrice = (stats: SteamAppStats) => {
-  if (stats.isFree) return "Free";
-  if (stats.priceCents === null) return "—";
-  return `$${(stats.priceCents / 100).toFixed(2)}`;
-};
 
 export const BestGames: React.FC = () => {
   const { filteredGames } = useFilters();
@@ -219,7 +214,7 @@ export const BestGames: React.FC = () => {
                       -{row.stats.discountPercent}%
                     </Badge>
                   )}
-                  {formatPrice(row.stats)}
+                  {formatSteamPrice(row.stats) ?? "—"}
                 </td>
               </tr>
             ))}

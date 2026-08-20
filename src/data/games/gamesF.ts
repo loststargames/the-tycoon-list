@@ -70,4 +70,22 @@ export const gamesF: Game[] = [
     gameplayType: [GameplayType.Isometric],
     pricing: [Pricing.LessThan10],
   },
+  {
+    title: "Food Truck Empire",
+    description:
+      "Food Truck Empire is an economic strategy/tycoon game where you manage your own fast-growing Food Truck enterprise. Compose your dishes, automatize their production, customize your trucks and research new tech - all to serve even the pickiest customers. The world of flavor is yours to conquer!",
+    year: 2026,
+    releaseDate: "TBA",
+    themes: [Theme.FastFood],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/1872970/Food_Truck_Empire/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
 ];

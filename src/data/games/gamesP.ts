@@ -289,4 +289,22 @@ export const gamesP: Game[] = [
     gameplayType: [GameplayType.TextBased],
     pricing: [Pricing.LessThan10],
   },
+  {
+    title: "Power Network Tycoon",
+    description:
+      "Power Network Tycoon is a power grid simulation and strategy game where you build and maintain a high-voltage power network. Build power infrastructure, monitor resources, research upgrades, adapt to environmental challenges, keep up with energy demands and protect your island community!",
+    year: 2024,
+    releaseDate: "12-02-2024",
+    themes: [Theme.Industry, Theme.CityBuilder],
+    platforms: [Platform.PC, Platform.Mac, Platform.Linux],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/2429930/Power_Network_Tycoon/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];
