@@ -63,6 +63,7 @@ export enum Theme {
   Transportation = "Transportation",
   TV = "TV",
   UniversitySchool = "University / School",
+  Viking = "Viking",
   Winemaking = "Winemaking",
   Zoo = "Zoo",
 }
