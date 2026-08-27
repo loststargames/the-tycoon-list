@@ -331,9 +331,9 @@ export const gamesT: Game[] = [
   {
     title: "Transport Fever 3",
     description:
-      " Transport Fever 3, the ultimate transport tycoon returns, bigger, deeper, and more dynamic than ever. Build the routes that transform the world across land, sea, and sky using over a century of evolving transport options. Design and build your ideal transport network.",
-    year: undefined,
-    releaseDate: "TBA",
+      "Transport Fever 3, the ultimate transport tycoon returns, bigger, deeper, and more dynamic than ever. Build the routes that transform the world across land, sea, and sky using over a century of evolving transport options. Design and build your ideal transport network.",
+    year: 2026,
+    releaseDate: "29-09-2026",
     themes: [Theme.Railroads, Theme.Transportation, Theme.CityView],
     platforms: [Platform.PC],
     stores: [Store.Steam],
