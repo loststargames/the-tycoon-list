@@ -24,14 +24,14 @@ export const GamesList: React.FC = () => {
   }, [displayedData, enableSteamWidgets]);
 
   if (filteredGames.length === 0) {
-    return <p className="p-4 text-lg">No games found.</p>;
+    return <p className="px-3 py-4 text-lg sm:p-4">No games found.</p>;
   }
 
   return (
     <>
-      <div className="ml-6 mt-6 flex items-center">
+      <div className="mt-4 flex flex-col gap-2 px-3 sm:mt-6 sm:ml-6 sm:flex-row sm:items-center sm:gap-6 sm:px-0">
         <p className="font-light">Displaying {filteredGames.length} games</p>
-        <div className="flex items-center gap-2 ml-6">
+        <div className="flex items-center gap-2">
           <Checkbox
             id="enableSteamWidgets"
             checked={enableSteamWidgets}
@@ -43,7 +43,7 @@ export const GamesList: React.FC = () => {
         </div>
       </div>
       <div
-        className={`grid gap-4 p-4 
+        className={`grid gap-4 px-3 py-4 sm:p-4
           ${
             enableSteamWidgets
               ? "grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3"

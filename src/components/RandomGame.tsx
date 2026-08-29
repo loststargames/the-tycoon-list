@@ -23,7 +23,7 @@ export const RandomGame: React.FC = () => {
   const headerImage = getSteamStats(game)?.headerImage;
 
   return (
-    <div className="p-4 max-w-2xl mx-auto">
+    <div className="mx-auto max-w-2xl px-3 py-4 sm:p-4">
       <div className="flex justify-center mb-4">
         <Button onClick={() => setGame((current) => pickRandom(current))}>
           <Shuffle className="mr-2" />

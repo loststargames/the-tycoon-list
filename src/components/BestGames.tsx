@@ -110,7 +110,7 @@ export const BestGames: React.FC = () => {
 
   if (rows.length === 0) {
     return (
-      <div className="p-4">
+      <div className="px-3 py-4 sm:p-4">
         <div className="mb-3">{filterToggle}</div>
         <p className="text-lg">No rated games match these filters.</p>
       </div>
@@ -118,8 +118,8 @@ export const BestGames: React.FC = () => {
   }
 
   return (
-    <div className="p-4">
-      <div className="mb-3 flex items-center gap-6">
+    <div className="px-3 py-4 sm:p-4">
+      <div className="mb-3 flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-6">
         <p className="font-light">
           Ranking {rows.length} games by Steam reviews
         </p>

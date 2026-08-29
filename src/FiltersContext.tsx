@@ -3,7 +3,11 @@ import { useSearchParams } from "react-router-dom";
 import { allGames } from "./data/games";
 import { hasDiscount as gameHasDiscount } from "./lib/steam";
 import { isUpcoming, parseReleaseDate } from "./lib/games";
-import { FiltersContext, FiltersState } from "./hooks/useFilters";
+import {
+  countActiveFilters,
+  FiltersContext,
+  FiltersState,
+} from "./hooks/useFilters";
 import {
   Theme,
   Platform,
@@ -226,9 +230,20 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
     return result;
   }, [filters]);
 
+  const activeFilterCount = useMemo(
+    () => countActiveFilters(filters),
+    [filters]
+  );
+
   return (
     <FiltersContext.Provider
-      value={{ filters, setFilters, filteredGames, clearFilters }}
+      value={{
+        filters,
+        setFilters,
+        filteredGames,
+        clearFilters,
+        activeFilterCount,
+      }}
     >
       {children}
     </FiltersContext.Provider>

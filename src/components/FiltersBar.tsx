@@ -80,42 +80,53 @@ export const FiltersBar: React.FC = () => {
   };
 
   return (
-    <div className="p-4 px-6 flex flex-col gap-4 bg-white border-t border-b-2 border-zinc-200 dark:bg-zinc-900 dark:border-t dark:border-b-2 dark:border-zinc-700">
+    <div
+      id="filters-panel"
+      className="flex flex-col gap-4 border-b-2 border-zinc-200 bg-white p-4 px-3 dark:border-zinc-700 dark:bg-zinc-900 sm:px-6"
+    >
       <div className="flex justify-between items-center">
-        <h1 className="text-xl font-semibold">Filters</h1>
+        <h2 className="text-lg font-semibold sm:text-xl">Filters</h2>
         <Button variant="destructive" onClick={clearFilters}>
           Clear Filters
         </Button>
       </div>
-      <div className="flex items-center gap-2">
-        <Checkbox
-          id="upcoming"
-          checked={showUpcoming}
-          onCheckedChange={(checked) => updateFilter("showUpcoming", !!checked)}
-        />
-        <label htmlFor="upcoming" className="dark:text-white">
-          Show Upcoming Games
-        </label>
-        <Checkbox
-          id="discount"
-          checked={hasDiscount}
-          onCheckedChange={(checked) => updateFilter("hasDiscount", !!checked)}
-          className="ml-4"
-        />
-        <label htmlFor="discount" className="dark:text-white">
-          On Sale
-        </label>
-        <Checkbox
-          id="multiplayer"
-          checked={hasMultiplayer}
-          onCheckedChange={(checked) =>
-            updateFilter("hasMultiplayer", !!checked)
-          }
-          className="ml-4"
-        />
-        <label htmlFor="multiplayer" className="dark:text-white">
-          Has Multiplayer
-        </label>
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+        <div className="flex items-center gap-2">
+          <Checkbox
+            id="upcoming"
+            checked={showUpcoming}
+            onCheckedChange={(checked) =>
+              updateFilter("showUpcoming", !!checked)
+            }
+          />
+          <label htmlFor="upcoming" className="dark:text-white">
+            Show Upcoming Games
+          </label>
+        </div>
+        <div className="flex items-center gap-2">
+          <Checkbox
+            id="discount"
+            checked={hasDiscount}
+            onCheckedChange={(checked) =>
+              updateFilter("hasDiscount", !!checked)
+            }
+          />
+          <label htmlFor="discount" className="dark:text-white">
+            On Sale
+          </label>
+        </div>
+        <div className="flex items-center gap-2">
+          <Checkbox
+            id="multiplayer"
+            checked={hasMultiplayer}
+            onCheckedChange={(checked) =>
+              updateFilter("hasMultiplayer", !!checked)
+            }
+          />
+          <label htmlFor="multiplayer" className="dark:text-white">
+            Has Multiplayer
+          </label>
+        </div>
       </div>
 
       <div className="flex flex-col gap-4 mt-4 sm:flex-row sm:items-center sm:gap-2 sm:mt-0">

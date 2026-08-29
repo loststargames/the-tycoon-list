@@ -29,6 +29,24 @@ export interface FiltersContextProps {
   setFilters: React.Dispatch<React.SetStateAction<FiltersState>>;
   filteredGames: Game[];
   clearFilters: () => void;
+  activeFilterCount: number;
+}
+
+/** Counts non-default filter dimensions. `showUpcoming: true` is the default. */
+export function countActiveFilters(filters: FiltersState): number {
+  let count = 0;
+  if (filters.selectedThemes.length > 0) count += 1;
+  if (filters.selectedYear !== null) count += 1;
+  if (!filters.showUpcoming) count += 1;
+  if (filters.hasDiscount) count += 1;
+  if (filters.hasMultiplayer) count += 1;
+  if (filters.searchQuery) count += 1;
+  if (filters.searchDescriptionQuery) count += 1;
+  if (filters.selectedPlatforms.length > 0) count += 1;
+  if (filters.selectedStores.length > 0) count += 1;
+  if (filters.selectedGameplayTypes.length > 0) count += 1;
+  if (filters.selectedPricing.length > 0) count += 1;
+  return count;
 }
 
 /**

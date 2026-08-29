@@ -39,14 +39,14 @@ export function ModeToggle() {
 
 export const Header: React.FC = () => {
   return (
-    <header className="flex items-center justify-between p-4 border-b border-gray-200 dark:bg-zinc-900 dark:border-zinc-700">
-      <div className="flex items-center gap-2">
-        <img src="./logo.svg" alt="Logo" className="h-8 w-auto" />
-        <div>
-          <h1 className="text-2xl font-bold">The Tycoon List</h1>
-          <h1 className="text-sm font-medium">
+    <header className="flex items-center justify-between gap-2 p-3 border-b border-gray-200 dark:bg-zinc-900 dark:border-zinc-700 sm:p-4">
+      <div className="flex items-center gap-2 min-w-0">
+        <img src="./logo.svg" alt="Logo" className="h-8 w-auto shrink-0" />
+        <div className="min-w-0">
+          <h1 className="text-lg font-bold sm:text-2xl">The Tycoon List</h1>
+          <p className="text-xs font-medium sm:text-sm">
             A collection of games with business simulation aspects.
-          </h1>
+          </p>
         </div>
       </div>
       <ModeToggle />
