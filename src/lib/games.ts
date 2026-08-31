@@ -128,10 +128,6 @@ export const getReleaseInfo = (game: Game): ReleaseInfo => {
 
   if (stats) {
     const steam = parseSteamDate(stats.releaseDate);
-    const upcoming =
-      stats.comingSoon ||
-      steam.tba ||
-      (steam.date !== null && steam.date > now);
 
     return {
       label: stats.releaseDate || game.releaseDate || null,
@@ -139,7 +135,7 @@ export const getReleaseInfo = (game: Game): ReleaseInfo => {
       // Steam's date is often a store launch, not the original release, so the
       // catalog year stays hand-entered. Steam only fills it in when missing.
       year: game.year ?? steam.year ?? fallback.year,
-      upcoming,
+      upcoming: stats.comingSoon,
     };
   }
 
