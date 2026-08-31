@@ -12,6 +12,7 @@ import {
   getReviewHue,
   getSteamAppId,
   getSteamStats,
+  getWilsonScore,
   steamGeneratedAt,
 } from "../lib/steam";
 
@@ -23,6 +24,7 @@ interface Row {
   stats: SteamAppStats;
   appId: string;
   percent: number;
+  wilsonScore: number;
 }
 
 const columns: { key: SortKey; label: string; align: "left" | "right" }[] = [
@@ -40,6 +42,7 @@ export const BestGames: React.FC = () => {
   // The ranking is meant to read as a leaderboard, so it ignores the filter
   // bar unless asked. Off by default.
   const [applyFilters, setApplyFilters] = useState(false);
+  const [weightByVolume, setWeightByVolume] = useState(true);
 
   const source = applyFilters ? filteredGames : allGames;
 
@@ -50,9 +53,10 @@ export const BestGames: React.FC = () => {
       const stats = getSteamStats(game);
       const appId = getSteamAppId(game);
       const percent = getPositivePercent(stats);
+      const wilsonScore = getWilsonScore(stats);
       // Unreleased games and non-Steam entries have nothing to rank.
-      if (stats && appId && percent !== null) {
-        withStats.push({ game, stats, appId, percent });
+      if (stats && appId && percent !== null && wilsonScore !== null) {
+        withStats.push({ game, stats, appId, percent, wilsonScore });
       }
     }
 
@@ -68,20 +72,26 @@ export const BestGames: React.FC = () => {
           return ((a.game.year ?? 0) - (b.game.year ?? 0)) * direction;
         case "price":
           return (
-            ((a.stats.isFree ? 0 : a.stats.priceCents ?? 0) -
-              (b.stats.isFree ? 0 : b.stats.priceCents ?? 0)) *
+            ((a.stats.isFree ? 0 : (a.stats.priceCents ?? 0)) -
+              (b.stats.isFree ? 0 : (b.stats.priceCents ?? 0))) *
             direction
           );
         case "rating":
         default:
+          if (weightByVolume) {
+            return (
+              (a.wilsonScore - b.wilsonScore ||
+                a.stats.totalReviews - b.stats.totalReviews) * direction
+            );
+          }
           // Review count breaks ties so the bigger sample wins at equal %.
           return (
-            (a.percent - b.percent || a.stats.totalReviews - b.stats.totalReviews) *
-            direction
+            (a.percent - b.percent ||
+              a.stats.totalReviews - b.stats.totalReviews) * direction
           );
       }
     });
-  }, [source, sortKey, sortDir]);
+  }, [source, sortKey, sortDir, weightByVolume]);
 
   const toggleSort = (key: SortKey) => {
     if (key === sortKey) {
@@ -95,23 +105,51 @@ export const BestGames: React.FC = () => {
 
   const hiddenCount = source.length - rows.length;
 
-  const filterToggle = (
-    <div className="flex items-center gap-2">
-      <Checkbox
-        id="applyFilters"
-        checked={applyFilters}
-        onCheckedChange={(checked) => setApplyFilters(!!checked)}
-      />
-      <label htmlFor="applyFilters" className="dark:text-white">
-        Apply Filters
-      </label>
+  const toggles = (
+    <div className="flex flex-wrap items-center gap-x-6 gap-y-2 select-none">
+      <div className="flex items-center gap-2">
+        <Checkbox
+          id="applyFilters"
+          checked={applyFilters}
+          onCheckedChange={(checked) => setApplyFilters(!!checked)}
+        />
+        <label
+          htmlFor="applyFilters"
+          className="cursor-pointer dark:text-white"
+        >
+          Apply Filters
+        </label>
+      </div>
+      <div
+        className="flex items-center gap-2"
+        title="Wilson score: a handful of perfect reviews won't outrank thousands of slightly lower ones"
+      >
+        <Checkbox
+          id="weightByVolume"
+          checked={weightByVolume}
+          onCheckedChange={(checked) => {
+            const on = !!checked;
+            setWeightByVolume(on);
+            if (on) {
+              setSortKey("rating");
+              setSortDir("desc");
+            }
+          }}
+        />
+        <label
+          htmlFor="weightByVolume"
+          className="cursor-pointer dark:text-white"
+        >
+          Weight by volume
+        </label>
+      </div>
     </div>
   );
 
   if (rows.length === 0) {
     return (
       <div className="px-3 py-4 sm:p-4">
-        <div className="mb-3">{filterToggle}</div>
+        <div className="mb-3">{toggles}</div>
         <p className="text-lg">No rated games match these filters.</p>
       </div>
     );
@@ -123,7 +161,7 @@ export const BestGames: React.FC = () => {
         <p className="font-light">
           Ranking {rows.length} games by Steam reviews
         </p>
-        {filterToggle}
+        {toggles}
       </div>
 
       <div className="overflow-x-auto rounded-md border border-zinc-200 dark:border-zinc-700">
@@ -136,8 +174,8 @@ export const BestGames: React.FC = () => {
                 const Icon = !active
                   ? ArrowUpDown
                   : sortDir === "asc"
-                  ? ArrowUp
-                  : ArrowDown;
+                    ? ArrowUp
+                    : ArrowDown;
 
                 return (
                   <th

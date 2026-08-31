@@ -23,7 +23,7 @@ export const App: React.FC = () => {
         <Header />
         <Contribute />
         <Tabs defaultValue="gamesList">
-          <div className="sticky top-0 z-20 flex items-center gap-3 border-b border-zinc-200 bg-white/95 px-3 py-3 backdrop-blur dark:border-zinc-700 dark:bg-zinc-950/95 sm:px-4">
+          <div className="flex items-center gap-3 border-b border-zinc-200 px-3 py-3 dark:border-zinc-700 sm:px-4">
             <Button
               type="button"
               variant={filtersOpen || filtersActive ? "default" : "outline"}

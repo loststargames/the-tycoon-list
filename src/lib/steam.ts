@@ -32,22 +32,37 @@ export const getSteamAppId = (game: Game): string | null =>
 
 export const getSteamStats = (game: Game): SteamAppStats | null => {
   const appId = getSteamAppId(game);
-  return appId ? apps[appId] ?? null : null;
+  return appId ? (apps[appId] ?? null) : null;
 };
 
 /** Raw share of positive reviews, or null for games with no reviews yet. */
 export const getPositivePercent = (
-  stats: SteamAppStats | null
+  stats: SteamAppStats | null,
 ): number | null =>
   stats && stats.totalReviews > 0
     ? Math.round((stats.totalPositive / stats.totalReviews) * 100)
     : null;
 
+export const getWilsonScore = (stats: SteamAppStats | null): number | null => {
+  if (!stats || stats.totalReviews <= 0) return null;
+
+  const n = stats.totalReviews;
+  const p = stats.totalPositive / n;
+  const z = 1.96;
+  const z2 = z * z;
+  const centre = p + z2 / (2 * n);
+  const margin = z * Math.sqrt((p * (1 - p) + z2 / (4 * n)) / n);
+
+  return (centre - margin) / (1 + z2 / n);
+};
+
 export const hasDiscount = (game: Game): boolean =>
   (getSteamStats(game)?.discountPercent ?? 0) > 0;
 
 /** Steam store price from the snapshot, or null when unknown / unavailable. */
-export const formatSteamPrice = (stats: SteamAppStats | null): string | null => {
+export const formatSteamPrice = (
+  stats: SteamAppStats | null,
+): string | null => {
   if (!stats) return null;
   if (stats.isFree) return "Free";
   if (stats.priceCents === null) return null;

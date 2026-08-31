@@ -90,7 +90,7 @@ export const FiltersBar: React.FC = () => {
           Clear Filters
         </Button>
       </div>
-      <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 select-none">
         <div className="flex items-center gap-2">
           <Checkbox
             id="upcoming"
@@ -99,7 +99,7 @@ export const FiltersBar: React.FC = () => {
               updateFilter("showUpcoming", !!checked)
             }
           />
-          <label htmlFor="upcoming" className="dark:text-white">
+          <label htmlFor="upcoming" className="cursor-pointer dark:text-white">
             Show Upcoming Games
           </label>
         </div>
@@ -111,7 +111,7 @@ export const FiltersBar: React.FC = () => {
               updateFilter("hasDiscount", !!checked)
             }
           />
-          <label htmlFor="discount" className="dark:text-white">
+          <label htmlFor="discount" className="cursor-pointer dark:text-white">
             On Sale
           </label>
         </div>
@@ -123,7 +123,7 @@ export const FiltersBar: React.FC = () => {
               updateFilter("hasMultiplayer", !!checked)
             }
           />
-          <label htmlFor="multiplayer" className="dark:text-white">
+          <label htmlFor="multiplayer" className="cursor-pointer dark:text-white">
             Has Multiplayer
           </label>
         </div>
