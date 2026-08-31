@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "./ui/button";
-import { HelpingHand, MessageCircle, NotebookPen, Users } from "lucide-react";
+import { HelpingHand, MessageCircle, MessageSquarePlus, NotebookPen } from "lucide-react";
 
 export const Contribute: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ export const Contribute: React.FC = () => {
         <div className="hidden items-center sm:flex">
           <MessageCircle />
           <p className="ml-2">
-            To discuss, coordinate and propose games for TTL!
+            Know a game that's missing?
           </p>
         </div>
         <a
@@ -19,7 +19,9 @@ export const Contribute: React.FC = () => {
           className="w-full sm:w-auto"
         >
           <Button variant="default" className="flex w-full items-center sm:w-auto">
-            <Users className="mr-2" /> Join Discord
+            <MessageSquarePlus className="mr-2" />
+            <span className="sm:hidden">Suggest a game - Discord</span>
+            <span className="hidden sm:inline">Suggest a game</span>
           </Button>
         </a>
       </div>
@@ -27,9 +29,7 @@ export const Contribute: React.FC = () => {
       <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2">
         <div className="hidden items-center sm:flex">
           <NotebookPen />
-          <p className="ml-2">
-            Know any Tycoon game that's not here? Help by adding!
-          </p>
+          <p className="ml-2">Want to add it yourself?</p>
         </div>
         <a
           href="https://github.com/loststargames/the-tycoon-list"
@@ -38,7 +38,7 @@ export const Contribute: React.FC = () => {
           className="w-full sm:w-auto"
         >
           <Button variant="default" className="flex w-full items-center sm:w-auto">
-            <HelpingHand className="mr-2" /> Contribute on Github
+            <HelpingHand className="mr-2" /> Contribute on GitHub
           </Button>
         </a>
       </div>
