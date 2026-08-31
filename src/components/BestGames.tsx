@@ -3,6 +3,7 @@ import { ArrowDown, ArrowUp, ArrowUpDown, ExternalLink } from "lucide-react";
 import { useFilters } from "../hooks/useFilters";
 import { allGames } from "../data/games";
 import { Game } from "../data/games/types";
+import { getReleaseInfo } from "../lib/games";
 import { Badge } from "./ui/badge";
 import { Checkbox } from "./ui/checkbox";
 import {
@@ -25,6 +26,7 @@ interface Row {
   appId: string;
   percent: number;
   wilsonScore: number;
+  year: number | undefined;
 }
 
 const columns: { key: SortKey; label: string; align: "left" | "right" }[] = [
@@ -56,7 +58,14 @@ export const BestGames: React.FC = () => {
       const wilsonScore = getWilsonScore(stats);
       // Unreleased games and non-Steam entries have nothing to rank.
       if (stats && appId && percent !== null && wilsonScore !== null) {
-        withStats.push({ game, stats, appId, percent, wilsonScore });
+        withStats.push({
+          game,
+          stats,
+          appId,
+          percent,
+          wilsonScore,
+          year: getReleaseInfo(game).year,
+        });
       }
     }
 
@@ -69,7 +78,7 @@ export const BestGames: React.FC = () => {
         case "reviews":
           return (a.stats.totalReviews - b.stats.totalReviews) * direction;
         case "year":
-          return ((a.game.year ?? 0) - (b.game.year ?? 0)) * direction;
+          return ((a.year ?? 0) - (b.year ?? 0)) * direction;
         case "price":
           return (
             ((a.stats.isFree ? 0 : (a.stats.priceCents ?? 0)) -
@@ -244,7 +253,7 @@ export const BestGames: React.FC = () => {
                   {row.stats.totalReviews.toLocaleString()}
                 </td>
                 <td className="p-3 text-right text-gray-600 dark:text-gray-300">
-                  {row.game.year ?? "—"}
+                  {row.year ?? "—"}
                 </td>
                 <td className="p-3 text-right whitespace-nowrap">
                   {row.stats.discountPercent > 0 && (

@@ -12,7 +12,7 @@ import {
   getSteamAppId,
   getSteamStats,
 } from "../lib/steam";
-import { isUpcoming } from "../lib/games";
+import { getReleaseInfo } from "../lib/games";
 
 interface GameCardProps {
   game: Game;
@@ -36,7 +36,8 @@ export const GameCard: React.FC<GameCardProps> = ({
       return null;
     }
   }, [game.sequelFamily]);
-  const upcoming = useMemo(() => isUpcoming(game), [game]);
+  const release = useMemo(() => getReleaseInfo(game), [game]);
+  const upcoming = release.upcoming;
 
   return (
     <Card className="dark:bg-zinc-900 h-full flex flex-col">
@@ -48,10 +49,10 @@ export const GameCard: React.FC<GameCardProps> = ({
             </Badge>
           </div>
         )}
-        {game.releaseDate && (
+        {release.upcoming && release.label && (
           <p className="text-sm mt-1">
             <span className="font-light">Release Date:</span>{" "}
-            <span className="font-normal">{game.releaseDate}</span>
+            <span className="font-normal">{release.label}</span>
           </p>
         )}
         <CardTitle className="text-xl">
@@ -78,9 +79,9 @@ export const GameCard: React.FC<GameCardProps> = ({
       </CardHeader>
       <CardContent className="flex-1 flex flex-col justify-between">
         <div>
-          {game.year && (
+          {release.year && (
             <p className="text-sm mb-1 text-gray-500 dark:text-gray-400">
-              Year: {game.year}
+              Year: {release.year}
             </p>
           )}
           <div className="flex flex-wrap gap-4">

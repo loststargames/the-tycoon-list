@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { allGames } from "./data/games";
 import { hasDiscount as gameHasDiscount } from "./lib/steam";
-import { isUpcoming, parseReleaseDate } from "./lib/games";
+import { getReleaseInfo } from "./lib/games";
 import {
   countActiveFilters,
   FiltersContext,
@@ -130,19 +130,24 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
     if (selectedYear !== null) {
       switch (yearComparison) {
         case YearComparison.SAME:
-          result = result.filter((g) => g.year === selectedYear);
+          result = result.filter(
+            (g) => getReleaseInfo(g).year === selectedYear
+          );
           break;
         case YearComparison.BEFORE:
-          result = result.filter(
-            (g) => g.year !== undefined && g.year <= selectedYear
-          );
+          result = result.filter((g) => {
+            const year = getReleaseInfo(g).year;
+            return year !== undefined && year <= selectedYear;
+          });
           break;
         case YearComparison.AFTER:
-          result = result.filter(
-            (g) =>
-              (g.year !== undefined && g.year >= selectedYear) ||
-              g.releaseDate === "TBA"
-          );
+          result = result.filter((g) => {
+            const { year, upcoming } = getReleaseInfo(g);
+            return (
+              (year !== undefined && year >= selectedYear) ||
+              (upcoming && year === undefined)
+            );
+          });
           break;
         default:
           break;
@@ -151,7 +156,7 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
 
     // Filter Upcoming Releases
     if (!showUpcoming) {
-      result = result.filter((g) => !isUpcoming(g));
+      result = result.filter((g) => !getReleaseInfo(g).upcoming);
     }
 
     // Filter by Steam Discount
@@ -213,18 +218,18 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
 
     // Sort results
     result.sort((a, b) => {
-      // Prioritize games with "TBA" release date or undefined year
-      if (a.releaseDate === "TBA" || a.year === undefined) return -1;
-      if (b.releaseDate === "TBA" || b.year === undefined) return 1;
+      const ra = getReleaseInfo(a);
+      const rb = getReleaseInfo(b);
 
-      const now = new Date();
+      // TBA / undated unreleased games first
+      const aTba = ra.upcoming && ra.date === null;
+      const bTba = rb.upcoming && rb.date === null;
+      if (aTba !== bTba) return aTba ? -1 : 1;
 
-      // Prioritize games with future release dates
-      if (a.releaseDate && parseReleaseDate(a.releaseDate) > now) return -1;
-      if (b.releaseDate && parseReleaseDate(b.releaseDate) > now) return 1;
+      // Then games with a future release date
+      if (ra.upcoming !== rb.upcoming) return ra.upcoming ? -1 : 1;
 
-      // Sort the remaining by year (descending order)
-      return b.year - a.year;
+      return (rb.year ?? 0) - (ra.year ?? 0);
     });
 
     return result;

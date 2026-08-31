@@ -2,8 +2,9 @@ name: Refresh Steam Data
 
 on:
   schedule:
-    # 1st and 15th of each month, 05:00 UTC
-    - cron: "0 5 1,15 * *"
+    # Thursday 19:00 UTC — Steam weekly deals typically go live Thursday
+    # 10:00 Pacific (17:00–18:00 UTC). A bit later catches them already on.
+    - cron: "0 19 * * 4"
   workflow_dispatch:
 
 jobs:
