@@ -307,4 +307,22 @@ export const gamesP: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "Powder Inc.",
+    description:
+      "Build a skier's Valhalla or gouge it into MEGA Resort Inc. Balance the books, weather storms and avalanches, and keep pace as the mountain demands more. A ski resort tycoon based on a real-world ski development business model.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [Theme.SnowSki],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/5032820/Powder_Inc/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
 ];
