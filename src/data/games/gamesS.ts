@@ -167,7 +167,7 @@ export const gamesS: Game[] = [
       "A spooky pixel-art management sim where you operate your own haunted house dark ride from the control room. Balance scares with smart business choices—load guests, trigger pre-shows, route carts, sustain your scare-score, and spend Prestige to automate systems and upgrade the ride.",
     year: undefined,
     releaseDate: "TBA",
-    themes: [Theme.ThemePark, Theme.Humour],
+    themes: [Theme.HauntedHouse, Theme.Humour],
     platforms: [Platform.PC, Platform.Mac, Platform.Linux],
     stores: [Store.Steam],
     links: [
@@ -386,5 +386,23 @@ export const gamesS: Game[] = [
     ],
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.MoreThan10LessThan30],
+  },
+  {
+    title: "ScareZone: Haunted Attraction Tycoon",
+    description:
+      "Build the haunted attraction of your nightmares. Design chilling walkthroughs, fill them with animatronics and actors, then watch guests scream their way through your creation as you grow the haunt season after season.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [Theme.HauntedHouse],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4402490/ScareZone_Haunted_Attraction_Tycoon/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
   },
 ];

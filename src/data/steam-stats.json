@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T19:22:09.684Z",
+  "generatedAt": "2026-09-16T19:49:48.803Z",
   "apps": {
     "3720": {
       "name": "Evil Genius",
@@ -2582,6 +2582,42 @@
       "totalPositive": 430,
       "totalNegative": 162,
       "fetchedAt": "2026-09-03T21:37:49.411Z"
+    },
+    "4340600": {
+      "name": "Team Principal: A Racing Manager",
+      "type": "game",
+      "isFree": false,
+      "priceCents": 1299,
+      "currency": "USD",
+      "discountPercent": 0,
+      "releaseDate": "Feb 12, 2026",
+      "comingSoon": false,
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4340600/3d1fe7cc08b7f2f64224824476d81171f7a0fcf9/header.jpg?t=1788997589",
+      "genres": ["Simulation", "Early Access"],
+      "reviewScore": 8,
+      "reviewScoreDesc": "Very Positive",
+      "totalReviews": 106,
+      "totalPositive": 100,
+      "totalNegative": 6,
+      "fetchedAt": "2026-09-16T19:49:45.829Z"
+    },
+    "4402490": {
+      "name": "ScareZone: Haunted Attraction Tycoon",
+      "type": "game",
+      "isFree": false,
+      "priceCents": null,
+      "currency": null,
+      "discountPercent": 0,
+      "releaseDate": "To be announced",
+      "comingSoon": true,
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402490/c7e768e96577929e7464b51450af2935b039151b/header.jpg?t=1789016888",
+      "genres": ["Casual", "Simulation", "Strategy", "Early Access"],
+      "reviewScore": 0,
+      "reviewScoreDesc": "No user reviews",
+      "totalReviews": 0,
+      "totalPositive": 0,
+      "totalNegative": 0,
+      "fetchedAt": "2026-09-16T19:49:48.802Z"
     },
     "4454610": {
       "name": "Project manager SIM",

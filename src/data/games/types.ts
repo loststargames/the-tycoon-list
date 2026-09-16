@@ -25,6 +25,7 @@ export enum Theme {
   GameStore = "Game Store",
   GeneralBusiness = "General Business",
   Hardware = "Hardware",
+  HauntedHouse = "Haunted House",
   Hospital = "Hospital",
   Hotel = "Hotel",
   Humour = "Humour",

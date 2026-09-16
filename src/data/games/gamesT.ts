@@ -347,4 +347,21 @@ export const gamesT: Game[] = [
     pricing: [Pricing.NotSet],
     sequelFamily: "transportFever",
   },
+  {
+    title: "Team Principal: A Racing Manager",
+    description:
+      "A deep yet accessible motorsport management sandbox inspired by the 1990s games of this genre. Manage teams, drivers, finances, engines, and regulations in a fully customizable, ever-changing world where no two seasons play out the same.",
+    year: 2026,
+    themes: [Theme.Automobile],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4340600/Team_Principal_A_Racing_Manager",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TextBased],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];
