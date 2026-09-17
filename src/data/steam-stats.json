@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T19:49:48.803Z",
+  "generatedAt": "2026-09-17T22:05:00.083Z",
   "apps": {
     "3720": {
       "name": "Evil Genius",
@@ -11,49 +11,55 @@
       "releaseDate": "Jun 22, 2009",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3720/header.jpg?t=1721932669",
-      "genres": ["Strategy"],
+      "genres": [
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
       "totalReviews": 3612,
       "totalPositive": 3366,
       "totalNegative": 246,
-      "fetchedAt": "2026-09-10T21:30:54.704Z"
+      "fetchedAt": "2026-09-17T21:59:52.925Z"
     },
     "7600": {
       "name": "Sid Meier's Railroads!",
       "type": "game",
       "isFree": false,
-      "priceCents": 999,
+      "priceCents": 249,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 75,
       "releaseDate": "May 4, 2007",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7600/header.jpg?t=1777585143",
-      "genres": ["Strategy"],
+      "genres": [
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 3473,
-      "totalPositive": 2465,
-      "totalNegative": 1008,
-      "fetchedAt": "2026-09-10T21:34:53.611Z"
+      "totalReviews": 3475,
+      "totalPositive": 2466,
+      "totalNegative": 1009,
+      "fetchedAt": "2026-09-17T22:03:52.095Z"
     },
     "7610": {
       "name": "Railroad Tycoon 3",
       "type": "game",
       "isFree": false,
-      "priceCents": 999,
+      "priceCents": 249,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 75,
       "releaseDate": "May 4, 2007",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7610/header.jpg?t=1569013196",
-      "genres": ["Strategy"],
+      "genres": [
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
       "totalReviews": 1266,
       "totalPositive": 979,
       "totalNegative": 287,
-      "fetchedAt": "2026-09-10T21:33:40.963Z"
+      "fetchedAt": "2026-09-17T22:02:38.895Z"
     },
     "9730": {
       "name": "Tycoon City: New York",
@@ -65,13 +71,15 @@
       "releaseDate": "Mar 12, 2008",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9730/header.jpg?t=1726254142",
-      "genres": ["Simulation"],
+      "genres": [
+        "Simulation"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
       "totalReviews": 290,
       "totalPositive": 125,
       "totalNegative": 165,
-      "fetchedAt": "2026-09-10T21:35:17.995Z"
+      "fetchedAt": "2026-09-17T22:04:19.045Z"
     },
     "11590": {
       "name": "Hospital Tycoon",
@@ -83,13 +91,15 @@
       "releaseDate": "Feb 13, 2009",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/11590/header.jpg?t=1741975462",
-      "genres": ["Simulation"],
+      "genres": [
+        "Simulation"
+      ],
       "reviewScore": 4,
       "reviewScoreDesc": "Mostly Negative",
       "totalReviews": 591,
       "totalPositive": 236,
       "totalNegative": 355,
-      "fetchedAt": "2026-09-10T21:31:38.875Z"
+      "fetchedAt": "2026-09-17T22:00:36.699Z"
     },
     "32900": {
       "name": "Restaurant Empire II",
@@ -101,85 +111,101 @@
       "releaseDate": "May 27, 2009",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/32900/6dd00f75abd3fba94cfc296c7b830269eb22cc1b/header.jpg?t=1785412545",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 391,
-      "totalPositive": 298,
-      "totalNegative": 93,
-      "fetchedAt": "2026-09-10T21:34:05.195Z"
+      "totalReviews": 406,
+      "totalPositive": 315,
+      "totalNegative": 91,
+      "fetchedAt": "2026-09-17T22:03:02.999Z"
     },
     "73010": {
       "name": "Cities in Motion",
       "type": "game",
       "isFree": false,
-      "priceCents": 499,
+      "priceCents": 1999,
       "currency": "USD",
-      "discountPercent": 75,
+      "discountPercent": 0,
       "releaseDate": "Feb 22, 2011",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/73010/header.jpg?t=1764602003",
-      "genres": ["Simulation"],
+      "genres": [
+        "Simulation"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
       "totalReviews": 1088,
       "totalPositive": 842,
       "totalNegative": 246,
-      "fetchedAt": "2026-09-10T21:30:07.430Z"
+      "fetchedAt": "2026-09-17T21:59:06.907Z"
     },
     "201490": {
       "name": "Airline Tycoon 2",
       "type": "game",
       "isFree": false,
-      "priceCents": 199,
+      "priceCents": 999,
       "currency": "USD",
-      "discountPercent": 80,
+      "discountPercent": 0,
       "releaseDate": "Oct 24, 2011",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/201490/header.jpg?t=1730279688",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 1,
       "reviewScoreDesc": "Overwhelmingly Negative",
       "totalReviews": 578,
       "totalPositive": 104,
       "totalNegative": 474,
-      "fetchedAt": "2026-09-10T21:28:59.524Z"
+      "fetchedAt": "2026-09-17T21:57:58.988Z"
     },
     "208520": {
       "name": "Omerta - City of Gangsters",
       "type": "game",
       "isFree": false,
-      "priceCents": 299,
+      "priceCents": 1499,
       "currency": "USD",
-      "discountPercent": 80,
+      "discountPercent": 0,
       "releaseDate": "Jan 31, 2013",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/208520/header.jpg?t=1730293660",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
-      "totalReviews": 2400,
-      "totalPositive": 1608,
-      "totalNegative": 792,
-      "fetchedAt": "2026-09-10T21:32:44.016Z"
+      "totalReviews": 2405,
+      "totalPositive": 1611,
+      "totalNegative": 794,
+      "fetchedAt": "2026-09-17T22:01:42.240Z"
     },
     "225420": {
       "name": "Cities in Motion 2",
       "type": "game",
       "isFree": false,
-      "priceCents": 499,
+      "priceCents": 1999,
       "currency": "USD",
-      "discountPercent": 75,
+      "discountPercent": 0,
       "releaseDate": "Apr 2, 2013",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/225420/header.jpg?t=1764602078",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
-      "totalReviews": 2495,
-      "totalPositive": 1448,
+      "totalReviews": 2494,
+      "totalPositive": 1447,
       "totalNegative": 1047,
-      "fetchedAt": "2026-09-10T21:30:10.170Z"
+      "fetchedAt": "2026-09-17T21:59:09.609Z"
     },
     "230190": {
       "name": "War for the Overworld",
@@ -191,13 +217,17 @@
       "releaseDate": "Apr 2, 2015",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230190/header.jpg?t=1779960485",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 8127,
-      "totalPositive": 6984,
-      "totalNegative": 1143,
-      "fetchedAt": "2026-09-10T21:35:50.482Z"
+      "totalReviews": 8129,
+      "totalPositive": 6985,
+      "totalNegative": 1144,
+      "fetchedAt": "2026-09-17T22:04:54.619Z"
     },
     "233450": {
       "name": "Prison Architect",
@@ -209,13 +239,17 @@
       "releaseDate": "Oct 6, 2015",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233450/header.jpg?t=1759221867",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 73821,
-      "totalPositive": 65864,
-      "totalNegative": 7957,
-      "fetchedAt": "2026-09-10T21:33:14.002Z"
+      "totalReviews": 73851,
+      "totalPositive": 65891,
+      "totalNegative": 7960,
+      "fetchedAt": "2026-09-17T22:02:12.006Z"
     },
     "239820": {
       "name": "Game Dev Tycoon",
@@ -227,13 +261,18 @@
       "releaseDate": "Aug 29, 2013",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239820/header.jpg?t=1762193894",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 9,
       "reviewScoreDesc": "Overwhelmingly Positive",
-      "totalReviews": 45098,
-      "totalPositive": 42930,
-      "totalNegative": 2168,
-      "fetchedAt": "2026-09-10T21:31:19.671Z"
+      "totalReviews": 45116,
+      "totalPositive": 42945,
+      "totalNegative": 2171,
+      "fetchedAt": "2026-09-17T22:00:17.354Z"
     },
     "243040": {
       "name": "Startopia",
@@ -245,13 +284,15 @@
       "releaseDate": "Oct 10, 2013",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/243040/header.jpg?t=1595800937",
-      "genres": ["Simulation"],
+      "genres": [
+        "Simulation"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
       "totalReviews": 973,
       "totalPositive": 879,
       "totalNegative": 94,
-      "fetchedAt": "2026-09-10T21:34:18.587Z"
+      "fetchedAt": "2026-09-17T22:03:16.729Z"
     },
     "271360": {
       "name": "Industry Giant 2",
@@ -263,13 +304,16 @@
       "releaseDate": "Aug 14, 2015",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271360/header.jpg?t=1788252950",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
       "totalReviews": 1024,
       "totalPositive": 881,
       "totalNegative": 143,
-      "fetchedAt": "2026-09-10T21:31:57.921Z"
+      "fetchedAt": "2026-09-17T22:00:55.759Z"
     },
     "285110": {
       "name": "GearCity",
@@ -281,13 +325,17 @@
       "releaseDate": "Jan 14, 2022",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/285110/header.jpg?t=1642172420",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 1509,
-      "totalPositive": 1355,
-      "totalNegative": 154,
-      "fetchedAt": "2026-09-10T21:31:25.087Z"
+      "totalReviews": 1515,
+      "totalPositive": 1359,
+      "totalNegative": 156,
+      "fetchedAt": "2026-09-17T22:00:22.874Z"
     },
     "285310": {
       "name": "RollerCoaster Tycoon®: Deluxe",
@@ -299,13 +347,16 @@
       "releaseDate": "May 21, 2014",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/285310/header.jpg?t=1733161367",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 8304,
-      "totalPositive": 7830,
-      "totalNegative": 474,
-      "fetchedAt": "2026-09-10T21:33:51.750Z"
+      "totalReviews": 8316,
+      "totalPositive": 7843,
+      "totalNegative": 473,
+      "fetchedAt": "2026-09-17T22:02:49.583Z"
     },
     "285330": {
       "name": "RollerCoaster Tycoon® 2: Triple Thrill Pack",
@@ -317,13 +368,16 @@
       "releaseDate": "May 21, 2014",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/285330/header.jpg?t=1733160988",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 5859,
-      "totalPositive": 5251,
+      "totalReviews": 5866,
+      "totalPositive": 5258,
       "totalNegative": 608,
-      "fetchedAt": "2026-09-10T21:33:57.148Z"
+      "fetchedAt": "2026-09-17T22:02:54.936Z"
     },
     "293760": {
       "name": "Automation - The Car Company Tycoon Game",
@@ -335,13 +389,19 @@
       "releaseDate": "Mar 12, 2015",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/293760/02f9dd0ca23ad63eb9db71527abafd3a3833e19a/header.jpg?t=1766012305",
-      "genres": ["Indie", "Racing", "Simulation", "Strategy", "Early Access"],
+      "genres": [
+        "Indie",
+        "Racing",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 17970,
-      "totalPositive": 16861,
-      "totalNegative": 1109,
-      "fetchedAt": "2026-09-10T21:29:23.960Z"
+      "totalReviews": 18000,
+      "totalPositive": 16892,
+      "totalNegative": 1108,
+      "fetchedAt": "2026-09-17T21:58:23.644Z"
     },
     "331920": {
       "name": "Airline Tycoon Deluxe",
@@ -353,13 +413,15 @@
       "releaseDate": "Nov 14, 2014",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/331920/8f2f07dce629af63596def916ad70853cc31c753/header.jpg?t=1788878740",
-      "genres": ["Simulation"],
+      "genres": [
+        "Simulation"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
       "totalReviews": 681,
       "totalPositive": 573,
       "totalNegative": 108,
-      "fetchedAt": "2026-09-10T21:28:56.818Z"
+      "fetchedAt": "2026-09-17T21:57:56.265Z"
     },
     "341000": {
       "name": "Mad Games Tycoon",
@@ -371,13 +433,18 @@
       "releaseDate": "Sep 13, 2016",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/341000/header.jpg?t=1740737867",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
       "totalReviews": 4422,
       "totalPositive": 4014,
       "totalNegative": 408,
-      "fetchedAt": "2026-09-10T21:32:35.936Z"
+      "fetchedAt": "2026-09-17T22:01:33.688Z"
     },
     "344850": {
       "name": "Big Pharma",
@@ -389,31 +456,39 @@
       "releaseDate": "Aug 27, 2015",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/344850/header.jpg?t=1728241293",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
       "totalReviews": 1939,
       "totalPositive": 1502,
       "totalNegative": 437,
-      "fetchedAt": "2026-09-10T21:29:34.828Z"
+      "fetchedAt": "2026-09-17T21:58:34.401Z"
     },
     "361280": {
       "name": "Turmoil",
       "type": "game",
       "isFree": false,
-      "priceCents": 389,
+      "priceCents": 1299,
       "currency": "USD",
-      "discountPercent": 70,
+      "discountPercent": 0,
       "releaseDate": "Jun 2, 2016",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/361280/45687741740927b8d200227d6c44b1d43f8fcd9a/header.jpg?t=1775657683",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 16140,
-      "totalPositive": 15005,
+      "totalReviews": 16161,
+      "totalPositive": 15026,
       "totalNegative": 1135,
-      "fetchedAt": "2026-09-10T21:35:20.657Z"
+      "fetchedAt": "2026-09-17T22:04:21.758Z"
     },
     "361320": {
       "name": "Casino Inc.",
@@ -425,13 +500,16 @@
       "releaseDate": "Apr 17, 2015",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/361320/header.jpg?t=1564676161",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 404,
-      "totalPositive": 349,
+      "totalReviews": 406,
+      "totalPositive": 351,
       "totalNegative": 55,
-      "fetchedAt": "2026-09-10T21:29:59.191Z"
+      "fetchedAt": "2026-09-17T21:58:58.715Z"
     },
     "362620": {
       "name": "Software Inc.",
@@ -443,13 +521,18 @@
       "releaseDate": "May 1, 2015",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/362620/10ead0a36d2661a7d78db9d097b54ff80411d2d8/header.jpg?t=1763102408",
-      "genres": ["Indie", "Simulation", "Strategy", "Early Access"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 7826,
-      "totalPositive": 7373,
-      "totalNegative": 453,
-      "fetchedAt": "2026-09-10T21:34:26.637Z"
+      "totalReviews": 7835,
+      "totalPositive": 7383,
+      "totalNegative": 452,
+      "fetchedAt": "2026-09-17T22:03:24.835Z"
     },
     "377900": {
       "name": "Empire TV Tycoon",
@@ -461,13 +544,18 @@
       "releaseDate": "Oct 20, 2015",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377900/header.jpg?t=1612549188",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
       "totalReviews": 901,
       "totalPositive": 710,
       "totalNegative": 191,
-      "fetchedAt": "2026-09-10T21:30:43.735Z"
+      "fetchedAt": "2026-09-17T21:59:42.125Z"
     },
     "384080": {
       "name": "Industry Manager: Future Technologies",
@@ -479,13 +567,15 @@
       "releaseDate": "Oct 6, 2016",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/384080/header.jpg?t=1768874504",
-      "genres": ["Simulation"],
+      "genres": [
+        "Simulation"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
       "totalReviews": 313,
       "totalPositive": 182,
       "totalNegative": 131,
-      "fetchedAt": "2026-09-10T21:32:03.322Z"
+      "fetchedAt": "2026-09-17T22:01:01.218Z"
     },
     "393920": {
       "name": "Auto Dealership Tycoon",
@@ -497,13 +587,16 @@
       "releaseDate": "Oct 23, 2015",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393920/header.jpg?t=1610655575",
-      "genres": ["Indie", "Simulation"],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
       "totalReviews": 187,
       "totalPositive": 95,
       "totalNegative": 92,
-      "fetchedAt": "2026-09-10T21:29:18.687Z"
+      "fetchedAt": "2026-09-17T21:58:18.274Z"
     },
     "404640": {
       "name": "Game Tycoon 2",
@@ -515,13 +608,17 @@
       "releaseDate": "Apr 8, 2016",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/404640/header.jpg?t=1744273855",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
       "totalReviews": 248,
       "totalPositive": 121,
       "totalNegative": 127,
-      "fetchedAt": "2026-09-10T21:31:27.906Z"
+      "fetchedAt": "2026-09-17T22:00:25.756Z"
     },
     "423580": {
       "name": "Project Highrise",
@@ -533,13 +630,16 @@
       "releaseDate": "Sep 8, 2016",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/423580/header.jpg?t=1762525802",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 4817,
-      "totalPositive": 4091,
-      "totalNegative": 726,
-      "fetchedAt": "2026-09-10T21:33:27.465Z"
+      "totalReviews": 4822,
+      "totalPositive": 4095,
+      "totalNegative": 727,
+      "fetchedAt": "2026-09-17T22:02:25.526Z"
     },
     "428690": {
       "name": "Youtubers Life",
@@ -551,13 +651,19 @@
       "releaseDate": "Feb 2, 2017",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/428690/header.jpg?t=1782212506",
-      "genres": ["Adventure", "Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 15419,
-      "totalPositive": 11939,
-      "totalNegative": 3480,
-      "fetchedAt": "2026-09-10T21:35:55.885Z"
+      "totalReviews": 15422,
+      "totalPositive": 11941,
+      "totalNegative": 3481,
+      "fetchedAt": "2026-09-17T22:05:00.082Z"
     },
     "443810": {
       "name": "This Is the Police",
@@ -569,13 +675,17 @@
       "releaseDate": "Aug 2, 2016",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/443810/header.jpg?t=1725011264",
-      "genres": ["Adventure", "Indie", "Strategy"],
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 11230,
-      "totalPositive": 9241,
-      "totalNegative": 1989,
-      "fetchedAt": "2026-09-10T21:35:12.503Z"
+      "totalReviews": 11234,
+      "totalPositive": 9242,
+      "totalNegative": 1992,
+      "fetchedAt": "2026-09-17T22:04:13.509Z"
     },
     "446800": {
       "name": "Transport Fever",
@@ -587,13 +697,15 @@
       "releaseDate": "Nov 8, 2016",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/446800/header.jpg?t=1709312016",
-      "genres": ["Simulation"],
+      "genres": [
+        "Simulation"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 10846,
-      "totalPositive": 9034,
-      "totalNegative": 1812,
-      "fetchedAt": "2026-09-10T21:35:39.547Z"
+      "totalReviews": 10847,
+      "totalPositive": 9036,
+      "totalNegative": 1811,
+      "fetchedAt": "2026-09-17T22:04:40.924Z"
     },
     "450120": {
       "name": "Capitalism Plus",
@@ -605,13 +717,16 @@
       "releaseDate": "Mar 22, 2016",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/450120/header.jpg?t=1681167257",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
       "totalReviews": 120,
       "totalPositive": 100,
       "totalNegative": 20,
-      "fetchedAt": "2026-09-10T21:29:51.229Z"
+      "fetchedAt": "2026-09-17T21:58:50.621Z"
     },
     "464920": {
       "name": "Surviving Mars",
@@ -623,13 +738,16 @@
       "releaseDate": "Mar 15, 2018",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/464920/header.jpg?t=1779438914",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 28827,
-      "totalPositive": 22884,
-      "totalNegative": 5943,
-      "fetchedAt": "2026-09-10T21:34:23.992Z"
+      "totalReviews": 28894,
+      "totalPositive": 22877,
+      "totalNegative": 6017,
+      "fetchedAt": "2026-09-17T22:03:22.168Z"
     },
     "486860": {
       "name": "MMORPG Tycoon 2",
@@ -641,31 +759,42 @@
       "releaseDate": "Jan 6, 2020",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/486860/header.jpg?t=1773365144",
-      "genres": ["Indie", "Simulation", "Strategy", "Early Access"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 3145,
-      "totalPositive": 2718,
+      "totalReviews": 3149,
+      "totalPositive": 2722,
       "totalNegative": 427,
-      "fetchedAt": "2026-09-10T21:32:22.210Z"
+      "fetchedAt": "2026-09-17T22:01:20.171Z"
     },
     "493340": {
       "name": "Planet Coaster",
       "type": "game",
       "isFree": false,
-      "priceCents": 4499,
+      "priceCents": 1124,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 75,
       "releaseDate": "Nov 17, 2016",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/493340/header.jpg?t=1782480201",
-      "genres": ["Action", "Adventure", "Casual", "Simulation", "Strategy"],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 72185,
-      "totalPositive": 65924,
-      "totalNegative": 6261,
-      "fetchedAt": "2026-09-10T21:33:08.494Z"
+      "totalReviews": 72188,
+      "totalPositive": 65928,
+      "totalNegative": 6260,
+      "fetchedAt": "2026-09-17T22:02:06.411Z"
     },
     "494730": {
       "name": "Galacticare",
@@ -677,31 +806,38 @@
       "releaseDate": "May 23, 2024",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/494730/header.jpg?t=1756368478",
-      "genres": ["Casual", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 659,
-      "totalPositive": 568,
-      "totalNegative": 91,
-      "fetchedAt": "2026-09-10T21:31:22.342Z"
+      "totalReviews": 661,
+      "totalPositive": 569,
+      "totalNegative": 92,
+      "fetchedAt": "2026-09-17T22:00:20.160Z"
     },
     "503940": {
       "name": "Railway Empire",
       "type": "game",
       "isFree": false,
-      "priceCents": 599,
+      "priceCents": 2999,
       "currency": "USD",
-      "discountPercent": 80,
+      "discountPercent": 0,
       "releaseDate": "Jan 26, 2018",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/503940/header.jpg?t=1738668541",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 9717,
-      "totalPositive": 8038,
-      "totalNegative": 1679,
-      "fetchedAt": "2026-09-10T21:34:07.912Z"
+      "totalReviews": 9722,
+      "totalPositive": 8040,
+      "totalNegative": 1682,
+      "fetchedAt": "2026-09-17T22:03:05.735Z"
     },
     "521090": {
       "name": "Industry Giant",
@@ -713,13 +849,17 @@
       "releaseDate": "Oct 2, 2018",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/521090/header.jpg?t=1741771750",
-      "genres": ["Casual", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
       "totalReviews": 77,
       "totalPositive": 59,
       "totalNegative": 18,
-      "fetchedAt": "2026-09-10T21:31:55.192Z"
+      "fetchedAt": "2026-09-17T22:00:53.045Z"
     },
     "521150": {
       "name": "Another Brick in The Mall",
@@ -731,13 +871,17 @@
       "releaseDate": "Apr 30, 2020",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/521150/942b1aa1d3c2bbcd3893e22ac6da4b8384932603/header.jpg?t=1756732523",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 2453,
-      "totalPositive": 2036,
+      "totalReviews": 2455,
+      "totalPositive": 2038,
       "totalNegative": 417,
-      "fetchedAt": "2026-09-10T21:29:26.761Z"
+      "fetchedAt": "2026-09-17T21:58:26.349Z"
     },
     "535930": {
       "name": "Two Point Hospital",
@@ -749,13 +893,16 @@
       "releaseDate": "Aug 29, 2018",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/535930/header.jpg?t=1763648286",
-      "genres": ["Indie", "Simulation"],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 34958,
-      "totalPositive": 32147,
-      "totalNegative": 2811,
-      "fetchedAt": "2026-09-10T21:35:09.767Z"
+      "totalReviews": 34973,
+      "totalPositive": 32164,
+      "totalNegative": 2809,
+      "fetchedAt": "2026-09-17T22:04:10.823Z"
     },
     "588160": {
       "name": "Pizza Connection 3",
@@ -767,13 +914,16 @@
       "releaseDate": "Mar 22, 2018",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588160/header.jpg?t=1573225375",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
       "totalReviews": 1111,
       "totalPositive": 554,
       "totalNegative": 557,
-      "fetchedAt": "2026-09-10T21:33:03.081Z"
+      "fetchedAt": "2026-09-17T22:02:01.025Z"
     },
     "591370": {
       "name": "Production Line : Car factory simulation",
@@ -785,13 +935,17 @@
       "releaseDate": "Mar 7, 2019",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/591370/header.jpg?t=1787433272",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 3483,
+      "totalReviews": 3484,
       "totalPositive": 2859,
-      "totalNegative": 624,
-      "fetchedAt": "2026-09-10T21:33:24.754Z"
+      "totalNegative": 625,
+      "fetchedAt": "2026-09-17T22:02:22.851Z"
     },
     "598330": {
       "name": "SimAirport",
@@ -803,13 +957,18 @@
       "releaseDate": "Feb 28, 2020",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/598330/header.jpg?t=1656452707",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 4050,
-      "totalPositive": 3211,
+      "totalReviews": 4052,
+      "totalPositive": 3213,
       "totalNegative": 839,
-      "fetchedAt": "2026-09-10T21:34:48.280Z"
+      "fetchedAt": "2026-09-17T22:03:46.701Z"
     },
     "598990": {
       "name": "Pizza Connection",
@@ -821,13 +980,16 @@
       "releaseDate": "Apr 5, 2017",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/598990/header.jpg?t=1728902651",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
       "totalReviews": 98,
       "totalPositive": 67,
       "totalNegative": 31,
-      "fetchedAt": "2026-09-10T21:32:57.725Z"
+      "fetchedAt": "2026-09-17T22:01:55.591Z"
     },
     "599000": {
       "name": "Pizza Connection 2",
@@ -839,13 +1001,16 @@
       "releaseDate": "Apr 5, 2017",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/599000/header.jpg?t=1728902798",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 317,
-      "totalPositive": 245,
+      "totalReviews": 318,
+      "totalPositive": 246,
       "totalNegative": 72,
-      "fetchedAt": "2026-09-10T21:33:00.373Z"
+      "fetchedAt": "2026-09-17T22:01:58.280Z"
     },
     "606800": {
       "name": "Startup Company",
@@ -857,13 +1022,18 @@
       "releaseDate": "Apr 10, 2020",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606800/header.jpg?t=1727681373",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 6224,
-      "totalPositive": 5055,
+      "totalReviews": 6226,
+      "totalPositive": 5057,
       "totalNegative": 1169,
-      "fetchedAt": "2026-09-10T21:34:32.065Z"
+      "fetchedAt": "2026-09-17T22:03:30.333Z"
     },
     "620190": {
       "name": "Gunsmith",
@@ -885,10 +1055,10 @@
       ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 1053,
+      "totalReviews": 1056,
       "totalPositive": 760,
-      "totalNegative": 293,
-      "fetchedAt": "2026-09-10T21:31:33.453Z"
+      "totalNegative": 296,
+      "fetchedAt": "2026-09-17T22:00:31.298Z"
     },
     "628200": {
       "name": "The Invisible Hand",
@@ -900,13 +1070,18 @@
       "releaseDate": "May 7, 2021",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/628200/header.jpg?t=1761582123",
-      "genres": ["Adventure", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 693,
-      "totalPositive": 558,
+      "totalReviews": 694,
+      "totalPositive": 559,
       "totalNegative": 135,
-      "fetchedAt": "2026-09-10T21:35:28.686Z"
+      "fetchedAt": "2026-09-17T22:04:29.874Z"
     },
     "638200": {
       "name": "Capitalism 2",
@@ -918,31 +1093,38 @@
       "releaseDate": "Aug 1, 2017",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638200/header.jpg?t=1681189915",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
       "totalReviews": 580,
       "totalPositive": 480,
       "totalNegative": 100,
-      "fetchedAt": "2026-09-10T21:29:53.871Z"
+      "fetchedAt": "2026-09-17T21:58:53.319Z"
     },
     "648350": {
       "name": "Jurassic World Evolution",
       "type": "game",
       "isFree": false,
-      "priceCents": 4499,
+      "priceCents": 1249,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 75,
       "releaseDate": "Jun 11, 2018",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648350/header.jpg?t=1750957705",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 55301,
-      "totalPositive": 48354,
-      "totalNegative": 6947,
-      "fetchedAt": "2026-09-10T21:32:11.387Z"
+      "totalReviews": 55289,
+      "totalPositive": 48344,
+      "totalNegative": 6945,
+      "fetchedAt": "2026-09-17T22:01:09.302Z"
     },
     "652660": {
       "name": "ESport Manager",
@@ -954,13 +1136,19 @@
       "releaseDate": "Jun 18, 2018",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/652660/header.jpg?t=1726695867",
-      "genres": ["Action", "Indie", "Simulation", "Sports", "Strategy"],
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation",
+        "Sports",
+        "Strategy"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
       "totalReviews": 179,
       "totalPositive": 74,
       "totalNegative": 105,
-      "fetchedAt": "2026-09-10T21:30:49.328Z"
+      "fetchedAt": "2026-09-17T21:59:47.503Z"
     },
     "671440": {
       "name": "Rise of Industry",
@@ -972,13 +1160,17 @@
       "releaseDate": "May 2, 2019",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/671440/header.jpg?t=1762525699",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
       "totalReviews": 4193,
       "totalPositive": 3066,
       "totalNegative": 1127,
-      "fetchedAt": "2026-09-10T21:33:49.073Z"
+      "fetchedAt": "2026-09-17T22:02:46.922Z"
     },
     "673610": {
       "name": "Airport CEO",
@@ -990,13 +1182,17 @@
       "releaseDate": "Mar 4, 2021",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/673610/header.jpg?t=1749627554",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 8345,
-      "totalPositive": 6932,
-      "totalNegative": 1413,
-      "fetchedAt": "2026-09-10T21:28:53.978Z"
+      "totalReviews": 8352,
+      "totalPositive": 6936,
+      "totalNegative": 1416,
+      "fetchedAt": "2026-09-17T21:57:53.577Z"
     },
     "678390": {
       "name": "Office Management 101",
@@ -1008,13 +1204,18 @@
       "releaseDate": "Mar 16, 2022",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/678390/header.jpg?t=1653952516",
-      "genres": ["Indie", "Simulation", "Strategy", "Early Access"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
       "totalReviews": 98,
       "totalPositive": 62,
       "totalNegative": 36,
-      "fetchedAt": "2026-09-10T21:32:52.225Z"
+      "fetchedAt": "2026-09-17T22:01:50.231Z"
     },
     "683900": {
       "name": "RollerCoaster Tycoon® Classic",
@@ -1026,31 +1227,40 @@
       "releaseDate": "Sep 28, 2017",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/683900/header.jpg?t=1773076729",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 3127,
-      "totalPositive": 2846,
-      "totalNegative": 281,
-      "fetchedAt": "2026-09-10T21:33:54.477Z"
+      "totalReviews": 3135,
+      "totalPositive": 2851,
+      "totalNegative": 284,
+      "fetchedAt": "2026-09-17T22:02:52.286Z"
     },
     "686680": {
       "name": "Computer Tycoon",
       "type": "game",
       "isFree": false,
-      "priceCents": 1399,
+      "priceCents": 1999,
       "currency": "USD",
-      "discountPercent": 30,
+      "discountPercent": 0,
       "releaseDate": "Oct 12, 2017",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686680/header.jpg?t=1786216525",
-      "genres": ["Action", "RPG", "Simulation", "Strategy", "Early Access"],
+      "genres": [
+        "Action",
+        "RPG",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 1017,
-      "totalPositive": 868,
+      "totalReviews": 1021,
+      "totalPositive": 872,
       "totalNegative": 149,
-      "fetchedAt": "2026-09-10T21:30:18.537Z"
+      "fetchedAt": "2026-09-17T21:59:17.856Z"
     },
     "700600": {
       "name": "Evil Genius 2: World Domination",
@@ -1062,13 +1272,16 @@
       "releaseDate": "Mar 30, 2021",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/700600/header.jpg?t=1734453187",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
-      "totalReviews": 13243,
-      "totalPositive": 9151,
+      "totalReviews": 13244,
+      "totalPositive": 9152,
       "totalNegative": 4092,
-      "fetchedAt": "2026-09-10T21:30:57.445Z"
+      "fetchedAt": "2026-09-17T21:59:55.630Z"
     },
     "703080": {
       "name": "Planet Zoo",
@@ -1080,13 +1293,17 @@
       "releaseDate": "Nov 5, 2019",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/header.jpg?t=1765896213",
-      "genres": ["Casual", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 97678,
-      "totalPositive": 88873,
-      "totalNegative": 8805,
-      "fetchedAt": "2026-09-10T21:33:19.413Z"
+      "totalReviews": 97754,
+      "totalPositive": 88939,
+      "totalNegative": 8815,
+      "fetchedAt": "2026-09-17T22:02:17.401Z"
     },
     "722660": {
       "name": "Startup Freak",
@@ -1098,13 +1315,17 @@
       "releaseDate": "Oct 18, 2019",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/722660/header.jpg?t=1589091111",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
       "totalReviews": 53,
       "totalPositive": 37,
       "totalNegative": 16,
-      "fetchedAt": "2026-09-10T21:34:29.410Z"
+      "fetchedAt": "2026-09-17T22:03:27.532Z"
     },
     "726840": {
       "name": "City Game Studio: Your Game Dev Adventure Begins",
@@ -1116,13 +1337,19 @@
       "releaseDate": "Aug 24, 2021",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/87c8f6901c5fc151b8b9bbb452cfcc21aee211c8/header.jpg?t=1788420691",
-      "genres": ["Adventure", "Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 1900,
-      "totalPositive": 1744,
+      "totalReviews": 1902,
+      "totalPositive": 1746,
       "totalNegative": 156,
-      "fetchedAt": "2026-09-10T21:29:48.573Z"
+      "fetchedAt": "2026-09-17T21:58:47.921Z"
     },
     "750520": {
       "name": "Arcade Tycoon ™ : Simulation Game",
@@ -1134,13 +1361,18 @@
       "releaseDate": "Oct 14, 2021",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750520/header.jpg?t=1788953876",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
       "totalReviews": 568,
       "totalPositive": 468,
       "totalNegative": 100,
-      "fetchedAt": "2026-09-10T21:29:02.241Z"
+      "fetchedAt": "2026-09-17T21:58:01.772Z"
     },
     "754500": {
       "name": "Plutocracy",
@@ -1152,13 +1384,18 @@
       "releaseDate": "Nov 21, 2019",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/754500/header.jpg?t=1757592206",
-      "genres": ["Indie", "Simulation", "Strategy", "Early Access"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 1373,
-      "totalPositive": 1095,
+      "totalReviews": 1375,
+      "totalPositive": 1097,
       "totalNegative": 278,
-      "fetchedAt": "2026-09-10T21:33:22.090Z"
+      "fetchedAt": "2026-09-17T22:02:20.140Z"
     },
     "785740": {
       "name": "This Is the Police 2",
@@ -1170,13 +1407,17 @@
       "releaseDate": "Jul 31, 2018",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/785740/header.jpg?t=1727253481",
-      "genres": ["Adventure", "Indie", "Strategy"],
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 6587,
+      "totalReviews": 6588,
       "totalPositive": 4954,
-      "totalNegative": 1633,
-      "fetchedAt": "2026-09-10T21:35:15.232Z"
+      "totalNegative": 1634,
+      "fetchedAt": "2026-09-17T22:04:16.219Z"
     },
     "797400": {
       "name": "Railroad Corporation",
@@ -1188,13 +1429,16 @@
       "releaseDate": "Nov 18, 2019",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/797400/header.jpg?t=1732033436",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 1497,
-      "totalPositive": 1100,
+      "totalReviews": 1498,
+      "totalPositive": 1101,
       "totalNegative": 397,
-      "fetchedAt": "2026-09-10T21:34:13.257Z"
+      "fetchedAt": "2026-09-17T22:03:11.165Z"
     },
     "832360": {
       "name": "Hotel Magnate",
@@ -1206,13 +1450,18 @@
       "releaseDate": "Sep 23, 2025",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/832360/1548c16fc16757beacb95c31d33619f7112f5555/header.jpg?t=1759765047",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
       "totalReviews": 491,
       "totalPositive": 287,
       "totalNegative": 204,
-      "fetchedAt": "2026-09-10T21:31:41.591Z"
+      "fetchedAt": "2026-09-17T22:00:39.416Z"
     },
     "886900": {
       "name": "Chef: A Restaurant Tycoon Game",
@@ -1224,13 +1473,15 @@
       "releaseDate": "Aug 20, 2020",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/886900/header.jpg?t=1747421426",
-      "genres": ["Simulation"],
+      "genres": [
+        "Simulation"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 1496,
-      "totalPositive": 1098,
+      "totalReviews": 1498,
+      "totalPositive": 1100,
       "totalNegative": 398,
-      "fetchedAt": "2026-09-10T21:30:15.732Z"
+      "fetchedAt": "2026-09-17T21:59:15.164Z"
     },
     "897410": {
       "name": "Esports Life Tycoon",
@@ -1242,13 +1493,19 @@
       "releaseDate": "Sep 3, 2020",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/897410/header.jpg?t=1736782214",
-      "genres": ["Indie", "RPG", "Simulation", "Sports", "Strategy"],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Simulation",
+        "Sports",
+        "Strategy"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
-      "totalReviews": 713,
+      "totalReviews": 714,
       "totalPositive": 433,
-      "totalNegative": 280,
-      "fetchedAt": "2026-09-10T21:30:46.655Z"
+      "totalNegative": 281,
+      "fetchedAt": "2026-09-17T21:59:44.846Z"
     },
     "911430": {
       "name": "Good Company",
@@ -1260,13 +1517,17 @@
       "releaseDate": "Jun 21, 2022",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/911430/header.jpg?t=1729238293",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 1792,
-      "totalPositive": 1314,
+      "totalReviews": 1793,
+      "totalPositive": 1315,
       "totalNegative": 478,
-      "fetchedAt": "2026-09-10T21:31:30.690Z"
+      "fetchedAt": "2026-09-17T22:00:28.497Z"
     },
     "983380": {
       "name": "Car Manufacture",
@@ -1278,13 +1539,18 @@
       "releaseDate": "Aug 1, 2024",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/983380/header.jpg?t=1758276817",
-      "genres": ["Indie", "Simulation", "Strategy", "Early Access"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
-      "totalReviews": 1413,
+      "totalReviews": 1415,
       "totalPositive": 936,
-      "totalNegative": 477,
-      "fetchedAt": "2026-09-10T21:30:21.203Z"
+      "totalNegative": 479,
+      "fetchedAt": "2026-09-17T21:59:20.521Z"
     },
     "1009560": {
       "name": "The Tenants",
@@ -1296,31 +1562,38 @@
       "releaseDate": "Oct 20, 2022",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1009560/985ce2ca8323469e7600ffd651c2ec8b7a6bdec7/header.jpg?t=1781691290",
-      "genres": ["Casual", "Indie", "Simulation"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 7776,
-      "totalPositive": 6129,
-      "totalNegative": 1647,
-      "fetchedAt": "2026-09-10T21:35:23.388Z"
+      "totalReviews": 7779,
+      "totalPositive": 6131,
+      "totalNegative": 1648,
+      "fetchedAt": "2026-09-17T22:04:24.487Z"
     },
     "1036240": {
       "name": "Definitely Not Fried Chicken",
       "type": "game",
       "isFree": false,
-      "priceCents": 2499,
+      "priceCents": 374,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 85,
       "releaseDate": "Sep 29, 2023",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1036240/header.jpg?t=1770980851",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 2563,
-      "totalPositive": 1878,
-      "totalNegative": 685,
-      "fetchedAt": "2026-09-10T21:30:40.942Z"
+      "totalReviews": 2573,
+      "totalPositive": 1881,
+      "totalNegative": 692,
+      "fetchedAt": "2026-09-17T21:59:39.450Z"
     },
     "1042380": {
       "name": "Hundred Days - Winemaking Simulator",
@@ -1332,13 +1605,17 @@
       "releaseDate": "May 13, 2021",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1042380/header.jpg?t=1775053428",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 1097,
-      "totalPositive": 847,
-      "totalNegative": 250,
-      "fetchedAt": "2026-09-10T21:31:44.369Z"
+      "totalReviews": 1099,
+      "totalPositive": 848,
+      "totalNegative": 251,
+      "fetchedAt": "2026-09-17T22:00:42.128Z"
     },
     "1066780": {
       "name": "Transport Fever 2",
@@ -1350,13 +1627,18 @@
       "releaseDate": "Dec 11, 2019",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1066780/header.jpg?t=1727104059",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 32603,
-      "totalPositive": 29446,
-      "totalNegative": 3157,
-      "fetchedAt": "2026-09-10T21:35:42.294Z"
+      "totalReviews": 32743,
+      "totalPositive": 29577,
+      "totalNegative": 3166,
+      "fetchedAt": "2026-09-17T22:04:43.606Z"
     },
     "1088750": {
       "name": "Soda Story - Brewing Tycoon",
@@ -1368,13 +1650,15 @@
       "releaseDate": "Jul 21, 2022",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088750/header.jpg?t=1769589227",
-      "genres": ["Simulation"],
+      "genres": [
+        "Simulation"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
       "totalReviews": 66,
       "totalPositive": 60,
       "totalNegative": 6,
-      "fetchedAt": "2026-09-10T21:35:01.699Z"
+      "fetchedAt": "2026-09-17T22:04:00.078Z"
     },
     "1123830": {
       "name": "Farm Manager 2021",
@@ -1386,31 +1670,40 @@
       "releaseDate": "May 6, 2021",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1123830/header.jpg?t=1786018178",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 2396,
-      "totalPositive": 1895,
+      "totalReviews": 2397,
+      "totalPositive": 1896,
       "totalNegative": 501,
-      "fetchedAt": "2026-09-10T21:31:02.986Z"
+      "fetchedAt": "2026-09-17T22:00:01.040Z"
     },
     "1124260": {
       "name": "Snowtopia: Ski Resort Builder",
       "type": "game",
       "isFree": false,
-      "priceCents": 2499,
+      "priceCents": 624,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 75,
       "releaseDate": "Dec 14, 2022",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1124260/header.jpg?t=1727781021",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
-      "totalReviews": 1273,
-      "totalPositive": 792,
-      "totalNegative": 481,
-      "fetchedAt": "2026-09-10T21:34:45.594Z"
+      "totalReviews": 1277,
+      "totalPositive": 794,
+      "totalNegative": 483,
+      "fetchedAt": "2026-09-17T22:03:43.906Z"
     },
     "1129570": {
       "name": "Industry Giant 4.0",
@@ -1422,13 +1715,16 @@
       "releaseDate": "Oct 17, 2025",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1129570/b006727c4bb7e2a1a43f64953a90a0c4fcc177f8/header.jpg?t=1788251865",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 4,
       "reviewScoreDesc": "Mostly Negative",
-      "totalReviews": 564,
+      "totalReviews": 565,
       "totalPositive": 207,
-      "totalNegative": 357,
-      "fetchedAt": "2026-09-10T21:32:00.619Z"
+      "totalNegative": 358,
+      "fetchedAt": "2026-09-17T22:00:58.420Z"
     },
     "1158420": {
       "name": "SimCasino",
@@ -1440,31 +1736,41 @@
       "releaseDate": "Nov 16, 2021",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158420/header.jpg?t=1659029870",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
       "totalReviews": 757,
       "totalPositive": 557,
       "totalNegative": 200,
-      "fetchedAt": "2026-09-10T21:34:34.764Z"
+      "fetchedAt": "2026-09-17T22:03:33.005Z"
     },
     "1220140": {
       "name": "Cartel Tycoon",
       "type": "game",
       "isFree": false,
-      "priceCents": 2999,
+      "priceCents": 749,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 75,
       "releaseDate": "Jul 26, 2022",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1220140/header.jpg?t=1781529139",
-      "genres": ["Action", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 3809,
-      "totalPositive": 2895,
-      "totalNegative": 914,
-      "fetchedAt": "2026-09-10T21:30:12.960Z"
+      "totalReviews": 3814,
+      "totalPositive": 2897,
+      "totalNegative": 917,
+      "fetchedAt": "2026-09-17T21:59:12.459Z"
     },
     "1226970": {
       "name": "Disco Simulator",
@@ -1476,31 +1782,39 @@
       "releaseDate": "Mar 5, 2024",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1226970/header.jpg?t=1783534166",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
       "totalReviews": 221,
-      "totalPositive": 168,
-      "totalNegative": 53,
-      "fetchedAt": "2026-09-10T21:30:35.403Z"
+      "totalPositive": 169,
+      "totalNegative": 52,
+      "fetchedAt": "2026-09-17T21:59:34.002Z"
     },
     "1244460": {
       "name": "Jurassic World Evolution 2",
       "type": "game",
       "isFree": false,
-      "priceCents": 5999,
+      "priceCents": 2099,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 70,
       "releaseDate": "Nov 9, 2021",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244460/header.jpg?t=1750957701",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 47081,
-      "totalPositive": 42533,
-      "totalNegative": 4548,
-      "fetchedAt": "2026-09-10T21:32:14.129Z"
+      "totalReviews": 47120,
+      "totalPositive": 42571,
+      "totalNegative": 4549,
+      "fetchedAt": "2026-09-17T22:01:12.045Z"
     },
     "1257610": {
       "name": "Prison Architect 2",
@@ -1512,13 +1826,16 @@
       "releaseDate": "To be announced",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1257610/header.jpg?t=1724070100",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:33:16.646Z"
+      "fetchedAt": "2026-09-17T22:02:14.665Z"
     },
     "1289340": {
       "name": "TasteMaker",
@@ -1530,13 +1847,18 @@
       "releaseDate": "Apr 21, 2023",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289340/header.jpg?t=1727452600",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
       "totalReviews": 1297,
       "totalPositive": 1078,
       "totalNegative": 219,
-      "fetchedAt": "2026-09-10T21:35:26.031Z"
+      "fetchedAt": "2026-09-17T22:04:27.174Z"
     },
     "1326270": {
       "name": "Festival Tycoon 🎪",
@@ -1548,13 +1870,17 @@
       "releaseDate": "May 4, 2022",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326270/header.jpg?t=1727971603",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
       "totalReviews": 231,
       "totalPositive": 176,
       "totalNegative": 55,
-      "fetchedAt": "2026-09-10T21:31:05.715Z"
+      "fetchedAt": "2026-09-17T22:00:03.743Z"
     },
     "1331550": {
       "name": "Big Ambitions",
@@ -1566,13 +1892,16 @@
       "releaseDate": "Aug 28, 2026",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1331550/6ef350077eee961864c78ac396a16195ef385fae/header.jpg?t=1788186935",
-      "genres": ["Indie", "Simulation"],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 14395,
-      "totalPositive": 13265,
-      "totalNegative": 1130,
-      "fetchedAt": "2026-09-10T21:29:43.006Z"
+      "totalReviews": 14586,
+      "totalPositive": 13428,
+      "totalNegative": 1158,
+      "fetchedAt": "2026-09-17T21:58:42.544Z"
     },
     "1342330": {
       "name": "Mad Games Tycoon 2",
@@ -1584,13 +1913,18 @@
       "releaseDate": "May 31, 2023",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1342330/header.jpg?t=1740737900",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 7810,
-      "totalPositive": 7331,
+      "totalReviews": 7818,
+      "totalPositive": 7339,
       "totalNegative": 479,
-      "fetchedAt": "2026-09-10T21:32:38.617Z"
+      "fetchedAt": "2026-09-17T22:01:36.361Z"
     },
     "1368820": {
       "name": "RollerCoaster Tycoon® 3: Complete Edition",
@@ -1602,13 +1936,16 @@
       "releaseDate": "Sep 24, 2020",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368820/header.jpg?t=1779306991",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 3005,
-      "totalPositive": 2619,
+      "totalReviews": 3014,
+      "totalPositive": 2628,
       "totalNegative": 386,
-      "fetchedAt": "2026-09-10T21:33:59.869Z"
+      "fetchedAt": "2026-09-17T22:02:57.595Z"
     },
     "1386780": {
       "name": "City of Gangsters",
@@ -1620,13 +1957,16 @@
       "releaseDate": "Aug 9, 2021",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1386780/header.jpg?t=1733140127",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 1562,
+      "totalReviews": 1563,
       "totalPositive": 1142,
-      "totalNegative": 420,
-      "fetchedAt": "2026-09-10T21:30:23.978Z"
+      "totalNegative": 421,
+      "fetchedAt": "2026-09-17T21:59:23.233Z"
     },
     "1388580": {
       "name": "Blooming Business: Casino",
@@ -1638,13 +1978,17 @@
       "releaseDate": "May 23, 2023",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1388580/header.jpg?t=1751979714",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
-      "totalReviews": 232,
+      "totalReviews": 233,
       "totalPositive": 161,
-      "totalNegative": 71,
-      "fetchedAt": "2026-09-10T21:29:37.562Z"
+      "totalNegative": 72,
+      "fetchedAt": "2026-09-17T21:58:37.092Z"
     },
     "1457030": {
       "name": "Casino Resort Tower",
@@ -1656,13 +2000,17 @@
       "releaseDate": "Jun 22, 2023",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1457030/b2e2968294785efa0acaa125763e0078efba7d3a/header.jpg?t=1780719111",
-      "genres": ["Simulation", "Strategy", "Early Access"],
+      "genres": [
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
       "totalReviews": 135,
       "totalPositive": 127,
       "totalNegative": 8,
-      "fetchedAt": "2026-09-10T21:30:01.919Z"
+      "fetchedAt": "2026-09-17T21:59:01.408Z"
     },
     "1492360": {
       "name": "Recipe for Disaster",
@@ -1674,13 +2022,18 @@
       "releaseDate": "Aug 5, 2022",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1492360/header.jpg?t=1726567322",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
       "totalReviews": 729,
       "totalPositive": 514,
       "totalNegative": 215,
-      "fetchedAt": "2026-09-10T21:34:02.509Z"
+      "fetchedAt": "2026-09-17T22:03:00.268Z"
     },
     "1532790": {
       "name": "Pizza Empire",
@@ -1692,13 +2045,15 @@
       "releaseDate": "Coming soon",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1532790/header.jpg?t=1767865430",
-      "genres": ["Strategy"],
+      "genres": [
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:33:05.759Z"
+      "fetchedAt": "2026-09-17T22:02:03.677Z"
     },
     "1536610": {
       "name": "OpenTTD",
@@ -1710,13 +2065,17 @@
       "releaseDate": "Apr 1, 2021",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1536610/header.jpg?t=1773680448",
-      "genres": ["Casual", "Indie", "Simulation"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 16982,
-      "totalPositive": 16072,
-      "totalNegative": 910,
-      "fetchedAt": "2026-09-10T21:32:46.767Z"
+      "totalReviews": 16997,
+      "totalPositive": 16083,
+      "totalNegative": 914,
+      "fetchedAt": "2026-09-17T22:01:44.918Z"
     },
     "1543280": {
       "name": "Espresso Tycoon",
@@ -1728,13 +2087,16 @@
       "releaseDate": "Jun 7, 2023",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1543280/header.jpg?t=1775733786",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
       "totalReviews": 1318,
       "totalPositive": 1110,
       "totalNegative": 208,
-      "fetchedAt": "2026-09-10T21:30:52.007Z"
+      "fetchedAt": "2026-09-17T21:59:50.226Z"
     },
     "1602000": {
       "name": "Hotel Architect",
@@ -1746,13 +2108,18 @@
       "releaseDate": "May 14, 2026",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1602000/c354511dec4c3eec7a00f336a7a7cfc335b3aa45/header.jpg?t=1786023129",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 2340,
-      "totalPositive": 2200,
-      "totalNegative": 140,
-      "fetchedAt": "2026-09-10T21:31:52.509Z"
+      "totalReviews": 2354,
+      "totalPositive": 2213,
+      "totalNegative": 141,
+      "fetchedAt": "2026-09-17T22:00:50.400Z"
     },
     "1626460": {
       "name": "Over the Counter",
@@ -1764,13 +2131,16 @@
       "releaseDate": "Feb 12, 2022",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1626460/header.jpg?t=1644712473",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 417,
-      "totalPositive": 378,
+      "totalReviews": 418,
+      "totalPositive": 379,
       "totalNegative": 39,
-      "fetchedAt": "2026-09-10T21:32:49.524Z"
+      "fetchedAt": "2026-09-17T22:01:47.566Z"
     },
     "1641650": {
       "name": "Airline Manager",
@@ -1782,31 +2152,37 @@
       "releaseDate": "Jun 23, 2021",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1641650/header.jpg?t=1766137798",
-      "genres": ["Simulation", "Free To Play"],
+      "genres": [
+        "Simulation",
+        "Free To Play"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 3329,
-      "totalPositive": 2360,
-      "totalNegative": 969,
-      "fetchedAt": "2026-09-10T21:29:15.692Z"
+      "totalReviews": 3333,
+      "totalPositive": 2362,
+      "totalNegative": 971,
+      "fetchedAt": "2026-09-17T21:58:15.414Z"
     },
     "1644320": {
       "name": "Railway Empire 2",
       "type": "game",
       "isFree": false,
-      "priceCents": 2499,
+      "priceCents": 4999,
       "currency": "USD",
-      "discountPercent": 50,
+      "discountPercent": 0,
       "releaseDate": "May 25, 2023",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1644320/header.jpg?t=1786957746",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 2670,
-      "totalPositive": 1938,
+      "totalReviews": 2676,
+      "totalPositive": 1944,
       "totalNegative": 732,
-      "fetchedAt": "2026-09-10T21:34:10.557Z"
+      "fetchedAt": "2026-09-17T22:03:08.494Z"
     },
     "1649080": {
       "name": "Two Point Campus",
@@ -1818,13 +2194,18 @@
       "releaseDate": "Aug 9, 2022",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649080/header.jpg?t=1763646611",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 8191,
-      "totalPositive": 7194,
-      "totalNegative": 997,
-      "fetchedAt": "2026-09-10T21:35:04.378Z"
+      "totalReviews": 8207,
+      "totalPositive": 7207,
+      "totalNegative": 1000,
+      "fetchedAt": "2026-09-17T22:04:05.463Z"
     },
     "1649950": {
       "name": "News Tower",
@@ -1836,13 +2217,16 @@
       "releaseDate": "Nov 18, 2025",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649950/header.jpg?t=1784563256",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 4574,
-      "totalPositive": 4302,
-      "totalNegative": 272,
-      "fetchedAt": "2026-09-10T21:32:41.282Z"
+      "totalReviews": 4582,
+      "totalPositive": 4307,
+      "totalNegative": 275,
+      "fetchedAt": "2026-09-17T22:01:39.061Z"
     },
     "1677970": {
       "name": "Railroad Corporation 2",
@@ -1854,13 +2238,16 @@
       "releaseDate": "Feb 25, 2026",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677970/15996ec0ccc9c63eeed56af3f49f0c513577eafe/header.jpg?t=1772550881",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 422,
+      "totalReviews": 425,
       "totalPositive": 302,
-      "totalNegative": 120,
-      "fetchedAt": "2026-09-10T21:34:15.906Z"
+      "totalNegative": 123,
+      "fetchedAt": "2026-09-17T22:03:14.022Z"
     },
     "1691550": {
       "name": "ISP Tycoon - Landline & Mobile Carrier Magnate",
@@ -1872,31 +2259,39 @@
       "releaseDate": "To be announced",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1691550/header.jpg?t=1753131607",
-      "genres": ["Indie", "Strategy"],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:32:05.978Z"
+      "fetchedAt": "2026-09-17T22:01:03.958Z"
     },
     "1755300": {
       "name": "Smart Factory Tycoon",
       "type": "game",
       "isFree": false,
-      "priceCents": 104,
+      "priceCents": 1499,
       "currency": "USD",
-      "discountPercent": 93,
+      "discountPercent": 0,
       "releaseDate": "Mar 26, 2022",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1755300/header.jpg?t=1788351610",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
-      "totalReviews": 933,
-      "totalPositive": 562,
-      "totalNegative": 371,
-      "fetchedAt": "2026-09-10T21:34:50.941Z"
+      "totalReviews": 935,
+      "totalPositive": 560,
+      "totalNegative": 375,
+      "fetchedAt": "2026-09-17T22:03:49.363Z"
     },
     "1793090": {
       "name": "Blockbuster Inc.",
@@ -1908,13 +2303,16 @@
       "releaseDate": "Jun 6, 2024",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1793090/header.jpg?t=1781691395",
-      "genres": ["Casual", "Simulation"],
+      "genres": [
+        "Casual",
+        "Simulation"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
-      "totalReviews": 641,
-      "totalPositive": 334,
-      "totalNegative": 307,
-      "fetchedAt": "2026-09-10T21:29:40.299Z"
+      "totalReviews": 644,
+      "totalPositive": 336,
+      "totalNegative": 308,
+      "fetchedAt": "2026-09-17T21:58:39.745Z"
     },
     "1847240": {
       "name": "Game Dev Story",
@@ -1926,13 +2324,18 @@
       "releaseDate": "Mar 27, 2022",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1847240/header.jpg?t=1743067346",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 1503,
-      "totalPositive": 1355,
-      "totalNegative": 148,
-      "fetchedAt": "2026-09-10T21:31:16.953Z"
+      "totalReviews": 1507,
+      "totalPositive": 1358,
+      "totalNegative": 149,
+      "fetchedAt": "2026-09-17T22:00:14.672Z"
     },
     "1872970": {
       "name": "Food Truck Empire",
@@ -1944,13 +2347,17 @@
       "releaseDate": "2026",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1872970/af1099c24a8a18dda582b69c10b014eaaf249e66/header.jpg?t=1788947050",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:31:14.257Z"
+      "fetchedAt": "2026-09-17T22:00:12.025Z"
     },
     "1937500": {
       "name": "Let's School",
@@ -1962,13 +2369,17 @@
       "releaseDate": "Jul 26, 2023",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1937500/header.jpg?t=1753339721",
-      "genres": ["Casual", "Indie", "Simulation"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 7450,
-      "totalPositive": 6907,
-      "totalNegative": 543,
-      "fetchedAt": "2026-09-10T21:32:16.870Z"
+      "totalReviews": 7459,
+      "totalPositive": 6915,
+      "totalNegative": 544,
+      "fetchedAt": "2026-09-17T22:01:14.768Z"
     },
     "1951060": {
       "name": "Fantasy Zoo",
@@ -1980,13 +2391,17 @@
       "releaseDate": "Aug 12, 2025",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1951060/header.jpg?t=1754987409",
-      "genres": ["Casual", "Indie", "Simulation"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
       "reviewScore": 7,
       "reviewScoreDesc": "Positive",
       "totalReviews": 41,
       "totalPositive": 36,
       "totalNegative": 5,
-      "fetchedAt": "2026-09-10T21:31:11.608Z"
+      "fetchedAt": "2026-09-17T22:00:09.318Z"
     },
     "2058200": {
       "name": "Showrunner",
@@ -1998,13 +2413,18 @@
       "releaseDate": "Jan 17, 2023",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2058200/header.jpg?t=1788477090",
-      "genres": ["Indie", "Simulation", "Strategy", "Early Access"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
       "totalReviews": 114,
       "totalPositive": 82,
       "totalNegative": 32,
-      "fetchedAt": "2026-09-10T21:34:40.160Z"
+      "fetchedAt": "2026-09-17T22:03:38.400Z"
     },
     "2185060": {
       "name": "Two Point Museum",
@@ -2015,32 +2435,40 @@
       "discountPercent": 0,
       "releaseDate": "Mar 4, 2025",
       "comingSoon": false,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2185060/f518d1aa2754296e280ba3fe0d2bd4392fa6e3eb/header.jpg?t=1787235787",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2185060/f518d1aa2754296e280ba3fe0d2bd4392fa6e3eb/header.jpg?t=1789481228",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 9,
       "reviewScoreDesc": "Overwhelmingly Positive",
-      "totalReviews": 13391,
-      "totalPositive": 12775,
-      "totalNegative": 616,
-      "fetchedAt": "2026-09-10T21:35:07.036Z"
+      "totalReviews": 13450,
+      "totalPositive": 12830,
+      "totalNegative": 620,
+      "fetchedAt": "2026-09-17T22:04:08.124Z"
     },
     "2315430": {
       "name": "The Executive - Movie Industry Tycoon",
       "type": "game",
       "isFree": false,
-      "priceCents": 1499,
+      "priceCents": 899,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 40,
       "releaseDate": "Feb 11, 2025",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315430/header.jpg?t=1750670739",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 1111,
-      "totalPositive": 891,
+      "totalReviews": 1113,
+      "totalPositive": 893,
       "totalNegative": 220,
-      "fetchedAt": "2026-09-10T21:35:34.099Z"
+      "fetchedAt": "2026-09-17T22:04:35.242Z"
     },
     "2365790": {
       "name": "Let's Build a Dungeon",
@@ -2052,31 +2480,38 @@
       "releaseDate": "2026",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2365790/571d930eb0c001f3ddf00b98978e1e2e0f64061a/header.jpg?t=1771980246",
-      "genres": ["Indie", "RPG", "Simulation"],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Simulation"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:32:19.546Z"
+      "fetchedAt": "2026-09-17T22:01:17.493Z"
     },
     "2400770": {
       "name": "Dungeon Tycoon",
       "type": "game",
       "isFree": false,
-      "priceCents": 1499,
+      "priceCents": 749,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 50,
       "releaseDate": "Sep 25, 2024",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2400770/header.jpg?t=1764868791",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 1930,
-      "totalPositive": 1460,
-      "totalNegative": 470,
-      "fetchedAt": "2026-09-10T21:30:38.202Z"
+      "totalReviews": 1939,
+      "totalPositive": 1467,
+      "totalNegative": 472,
+      "fetchedAt": "2026-09-17T21:59:36.750Z"
     },
     "2429930": {
       "name": "Power Network Tycoon",
@@ -2088,31 +2523,40 @@
       "releaseDate": "Feb 12, 2024",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2429930/bf58a260d157e72abe0d738045c7934d6fadcc8e/header.jpg?t=1788946876",
-      "genres": ["Indie", "Simulation", "Strategy", "Early Access"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 7,
       "reviewScoreDesc": "Positive",
       "totalReviews": 31,
       "totalPositive": 30,
       "totalNegative": 1,
-      "fetchedAt": "2026-09-10T21:33:35.613Z"
+      "fetchedAt": "2026-09-17T22:02:33.565Z"
     },
     "2459490": {
       "name": "This Grand Life 2",
       "type": "game",
       "isFree": false,
-      "priceCents": 1259,
+      "priceCents": 1799,
       "currency": "USD",
-      "discountPercent": 30,
+      "discountPercent": 0,
       "releaseDate": "Aug 8, 2025",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2459490/34187643e5a7deaca18de36fc48bcf1d39bf10ab/header.jpg?t=1764523300",
-      "genres": ["RPG", "Simulation", "Strategy"],
+      "genres": [
+        "RPG",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
       "totalReviews": 313,
       "totalPositive": 277,
       "totalNegative": 36,
-      "fetchedAt": "2026-09-10T21:35:31.400Z"
+      "fetchedAt": "2026-09-17T22:04:32.572Z"
     },
     "2659050": {
       "name": "Movies Tycoon",
@@ -2124,31 +2568,37 @@
       "releaseDate": "Oct 24, 2024",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2659050/header.jpg?t=1787300449",
-      "genres": ["Simulation"],
+      "genres": [
+        "Simulation"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 550,
+      "totalReviews": 553,
       "totalPositive": 390,
-      "totalNegative": 160,
-      "fetchedAt": "2026-09-10T21:32:27.768Z"
+      "totalNegative": 163,
+      "fetchedAt": "2026-09-17T22:01:25.644Z"
     },
     "2668000": {
       "name": "Wizdom Academy",
       "type": "game",
       "isFree": false,
-      "priceCents": 2199,
+      "priceCents": 1759,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 20,
       "releaseDate": "Apr 17, 2025",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2668000/header.jpg?t=1788295231",
-      "genres": ["Simulation", "Strategy", "Early Access"],
+      "genres": [
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
       "totalReviews": 245,
       "totalPositive": 155,
       "totalNegative": 90,
-      "fetchedAt": "2026-09-10T21:35:47.752Z"
+      "fetchedAt": "2026-09-17T22:04:51.807Z"
     },
     "2680550": {
       "name": "Hollywood Animal",
@@ -2160,31 +2610,38 @@
       "releaseDate": "Apr 10, 2025",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680550/header.jpg?t=1774006829",
-      "genres": ["Simulation", "Strategy", "Early Access"],
+      "genres": [
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 4197,
-      "totalPositive": 3068,
-      "totalNegative": 1129,
-      "fetchedAt": "2026-09-10T21:31:49.776Z"
+      "totalReviews": 4206,
+      "totalPositive": 3074,
+      "totalNegative": 1132,
+      "fetchedAt": "2026-09-17T22:00:47.520Z"
     },
     "2688950": {
       "name": "Planet Coaster 2",
       "type": "game",
       "isFree": false,
-      "priceCents": 4999,
+      "priceCents": 2599,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 60,
       "releaseDate": "Nov 6, 2024",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2688950/header.jpg?t=1788781169",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 14641,
-      "totalPositive": 10866,
-      "totalNegative": 3775,
-      "fetchedAt": "2026-09-10T21:33:11.267Z"
+      "totalReviews": 14683,
+      "totalPositive": 10907,
+      "totalNegative": 3776,
+      "fetchedAt": "2026-09-17T22:02:09.178Z"
     },
     "2693420": {
       "name": "Alpine Architect",
@@ -2195,14 +2652,18 @@
       "discountPercent": 0,
       "releaseDate": "To be announced",
       "comingSoon": true,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2693420/f285b79a6c896bedf5857b0b4a81ded607fa496b/header.jpg?t=1787344049",
-      "genres": ["Casual", "Indie", "Strategy"],
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2693420/f285b79a6c896bedf5857b0b4a81ded607fa496b/header.jpg?t=1789480600",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:28:51.228Z"
+      "fetchedAt": "2026-09-17T21:57:50.898Z"
     },
     "2715810": {
       "name": "AirlineSim",
@@ -2226,7 +2687,7 @@
       "totalReviews": 110,
       "totalPositive": 87,
       "totalNegative": 23,
-      "fetchedAt": "2026-09-10T21:29:13.048Z"
+      "fetchedAt": "2026-09-17T21:58:12.629Z"
     },
     "2760580": {
       "name": "Mars Attracts",
@@ -2247,10 +2708,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 262,
-      "totalPositive": 238,
-      "totalNegative": 24,
-      "fetchedAt": "2026-09-10T21:32:30.439Z"
+      "totalReviews": 264,
+      "totalPositive": 239,
+      "totalNegative": 25,
+      "fetchedAt": "2026-09-17T22:01:28.376Z"
     },
     "2773790": {
       "name": "Aqua Mundo",
@@ -2262,13 +2723,17 @@
       "releaseDate": "To be announced",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2773790/afddfbf490c9d0c0b9a7112a6f7c5c132407337f/header.jpg?t=1789042969",
-      "genres": ["Casual", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:29:10.356Z"
+      "fetchedAt": "2026-09-17T21:58:09.927Z"
     },
     "2774040": {
       "name": "The Boss Gangster: Criminal Empire",
@@ -2290,10 +2755,10 @@
       ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 426,
-      "totalPositive": 353,
+      "totalReviews": 436,
+      "totalPositive": 363,
       "totalNegative": 73,
-      "fetchedAt": "2026-09-10T21:35:36.857Z"
+      "fetchedAt": "2026-09-17T22:04:37.984Z"
     },
     "2776780": {
       "name": "Blood Bar Tycoon",
@@ -2305,31 +2770,41 @@
       "releaseDate": "Feb 4, 2025",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2776780/header.jpg?t=1785241210",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 828,
-      "totalPositive": 663,
+      "totalReviews": 830,
+      "totalPositive": 665,
       "totalNegative": 165,
-      "fetchedAt": "2026-09-10T21:29:45.718Z"
+      "fetchedAt": "2026-09-17T21:58:45.247Z"
     },
     "2789460": {
       "name": "Ale Abbey - Monastery Brewery Tycoon",
       "type": "game",
       "isFree": false,
-      "priceCents": 1499,
+      "priceCents": 899,
       "currency": "USD",
-      "discountPercent": 0,
+      "discountPercent": 40,
       "releaseDate": "Sep 17, 2025",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2789460/3e6d4096982ceead0b20086f59a7425677b0116f/header.jpg?t=1758121887",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 1349,
-      "totalPositive": 1203,
+      "totalReviews": 1350,
+      "totalPositive": 1204,
       "totalNegative": 146,
-      "fetchedAt": "2026-09-10T21:29:29.479Z"
+      "fetchedAt": "2026-09-17T21:58:29.039Z"
     },
     "2828490": {
       "name": "High Seas, High Profits!",
@@ -2341,31 +2816,39 @@
       "releaseDate": "Mar 31, 2025",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828490/13d1bfc13fe05cb7bc46f7d8fd29922ffd393908/header.jpg?t=1782293522",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
       "totalReviews": 173,
       "totalPositive": 150,
       "totalNegative": 23,
-      "fetchedAt": "2026-09-10T21:31:47.032Z"
+      "fetchedAt": "2026-09-17T22:00:44.836Z"
     },
     "2897240": {
       "name": "Puffin Planes",
       "type": "game",
       "isFree": false,
-      "priceCents": 599,
+      "priceCents": 1199,
       "currency": "USD",
-      "discountPercent": 50,
+      "discountPercent": 0,
       "releaseDate": "Sep 4, 2024",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2897240/f366c87005f7d7269d6ef950d34bf67aeba990b9/header.jpg?t=1762721602",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 355,
-      "totalPositive": 337,
+      "totalReviews": 356,
+      "totalPositive": 338,
       "totalNegative": 18,
-      "fetchedAt": "2026-09-10T21:33:32.911Z"
+      "fetchedAt": "2026-09-17T22:02:30.901Z"
     },
     "3004670": {
       "name": "Casino Tycoon",
@@ -2377,13 +2860,15 @@
       "releaseDate": "Coming soon",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3004670/header.jpg?t=1744143009",
-      "genres": ["Simulation"],
+      "genres": [
+        "Simulation"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:29:56.500Z"
+      "fetchedAt": "2026-09-17T21:58:56.011Z"
     },
     "3031880": {
       "name": "Car Park Capital",
@@ -2395,13 +2880,18 @@
       "releaseDate": "Oct 9, 2026",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3031880/960c0affe982b417e12a77e78b24bdb6b615c5c5/header.jpg?t=1788962410",
-      "genres": ["Indie", "Simulation", "Strategy", "Early Access"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:30:27.161Z"
+      "fetchedAt": "2026-09-17T21:59:25.929Z"
     },
     "3048030": {
       "name": "Werner Waffenwerke: Arms Tycoon",
@@ -2413,13 +2903,17 @@
       "releaseDate": "Oct 9, 2025",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3048030/d50918784b608f4318f853f84931c2cc9c9a0f30/header.jpg?t=1787661096",
-      "genres": ["Indie", "Simulation", "Early Access"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Early Access"
+      ],
       "reviewScore": 7,
       "reviewScoreDesc": "Positive",
       "totalReviews": 21,
       "totalPositive": 20,
       "totalNegative": 1,
-      "fetchedAt": "2026-09-10T21:35:53.217Z"
+      "fetchedAt": "2026-09-17T22:04:57.266Z"
     },
     "3244160": {
       "name": "Skingdom",
@@ -2430,14 +2924,19 @@
       "discountPercent": 0,
       "releaseDate": "Q4 2026",
       "comingSoon": true,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3244160/18c79ab6aa1ed3b6771dc99abd5962d43b4db6b7/header.jpg?t=1787639871",
-      "genres": ["Casual", "Indie", "Simulation", "Early Access"],
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3244160/18c79ab6aa1ed3b6771dc99abd5962d43b4db6b7/header.jpg?t=1789629931",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Early Access"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:34:58.983Z"
+      "fetchedAt": "2026-09-17T22:03:57.424Z"
     },
     "3299460": {
       "name": "Arcade Empire Tycoon",
@@ -2449,13 +2948,17 @@
       "releaseDate": "Nov 10, 2024",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3299460/header.jpg?t=1765219610",
-      "genres": ["Casual", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
       "totalReviews": 29,
       "totalPositive": 21,
       "totalNegative": 8,
-      "fetchedAt": "2026-09-10T21:29:04.963Z"
+      "fetchedAt": "2026-09-17T21:58:04.527Z"
     },
     "3302160": {
       "name": "Octohill Ski Tycoon",
@@ -2467,13 +2970,18 @@
       "releaseDate": "Mar 19, 2025",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3302160/header.jpg?t=1764025156",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 7,
       "reviewScoreDesc": "Positive",
       "totalReviews": 42,
       "totalPositive": 36,
       "totalNegative": 6,
-      "fetchedAt": "2026-09-10T21:32:54.998Z"
+      "fetchedAt": "2026-09-17T22:01:52.884Z"
     },
     "3493540": {
       "name": "Transport Fever 3",
@@ -2485,13 +2993,17 @@
       "releaseDate": "Sep 29, 2026",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3493540/4c179a79a6286b15575ca3f1a6ca620e5d159b19/header.jpg?t=1788429089",
-      "genres": ["Casual", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:35:44.995Z"
+      "fetchedAt": "2026-09-17T22:04:46.365Z"
     },
     "3555680": {
       "name": "Fantasy Brothel Manager",
@@ -2503,13 +3015,16 @@
       "releaseDate": "2027",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3555680/d9db0f23a7abe148cfe8f144c61dbd7738bbb6a8/header_alt_assets_0.jpg?t=1786535468",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:31:08.551Z"
+      "fetchedAt": "2026-09-17T22:00:06.612Z"
     },
     "3762240": {
       "name": "Rail Estate",
@@ -2521,13 +3036,16 @@
       "releaseDate": "Jul 16, 2026",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3762240/b7ea8eb90f9a3147790322a012a88c3c8a1e1eee/header.jpg?t=1784221321",
-      "genres": ["Indie", "Strategy"],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
       "reviewScore": 7,
       "reviewScoreDesc": "Positive",
-      "totalReviews": 45,
-      "totalPositive": 43,
+      "totalReviews": 48,
+      "totalPositive": 46,
       "totalNegative": 2,
-      "fetchedAt": "2026-09-10T21:33:43.618Z"
+      "fetchedAt": "2026-09-17T22:02:41.542Z"
     },
     "3896980": {
       "name": "Campsite Architect",
@@ -2538,14 +3056,18 @@
       "discountPercent": 0,
       "releaseDate": "To be announced",
       "comingSoon": true,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3896980/a9e44be397182956a0d9f1ac47aceb768ff864cf/header.jpg?t=1786283527",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3896980/a9e44be397182956a0d9f1ac47aceb768ff864cf/header.jpg?t=1789638259",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:30:32.665Z"
+      "fetchedAt": "2026-09-17T21:59:31.299Z"
     },
     "4140740": {
       "name": "Motorsport Park Manager",
@@ -2557,13 +3079,17 @@
       "releaseDate": "2027",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4140740/57e7fa1050a8adc1c8ccad6291847ce18ef647ac/header.jpg?t=1782839560",
-      "genres": ["Indie", "Racing", "Simulation"],
+      "genres": [
+        "Indie",
+        "Racing",
+        "Simulation"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:32:33.235Z"
+      "fetchedAt": "2026-09-17T22:01:31.046Z"
     },
     "4249850": {
       "name": "E-Shop Tycoon",
@@ -2574,14 +3100,19 @@
       "discountPercent": 0,
       "releaseDate": "Jul 28, 2026",
       "comingSoon": false,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4249850/89c708329b69dfa7b088e8e90857ac252459848b/header.jpg?t=1788953524",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4249850/89c708329b69dfa7b088e8e90857ac252459848b/header.jpg?t=1789547179",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 6,
       "reviewScoreDesc": "Mostly Positive",
-      "totalReviews": 604,
-      "totalPositive": 440,
-      "totalNegative": 164,
-      "fetchedAt": "2026-09-10T21:31:00.158Z"
+      "totalReviews": 607,
+      "totalPositive": 442,
+      "totalNegative": 165,
+      "fetchedAt": "2026-09-17T21:59:58.384Z"
     },
     "4340600": {
       "name": "Team Principal: A Racing Manager",
@@ -2593,13 +3124,16 @@
       "releaseDate": "Feb 12, 2026",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4340600/3d1fe7cc08b7f2f64224824476d81171f7a0fcf9/header.jpg?t=1788997589",
-      "genres": ["Simulation", "Early Access"],
+      "genres": [
+        "Simulation",
+        "Early Access"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 106,
-      "totalPositive": 100,
+      "totalReviews": 108,
+      "totalPositive": 102,
       "totalNegative": 6,
-      "fetchedAt": "2026-09-16T19:49:45.829Z"
+      "fetchedAt": "2026-09-17T22:04:49.085Z"
     },
     "4402490": {
       "name": "ScareZone: Haunted Attraction Tycoon",
@@ -2610,32 +3144,42 @@
       "discountPercent": 0,
       "releaseDate": "To be announced",
       "comingSoon": true,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402490/c7e768e96577929e7464b51450af2935b039151b/header.jpg?t=1789016888",
-      "genres": ["Casual", "Simulation", "Strategy", "Early Access"],
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402490/c7e768e96577929e7464b51450af2935b039151b/header.jpg?t=1789607672",
+      "genres": [
+        "Casual",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-16T19:49:48.802Z"
+      "fetchedAt": "2026-09-17T22:04:02.786Z"
     },
     "4454610": {
       "name": "Project manager SIM",
       "type": "game",
       "isFree": false,
-      "priceCents": 479,
+      "priceCents": 599,
       "currency": "USD",
-      "discountPercent": 20,
+      "discountPercent": 0,
       "releaseDate": "Jul 29, 2026",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4454610/844d8b8d7fec7e3a9758283530efa07ad02fa841/header.jpg?t=1787237066",
-      "genres": ["Indie", "Simulation", "Strategy", "Early Access"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 7,
       "reviewScoreDesc": "Positive",
-      "totalReviews": 17,
-      "totalPositive": 17,
+      "totalReviews": 19,
+      "totalPositive": 19,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:33:30.168Z"
+      "fetchedAt": "2026-09-17T22:02:28.206Z"
     },
     "4480080": {
       "name": "Scream Operator: Haunted House Manager",
@@ -2647,13 +3191,18 @@
       "releaseDate": "Q1 2027",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4480080/c4d5cbfd0e77dde18afec19542d6688892a7b786/header.jpg?t=1788962560",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:34:42.873Z"
+      "fetchedAt": "2026-09-17T22:03:41.161Z"
     },
     "4490710": {
       "name": "Hardware Tycoon",
@@ -2665,13 +3214,18 @@
       "releaseDate": "May 18, 2026",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4490710/56428d57c098ccfdd5eb085cb0d713dfbd508ae1/header.jpg?t=1779121822",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 5,
       "reviewScoreDesc": "Mixed",
-      "totalReviews": 33,
-      "totalPositive": 22,
+      "totalReviews": 34,
+      "totalPositive": 23,
       "totalNegative": 11,
-      "fetchedAt": "2026-09-10T21:31:36.208Z"
+      "fetchedAt": "2026-09-17T22:00:34.018Z"
     },
     "4493130": {
       "name": "Ski-E-O! Ski Resort Tycoon",
@@ -2683,13 +3237,17 @@
       "releaseDate": "Nov 12, 2026",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4493130/d7819d7afe404d47f0e51dd3398701c7ee6bb29f/header.jpg?t=1788137600",
-      "genres": ["Simulation", "Strategy", "Early Access"],
+      "genres": [
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:34:56.269Z"
+      "fetchedAt": "2026-09-17T22:03:54.764Z"
     },
     "4516210": {
       "name": "Studio Sim",
@@ -2701,13 +3259,18 @@
       "releaseDate": "Oct 19, 2026",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4516210/5d870e0ba01cb7ebdaea68796f40f7e54ed1a302/header.jpg?t=1788465106",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:34:37.506Z"
+      "fetchedAt": "2026-09-17T22:03:35.726Z"
     },
     "4546370": {
       "name": "Starport Merchants",
@@ -2718,14 +3281,17 @@
       "discountPercent": 0,
       "releaseDate": "November 2026",
       "comingSoon": true,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4546370/ef7ad83f6befc6dd4f52bcf19fcfa331d6da9ff9/header.jpg?t=1788599647",
-      "genres": ["Simulation", "Strategy"],
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4546370/ef7ad83f6befc6dd4f52bcf19fcfa331d6da9ff9/header.jpg?t=1789591631",
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:34:21.267Z"
+      "fetchedAt": "2026-09-17T22:03:19.393Z"
     },
     "4561550": {
       "name": "Racetrack Tycoon",
@@ -2737,13 +3303,15 @@
       "releaseDate": "2026",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4561550/aef774ef5f854c1eac4a10d1438d28a48e50c0be/header.jpg?t=1788898973",
-      "genres": ["Simulation"],
+      "genres": [
+        "Simulation"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:33:46.349Z"
+      "fetchedAt": "2026-09-17T22:02:44.220Z"
     },
     "4610080": {
       "name": "Bering Tonnage",
@@ -2755,13 +3323,16 @@
       "releaseDate": "Oct 2, 2026",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4610080/f6ff04196a206d6c588526666e723fd17baddc8b/header.jpg?t=1784536683",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:29:32.196Z"
+      "fetchedAt": "2026-09-17T21:58:31.692Z"
     },
     "4622330": {
       "name": "CD Market - Music Label Sim",
@@ -2773,13 +3344,16 @@
       "releaseDate": "Jul 17, 2026",
       "comingSoon": false,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4622330/98e8399a39e32f64caf5e9ccd8ff1edf44e615a4/header.jpg?t=1784296723",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 8,
       "reviewScoreDesc": "Very Positive",
-      "totalReviews": 123,
-      "totalPositive": 121,
-      "totalNegative": 2,
-      "fetchedAt": "2026-09-10T21:30:04.664Z"
+      "totalReviews": 126,
+      "totalPositive": 123,
+      "totalNegative": 3,
+      "fetchedAt": "2026-09-17T21:59:04.191Z"
     },
     "4634840": {
       "name": "Justice Project",
@@ -2791,13 +3365,17 @@
       "releaseDate": "2027",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634840/a8579752a972b31fbac24c470fcc3b1402c27359/header.jpg?t=1789004262",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:32:08.661Z"
+      "fetchedAt": "2026-09-17T22:01:06.612Z"
     },
     "4660350": {
       "name": "Agro Tycoon",
@@ -2809,13 +3387,18 @@
       "releaseDate": "2027",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4660350/83df5d585256c184eb2ebcde6a6e995826058366/header.jpg?t=1787529068",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:29:07.646Z"
+      "fetchedAt": "2026-09-17T21:58:07.163Z"
     },
     "4809560": {
       "name": "Auto Empire Tycoon",
@@ -2827,13 +3410,16 @@
       "releaseDate": "Q4 2026",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4809560/e9db582e9b18c975128a0fa6af4f8572f23d3fe8/header.jpg?t=1788256067",
-      "genres": ["Simulation", "Strategy"],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:29:21.344Z"
+      "fetchedAt": "2026-09-17T21:58:20.954Z"
     },
     "4873130": {
       "name": "MMOS: MMO Simulator",
@@ -2844,14 +3430,18 @@
       "discountPercent": 0,
       "releaseDate": "Dec 11, 2026",
       "comingSoon": true,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4873130/bf22e7b803782430c50d9fabd553aeb0627ff1f6/header.jpg?t=1789071310",
-      "genres": ["Casual", "Indie", "Simulation"],
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4873130/bf22e7b803782430c50d9fabd553aeb0627ff1f6/header.jpg?t=1789667098",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:32:24.986Z"
+      "fetchedAt": "2026-09-17T22:01:22.970Z"
     },
     "4920900": {
       "name": "Camping Keeper",
@@ -2863,13 +3453,18 @@
       "releaseDate": "2027",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4920900/548c031ab5ea09f46cf180868eb47675c65eb747/header.jpg?t=1786437215",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:30:29.993Z"
+      "fetchedAt": "2026-09-17T21:59:28.587Z"
     },
     "5015590": {
       "name": "AI Lab Tycoon",
@@ -2880,14 +3475,18 @@
       "discountPercent": 0,
       "releaseDate": "2026",
       "comingSoon": true,
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5015590/61d47565158c61e607dc73a96ed0ce501d4d11e9/header.jpg?t=1789047878",
-      "genres": ["Indie", "Simulation", "Strategy"],
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5015590/61d47565158c61e607dc73a96ed0ce501d4d11e9/header.jpg?t=1789131469",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:28:47.806Z"
+      "fetchedAt": "2026-09-17T21:57:48.239Z"
     },
     "5032820": {
       "name": "Powder Inc.",
@@ -2899,13 +3498,19 @@
       "releaseDate": "Coming soon",
       "comingSoon": true,
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5032820/f212da8876c3ed2202958d85f8efc1886425b7d4/header.jpg?t=1788456052",
-      "genres": ["Casual", "Indie", "Simulation", "Strategy", "Early Access"],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
       "reviewScore": 0,
       "reviewScoreDesc": "No user reviews",
       "totalReviews": 0,
       "totalPositive": 0,
       "totalNegative": 0,
-      "fetchedAt": "2026-09-10T21:33:38.263Z"
+      "fetchedAt": "2026-09-17T22:02:36.236Z"
     }
   }
 }
