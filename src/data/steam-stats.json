@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T22:14:07.558Z",
+  "generatedAt": "2026-09-26T17:06:13.560Z",
   "apps": {
     "3720": {
       "name": "Evil Genius",
@@ -3511,6 +3511,28 @@
       "totalPositive": 0,
       "totalNegative": 0,
       "fetchedAt": "2026-09-24T22:11:45.919Z"
+    },
+    "5075590": {
+      "name": "Spaceport Architect",
+      "type": "game",
+      "isFree": false,
+      "priceCents": null,
+      "currency": null,
+      "discountPercent": 0,
+      "releaseDate": "To be announced",
+      "comingSoon": true,
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5075590/1ce872c00d05888b0b6b4a3a69dbda62f87ff938/header.jpg?t=1790259978",
+      "genres": [
+        "Casual",
+        "Simulation",
+        "Strategy"
+      ],
+      "reviewScore": 0,
+      "reviewScoreDesc": "No user reviews",
+      "totalReviews": 0,
+      "totalPositive": 0,
+      "totalNegative": 0,
+      "fetchedAt": "2026-09-26T17:06:13.557Z"
     }
   }
 }

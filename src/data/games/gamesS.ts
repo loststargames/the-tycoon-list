@@ -405,4 +405,22 @@ export const gamesS: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.NotSet],
   },
+  {
+    title: "Spaceport Architect",
+    description:
+      "Build, manage and expand a spaceport on a recently colonized planet. Import cargo to grow the colony population, then handle the passenger traffic that pays the bills.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [Theme.Airport, Theme.Space, Theme.Colonization],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/5075590/Spaceport_Architect/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown2D],
+    pricing: [Pricing.NotSet],
+  },
 ];
