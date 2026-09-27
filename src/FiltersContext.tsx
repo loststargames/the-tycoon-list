@@ -104,7 +104,13 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
       params.gameplayTypes = selectedGameplayTypes.join(",");
     if (selectedPricing.length) params.pricing = selectedPricing.join(",");
 
-    setSearchParams(params);
+    setSearchParams((current) => {
+      const tab = current.get("tab");
+      if (tab === "sale" || tab === "bestGames" || tab === "randomGame") {
+        params.tab = tab;
+      }
+      return params;
+    });
   }, [filters, setSearchParams]);
 
   // Compute filteredGames based on filters
