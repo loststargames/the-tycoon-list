@@ -2,6 +2,7 @@ import React from "react";
 import { Alert, AlertDescription, AlertTitle } from "./ui/alert";
 import { Apple, Play, Gamepad2 } from "lucide-react";
 import { Button } from "./ui/button";
+import { withUtm } from "../lib/utm";
 
 export const Promo: React.FC = () => {
   return (
@@ -25,7 +26,7 @@ export const Promo: React.FC = () => {
               </AlertDescription>
               <AlertDescription>
                 <a
-                  href="https://x.com/cdmarketgame"
+                  href={withUtm("https://x.com/cdmarketgame", "cd-market", "x")}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -38,7 +39,11 @@ export const Promo: React.FC = () => {
           {/* Buttons Section */}
           <div className="flex flex-col sm:flex-row sm:items-center gap-2">
             <a
-              href="https://store.steampowered.com/app/4622330/CD_Market__Music_Label_Sim/"
+              href={withUtm(
+                "https://store.steampowered.com/app/4622330/CD_Market__Music_Label_Sim/",
+                "cd-market",
+                "steam",
+              )}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -47,7 +52,11 @@ export const Promo: React.FC = () => {
               </Button>
             </a>
             <a
-              href="https://apps.apple.com/us/app/cd-market/id6670562960"
+              href={withUtm(
+                "https://apps.apple.com/us/app/cd-market/id6670562960",
+                "cd-market",
+                "ios",
+              )}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -56,7 +65,11 @@ export const Promo: React.FC = () => {
               </Button>
             </a>
             <a
-              href="https://play.google.com/store/apps/details?id=com.loststargames.cdmarket.android"
+              href={withUtm(
+                "https://play.google.com/store/apps/details?id=com.loststargames.cdmarket.android",
+                "cd-market",
+                "android",
+              )}
               target="_blank"
               rel="noopener noreferrer"
             >

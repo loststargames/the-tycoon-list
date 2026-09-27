@@ -30,6 +30,20 @@ body {
   color: hsl(var(--score-hue) 72% 62%);
 }
 
+.screenshot-strip {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--border)) transparent;
+}
+
+.screenshot-strip::-webkit-scrollbar {
+  height: 6px;
+}
+
+.screenshot-strip::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 999px;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

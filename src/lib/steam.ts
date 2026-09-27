@@ -1,6 +1,11 @@
 import snapshot from "../data/steam-stats.json";
 import { Game } from "../data/games/types";
 
+export interface SteamScreenshot {
+  thumb: string;
+  full: string;
+}
+
 export interface SteamAppStats {
   name: string | null;
   type: string | null;
@@ -11,6 +16,7 @@ export interface SteamAppStats {
   releaseDate: string | null;
   comingSoon: boolean;
   headerImage: string | null;
+  screenshots?: SteamScreenshot[];
   genres: string[];
   reviewScore: number | null;
   reviewScoreDesc: string | null;

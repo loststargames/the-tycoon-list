@@ -16,6 +16,7 @@ import {
   getWilsonScore,
   steamGeneratedAt,
 } from "../lib/steam";
+import { withUtm } from "../lib/utm";
 
 type SortKey = "title" | "rating" | "reviews" | "year" | "price";
 type SortDir = "asc" | "desc";
@@ -225,7 +226,10 @@ export const BestGames: React.FC = () => {
                 </td>
                 <td className="p-3">
                   <a
-                    href={`https://store.steampowered.com/app/${row.appId}/`}
+                    href={withUtm(
+                      `https://store.steampowered.com/app/${row.appId}/`,
+                      "best-games",
+                    )}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-medium hover:underline inline-flex items-center gap-1"

@@ -10,6 +10,8 @@
  *   node scripts/fetch-steam.mjs
  *   node scripts/fetch-steam.mjs --limit=5        # first 5 apps, for a smoke test
  *   node scripts/fetch-steam.mjs --only=673610    # a single app
+ *   node scripts/fetch-steam.mjs --screenshots-only
+ *       # appdetails only; writes screenshots onto existing rows
  */
 
 import { readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
@@ -36,6 +38,7 @@ const getArg = (name) =>
   args.find((a) => a.startsWith(`--${name}=`))?.split("=")[1];
 const limit = getArg("limit") ? Number(getArg("limit")) : null;
 const only = getArg("only");
+const screenshotsOnly = args.includes("--screenshots-only");
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -128,7 +131,14 @@ async function fetchDetails(appId) {
   );
   if (error) return { error };
 
-  const entry = data?.[appId];
+  // Steam sometimes answers under a different app id than the one we asked
+  // for (editions and regional packages). A single-app request still belongs
+  // to that app.
+  let entry = data?.[appId];
+  if (!entry && data && typeof data === "object") {
+    const values = Object.values(data);
+    if (values.length === 1) entry = values[0];
+  }
   // Delisted and region-locked apps answer with success: false.
   if (!entry?.success || !entry.data) return { error: "no store page" };
 
@@ -145,6 +155,11 @@ async function fetchDetails(appId) {
       comingSoon: d.release_date?.coming_soon ?? false,
       headerImage: d.header_image ?? null,
       genres: (d.genres ?? []).map((g) => g.description),
+      screenshots: (d.screenshots ?? []).flatMap((s) => {
+        const thumb = s?.path_thumbnail;
+        const full = s?.path_full;
+        return thumb && full ? [{ thumb, full }] : [];
+      }),
     },
   };
 }
@@ -169,8 +184,9 @@ async function main() {
     : { apps: {} };
   const merged = { ...previous.apps };
 
+  const requestsPerApp = screenshotsOnly ? 1 : 2;
   console.log(`Fetching ${apps.length} apps (~${
-    Math.round((apps.length * 2 * DELAY_MS) / 60000)
+    Math.round((apps.length * requestsPerApp * DELAY_MS) / 60000)
   } min)\n`);
 
   const failed = [];
@@ -208,6 +224,39 @@ async function main() {
 
   for (const [i, app] of apps.entries()) {
     const position = `[${String(i + 1).padStart(3)}/${apps.length}]`;
+
+    if (screenshotsOnly) {
+      if (Array.isArray(merged[app.appId]?.screenshots)) {
+        continue;
+      }
+
+      const details = await fetchDetails(app.appId);
+      await sleep(DELAY_MS);
+
+      if (details.error || !details.data) {
+        failed.push({ ...app, reason: details.error ?? "no store page" });
+        console.warn(
+          `${position} ${app.title} — FAILED (${details.error ?? "no store page"})`
+        );
+        continue;
+      }
+
+      if (!merged[app.appId]) {
+        console.warn(`${position} ${app.title} — skipped, no existing stats`);
+        continue;
+      }
+
+      merged[app.appId] = {
+        ...merged[app.appId],
+        screenshots: details.data.screenshots,
+      };
+      console.log(
+        `${position} ${app.title} — ${details.data.screenshots.length} screenshots`
+      );
+
+      if ((i + 1) % FLUSH_EVERY === 0) flush();
+      continue;
+    }
 
     const reviews = await fetchReviews(app.appId);
     await sleep(DELAY_MS);
