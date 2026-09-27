@@ -151,4 +151,22 @@ export const gamesM: Game[] = [
     pricing: [Pricing.Free],
     hasMultiplayer: true,
   },
+  {
+    title: "Monastery: Ora et Labora",
+    description:
+      "Lead your monks in prayer and labor to build a thriving medieval monastery. Manage resources, brew ale, craft manuscripts, and face trials like war and weather. Customize, expand, and guide your brotherhood to achieve spiritual and economic prosperity.",
+    year: 2026,
+    releaseDate: "24-09-2026",
+    themes: [Theme.Brewery, Theme.Farming],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/3179120/Monastery_Ora_et_Labora/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];

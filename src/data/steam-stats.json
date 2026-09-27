@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T17:06:13.560Z",
+  "generatedAt": "2026-09-27T11:52:14.387Z",
   "apps": {
     "3720": {
       "name": "Evil Genius",
@@ -2915,6 +2915,28 @@
       "totalPositive": 20,
       "totalNegative": 1,
       "fetchedAt": "2026-09-24T22:14:04.894Z"
+    },
+    "3179120": {
+      "name": "Monastery: Ora et Labora",
+      "type": "game",
+      "isFree": false,
+      "priceCents": 1199,
+      "currency": "USD",
+      "discountPercent": 20,
+      "releaseDate": "Sep 24, 2026",
+      "comingSoon": false,
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3179120/cdc60046c2fcc2426b21947549b2375a108c4582/header.jpg?t=1790262042",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Early Access"
+      ],
+      "reviewScore": 8,
+      "reviewScoreDesc": "Very Positive",
+      "totalReviews": 53,
+      "totalPositive": 50,
+      "totalNegative": 3,
+      "fetchedAt": "2026-09-27T11:52:14.387Z"
     },
     "3244160": {
       "name": "Skingdom",
