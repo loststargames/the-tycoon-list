@@ -325,4 +325,21 @@ export const gamesP: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.NotSet],
   },
+  {
+    title: "Project Hospital",
+    description:
+      "Become an ace doctor, an aspiring architect and a successful manager at the same time. Design your very own hospital, tweak every detail or choose one of the prebuilt scenarios and just jump to the doctor’s duty.",
+    year: 2018,
+    themes: [Theme.Hospital],
+    platforms: [Platform.PC, Platform.Mac, Platform.Linux],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/868360/Project_Hospital/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];

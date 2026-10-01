@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T18:14:11.312Z",
+  "generatedAt": "2026-10-01T19:58:03.119Z",
   "apps": {
     "3720": {
       "name": "Evil Genius",
@@ -5176,6 +5176,86 @@
           "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/832360/ss_504c1441b4cc21f4fff3d0b2d9489a3512db3877.1920x1080.jpg?t=1759765047"
         }
       ]
+    },
+    "868360": {
+      "name": "Project Hospital",
+      "type": "game",
+      "isFree": false,
+      "priceCents": 999,
+      "currency": "USD",
+      "discountPercent": 60,
+      "releaseDate": "Oct 30, 2018",
+      "comingSoon": false,
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/header.jpg?t=1782218252",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "screenshots": [
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_f66538f1cf1635e0cdaffb3d9136a0d21f822e0f.600x338.jpg?t=1782218252",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_f66538f1cf1635e0cdaffb3d9136a0d21f822e0f.1920x1080.jpg?t=1782218252"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_1712ddd19e241ae35d6ee4d5761400ab18da9b9c.600x338.jpg?t=1782218252",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_1712ddd19e241ae35d6ee4d5761400ab18da9b9c.1920x1080.jpg?t=1782218252"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_afb7f7018ae3eecd628d610bd17fb72222d66e90.600x338.jpg?t=1782218252",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_afb7f7018ae3eecd628d610bd17fb72222d66e90.1920x1080.jpg?t=1782218252"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_53d51fa45df80cfe7b1549c95355961979554b3b.600x338.jpg?t=1782218252",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_53d51fa45df80cfe7b1549c95355961979554b3b.1920x1080.jpg?t=1782218252"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_98a32e570a0e46558e4420b62a7bc3760dd29c1b.600x338.jpg?t=1782218252",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_98a32e570a0e46558e4420b62a7bc3760dd29c1b.1920x1080.jpg?t=1782218252"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_75b393df8c9b9251053bd90cee942a06ac934c83.600x338.jpg?t=1782218252",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_75b393df8c9b9251053bd90cee942a06ac934c83.1920x1080.jpg?t=1782218252"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_7e614f6862edb4a4b8fde192abc4ef3d0049c2e9.600x338.jpg?t=1782218252",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_7e614f6862edb4a4b8fde192abc4ef3d0049c2e9.1920x1080.jpg?t=1782218252"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_f21c06c798ae9b038dfb5284fcdcd72fd72401f6.600x338.jpg?t=1782218252",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_f21c06c798ae9b038dfb5284fcdcd72fd72401f6.1920x1080.jpg?t=1782218252"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_ae17a5fe8822ecb82202ca3c3c6e24b2fb05e1a4.600x338.jpg?t=1782218252",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_ae17a5fe8822ecb82202ca3c3c6e24b2fb05e1a4.1920x1080.jpg?t=1782218252"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_812d70d2a6ce3146c37887c41f27f7d1649341ec.600x338.jpg?t=1782218252",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_812d70d2a6ce3146c37887c41f27f7d1649341ec.1920x1080.jpg?t=1782218252"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_d1ff935e193a7fcdea2e9b1d02c8a90d233ec7b7.600x338.jpg?t=1782218252",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_d1ff935e193a7fcdea2e9b1d02c8a90d233ec7b7.1920x1080.jpg?t=1782218252"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_874c5696529923f3b9a91d9755f85aa40699327e.600x338.jpg?t=1782218252",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_874c5696529923f3b9a91d9755f85aa40699327e.1920x1080.jpg?t=1782218252"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_ee8ad8f7c79d5fcdad7a57f2f54e3ae4a0764cfb.600x338.jpg?t=1782218252",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_ee8ad8f7c79d5fcdad7a57f2f54e3ae4a0764cfb.1920x1080.jpg?t=1782218252"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_3c322738c7a5b5a95e21e528a3b87d2fe767384a.600x338.jpg?t=1782218252",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/ss_3c322738c7a5b5a95e21e528a3b87d2fe767384a.1920x1080.jpg?t=1782218252"
+        }
+      ],
+      "reviewScore": 8,
+      "reviewScoreDesc": "Very Positive",
+      "totalReviews": 9405,
+      "totalPositive": 8359,
+      "totalNegative": 1046,
+      "fetchedAt": "2026-10-01T19:58:03.119Z"
     },
     "886900": {
       "name": "Chef: A Restaurant Tycoon Game",
