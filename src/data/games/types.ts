@@ -5,6 +5,7 @@ export enum Theme {
   AlternativeUniverse = "Alternative Universe",
   Arms = "Arms",
   Automobile = "Automobile",
+  BarTavern = "Bar / Tavern",
   Brewery = "Brewery",
   CampgroundResort = "Campground / Holiday Resort",
   Casino = "Casino",

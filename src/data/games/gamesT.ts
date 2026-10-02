@@ -364,4 +364,21 @@ export const gamesT: Game[] = [
     gameplayType: [GameplayType.TextBased],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "Tavern Keeper 🍻",
+    description:
+      "From the creators of Game Dev Tycoon comes Tavern Keeper 🍻, a cosy-chaotic management sim, featuring a powerful decoration sandbox and a magical storybook RPG!",
+    year: 2025,
+    themes: [Theme.BarTavern],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/436780/Tavern_Keeper/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+  },
 ];

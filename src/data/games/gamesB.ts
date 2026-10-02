@@ -129,7 +129,7 @@ export const gamesB: Game[] = [
       "Blood Bar Tycoon is a vampire bar management game. Build bars and blood factories, lure humans to harvest their blood, process it, and serve your customers: other vampires. Research quirky machines and deal with hunters! Expand through Crimson City to become a mighty Elder!",
     releaseDate: "04-02-2025",
     year: 2025,
-    themes: [Theme.Brewery, Theme.Restaurant, Theme.AlternativeUniverse],
+    themes: [Theme.BarTavern, Theme.Brewery, Theme.AlternativeUniverse],
     platforms: [Platform.PC],
     stores: [Store.Steam],
     links: [

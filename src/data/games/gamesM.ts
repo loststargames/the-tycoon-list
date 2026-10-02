@@ -169,4 +169,22 @@ export const gamesM: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "Mad Television Tycoon",
+    description:
+      "In Mad Television Tycoon, you take control of a TV station. Accept the challenge and lead your network to success. Your task is to create a diverse schedule, maximize advertising revenue, and outshine the competition.",
+    year: 2026,
+    themes: [Theme.TV],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/3565020/Mad_Television_Tycoon/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.BuildingBlocks],
+    pricing: [Pricing.MoreThan10LessThan30],
+    hasMultiplayer: true,
+  },
 ];
