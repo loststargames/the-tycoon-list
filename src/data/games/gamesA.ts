@@ -7,7 +7,12 @@ export const gamesA: Game[] = [
       "Start in 2016 with a skeptical investor's check and build an AI lab into a superintelligence empire. Recruit talent, acquire compute, train and release models, turn research into products, navigate funding and runway, and outmaneuver rival labs on the race to ASI.",
     year: 2026,
     releaseDate: "TBA",
-    themes: [Theme.AILLMs, Theme.Startup, Theme.ProductDevelopment, Theme.Software],
+    themes: [
+      Theme.AILLMs,
+      Theme.Startup,
+      Theme.ProductDevelopment,
+      Theme.Software,
+    ],
     platforms: [Platform.PC, Platform.Mac, Platform.Linux],
     stores: [Store.Steam],
     links: [
@@ -327,5 +332,23 @@ export const gamesA: Game[] = [
     gameplayType: [GameplayType.Isometric],
     pricing: [Pricing.Free],
     sequelFamily: "A-Train",
+  },
+  {
+    title: "Argosy",
+    description:
+      "Buy low, sail far, sell high. A medieval trading sim with a living economy: build routes, factories and fleets, outwit rival merchants, and rise from humble trader to lord mayor and beyond. Play solo or online.",
+    year: 2027,
+    releaseDate: "TBA",
+    themes: [Theme.Merchant, Theme.SeaPirates, Theme.CityView],
+    platforms: [Platform.PC, Platform.Linux],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4847550/Argosy/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown2D, GameplayType.TextBased],
+    pricing: [Pricing.NotSet],
   },
 ];
