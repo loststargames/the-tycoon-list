@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T13:56:32.553Z",
+  "generatedAt": "2026-10-07T22:28:45.598Z",
   "apps": {
     "3720": {
       "name": "Evil Genius",
@@ -9890,6 +9890,62 @@
         }
       ]
     },
+    "2928410": {
+      "name": "Under Par Golf Architect",
+      "type": "game",
+      "isFree": false,
+      "priceCents": 1499,
+      "currency": "USD",
+      "discountPercent": 25,
+      "releaseDate": "Apr 16, 2026",
+      "comingSoon": false,
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/793a5706c0b826c45ac08ee988c592aac90f5abf/header_alt_assets_0.jpg?t=1778863761",
+      "genres": [
+        "Simulation",
+        "Sports",
+        "Strategy"
+      ],
+      "screenshots": [
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/c32740805935a433ab88664110e1412c93128e27/ss_c32740805935a433ab88664110e1412c93128e27.600x338.jpg?t=1778863761",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/c32740805935a433ab88664110e1412c93128e27/ss_c32740805935a433ab88664110e1412c93128e27.1920x1080.jpg?t=1778863761"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/46b1d1588dec37843f62cc07d5c6ffea3534531c/ss_46b1d1588dec37843f62cc07d5c6ffea3534531c.600x338.jpg?t=1778863761",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/46b1d1588dec37843f62cc07d5c6ffea3534531c/ss_46b1d1588dec37843f62cc07d5c6ffea3534531c.1920x1080.jpg?t=1778863761"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/c9c0ded333149b11a83a4da835c10b62d77ada68/ss_c9c0ded333149b11a83a4da835c10b62d77ada68.600x338.jpg?t=1778863761",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/c9c0ded333149b11a83a4da835c10b62d77ada68/ss_c9c0ded333149b11a83a4da835c10b62d77ada68.1920x1080.jpg?t=1778863761"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/9ba4e09c27aed392032b6ab02eac7cf01dbfc3f7/ss_9ba4e09c27aed392032b6ab02eac7cf01dbfc3f7.600x338.jpg?t=1778863761",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/9ba4e09c27aed392032b6ab02eac7cf01dbfc3f7/ss_9ba4e09c27aed392032b6ab02eac7cf01dbfc3f7.1920x1080.jpg?t=1778863761"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/2c4086d2c75e4dac566d99631ffb8c162feee581/ss_2c4086d2c75e4dac566d99631ffb8c162feee581.600x338.jpg?t=1778863761",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/2c4086d2c75e4dac566d99631ffb8c162feee581/ss_2c4086d2c75e4dac566d99631ffb8c162feee581.1920x1080.jpg?t=1778863761"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/76abd1c722df887103f155d234e3afa5a19b1125/ss_76abd1c722df887103f155d234e3afa5a19b1125.600x338.jpg?t=1778863761",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/76abd1c722df887103f155d234e3afa5a19b1125/ss_76abd1c722df887103f155d234e3afa5a19b1125.1920x1080.jpg?t=1778863761"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/b41aefbb23faa53d69cc8969e46ba92b3cf641cc/ss_b41aefbb23faa53d69cc8969e46ba92b3cf641cc.600x338.jpg?t=1778863761",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/b41aefbb23faa53d69cc8969e46ba92b3cf641cc/ss_b41aefbb23faa53d69cc8969e46ba92b3cf641cc.1920x1080.jpg?t=1778863761"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/ss_507576147879aa548a02d10500fde2eb66500c26.600x338.jpg?t=1778863761",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928410/ss_507576147879aa548a02d10500fde2eb66500c26.1920x1080.jpg?t=1778863761"
+        }
+      ],
+      "reviewScore": 8,
+      "reviewScoreDesc": "Very Positive",
+      "totalReviews": 180,
+      "totalPositive": 152,
+      "totalNegative": 28,
+      "fetchedAt": "2026-10-07T22:26:40.788Z"
+    },
     "3004670": {
       "name": "Casino Tycoon",
       "type": "game",
@@ -11829,6 +11885,62 @@
           "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4809560/a2f61e34bac76f48696e2ee70aa872bb4b359730/ss_a2f61e34bac76f48696e2ee70aa872bb4b359730.1920x1080.jpg?t=1788256067"
         }
       ]
+    },
+    "4826230": {
+      "name": "Fairwell",
+      "type": "game",
+      "isFree": false,
+      "priceCents": null,
+      "currency": null,
+      "discountPercent": 0,
+      "releaseDate": "November 2026",
+      "comingSoon": true,
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/20c8a59763c629faab434aac1a80bb9589fe06ed/header.jpg?t=1790794444",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "screenshots": [
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/fd2f8f64b82fe17e26e54f343270c17ef91d13a1/ss_fd2f8f64b82fe17e26e54f343270c17ef91d13a1.600x338.jpg?t=1790794444",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/fd2f8f64b82fe17e26e54f343270c17ef91d13a1/ss_fd2f8f64b82fe17e26e54f343270c17ef91d13a1.1920x1080.jpg?t=1790794444"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/880c6b59c1512807c12d77740e6083020d40e4e5/ss_880c6b59c1512807c12d77740e6083020d40e4e5.600x338.jpg?t=1790794444",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/880c6b59c1512807c12d77740e6083020d40e4e5/ss_880c6b59c1512807c12d77740e6083020d40e4e5.1920x1080.jpg?t=1790794444"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/cea12d19fca001a6a4a58b2d2cb48e6eee0d96c2/ss_cea12d19fca001a6a4a58b2d2cb48e6eee0d96c2.600x338.jpg?t=1790794444",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/cea12d19fca001a6a4a58b2d2cb48e6eee0d96c2/ss_cea12d19fca001a6a4a58b2d2cb48e6eee0d96c2.1920x1080.jpg?t=1790794444"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/73fe6c2fce241322577ad7adcd3a54f2e0046813/ss_73fe6c2fce241322577ad7adcd3a54f2e0046813.600x338.jpg?t=1790794444",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/73fe6c2fce241322577ad7adcd3a54f2e0046813/ss_73fe6c2fce241322577ad7adcd3a54f2e0046813.1920x1080.jpg?t=1790794444"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/7c38d3332a4b5e342d3b383b02d28a39efd1c664/ss_7c38d3332a4b5e342d3b383b02d28a39efd1c664.600x338.jpg?t=1790794444",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/7c38d3332a4b5e342d3b383b02d28a39efd1c664/ss_7c38d3332a4b5e342d3b383b02d28a39efd1c664.1920x1080.jpg?t=1790794444"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/f615f05dd97ca028d3cd513ec982aabc7761d8d7/ss_f615f05dd97ca028d3cd513ec982aabc7761d8d7.600x338.jpg?t=1790794444",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/f615f05dd97ca028d3cd513ec982aabc7761d8d7/ss_f615f05dd97ca028d3cd513ec982aabc7761d8d7.1920x1080.jpg?t=1790794444"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/ae12be6256248c1a0c6a0bdc8167291571023139/ss_ae12be6256248c1a0c6a0bdc8167291571023139.600x338.jpg?t=1790794444",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/ae12be6256248c1a0c6a0bdc8167291571023139/ss_ae12be6256248c1a0c6a0bdc8167291571023139.1920x1080.jpg?t=1790794444"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/e751ba444a7f35a293e7481811c402a1ad679cd3/ss_e751ba444a7f35a293e7481811c402a1ad679cd3.600x338.jpg?t=1790794444",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826230/e751ba444a7f35a293e7481811c402a1ad679cd3/ss_e751ba444a7f35a293e7481811c402a1ad679cd3.1920x1080.jpg?t=1790794444"
+        }
+      ],
+      "reviewScore": 0,
+      "reviewScoreDesc": "No user reviews",
+      "totalReviews": 0,
+      "totalPositive": 0,
+      "totalNegative": 0,
+      "fetchedAt": "2026-10-07T22:28:45.596Z"
     },
     "4847550": {
       "name": "Argosy",

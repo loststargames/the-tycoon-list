@@ -88,4 +88,22 @@ export const gamesF: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.NotSet],
   },
+  {
+    title: "Fairwell",
+    description:
+      "You've inherited your father's old golf club, long since neglected. Armed with a worn-out mower, a little cash, and a grounds crew who came with the place, you set out to bring it back. Can you restore Fairwell to what it once was?",
+    year: 2026,
+    releaseDate: "TBA",
+    themes: [Theme.Golf],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4826230/Fairwell/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown2D],
+    pricing: [Pricing.NotSet],
+  },
 ];
