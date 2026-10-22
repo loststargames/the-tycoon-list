@@ -381,4 +381,96 @@ export const gamesT: Game[] = [
     gameplayType: [GameplayType.TopDown3D],
     pricing: [Pricing.MoreThan10LessThan30],
   },
+  {
+    title: "The Guild Gold Edition",
+    description:
+      "It’s the year 1400, the late Middle Ages. Towns are emerging from the aristocracy to win independence, power, and wealth. Learn a trade, run your own business, and carry a commercial empire across generations.",
+    year: 2002,
+    themes: [Theme.LifeSim, Theme.Merchant],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/39520/The_Guild_Gold_Edition/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.Isometric],
+    pricing: [Pricing.LessThan10],
+    sequelFamily: "theGuild",
+    hasMultiplayer: true,
+  },
+  {
+    title: "The Guild II",
+    description:
+      "The Guild 2 is the successor of the medieval life sim Europe 1400. It mixes RPG and life simulation in the middle ages: found a dynasty and live it in real time.",
+    year: 2006,
+    themes: [Theme.LifeSim, Theme.Merchant],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/39650/The_Guild_II/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.ThirdPerson],
+    pricing: [Pricing.LessThan10],
+    sequelFamily: "theGuild",
+  },
+  {
+    title: "The Guild II Renaissance",
+    description:
+      "For centuries Europe has been dominated by the church and nobility. In the 14th century that order starts to change, as trade gives a rising middle class more power and wealth.",
+    year: 2010,
+    themes: [Theme.LifeSim, Theme.Merchant],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/39680/The_Guild_II_Renaissance/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.ThirdPerson],
+    pricing: [Pricing.LessThan10],
+    sequelFamily: "theGuild",
+  },
+  {
+    title: "The Guild 3",
+    description:
+      "The Guild 3 is a trade and life simulation set in the late Middle Ages. Step into the shoes of a citizen, acquire businesses and mansions, produce goods and trade them, and live through politics, intrigue, and everything in between.",
+    year: 2022,
+    themes: [Theme.LifeSim, Theme.Merchant],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/311260/The_Guild_3/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.ThirdPerson],
+    pricing: [Pricing.MoreThan10LessThan30],
+    sequelFamily: "theGuild",
+    hasMultiplayer: true,
+  },
+  {
+    title: "The Guild 1 Remake: Europa 1410",
+    description:
+      "Choose from professions like Smith, Preacher or Alchemist to gain riches in this medieval economic simulation. Climb the social ladder, dominate politics, and lead your dynasty to power over multiple generations to ensure your legacy.",
+    year: 2026,
+    themes: [Theme.LifeSim, Theme.Merchant],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/2977260/The_Guild_1_Remake_Europa_1410/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.MoreThan10LessThan30],
+    sequelFamily: "theGuild",
+  },
 ];

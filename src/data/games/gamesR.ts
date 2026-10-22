@@ -322,4 +322,23 @@ export const gamesR: Game[] = [
     gameplayType: [GameplayType.TopDown2D],
     pricing: [Pricing.Free],
   },
+  {
+    title: "Rise of the Merchants",
+    description:
+      "Rise of the Merchants is a medieval city-building, economic, political, and trade simulation set in a persistent online world. Start with a small settlement in your county, develop it into an influential city, and establish a trade network that extends far beyond its borders.",
+    year: 2026,
+    releaseDate: "29-10-2026",
+    themes: [Theme.CityBuilder, Theme.Merchant],
+    platforms: [Platform.PC, Platform.Linux],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/5031210/Rise_of_the_Merchants/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+    hasMultiplayer: true,
+  },
 ];
