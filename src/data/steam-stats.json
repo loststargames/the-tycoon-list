@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T22:28:45.598Z",
+  "generatedAt": "2026-10-22T15:49:56.156Z",
   "apps": {
     "3720": {
       "name": "Evil Genius",
@@ -11537,6 +11537,86 @@
           "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4546370/83d483ea88bd472eeb5e9aac1d27cb8c0cf01b9d/ss_83d483ea88bd472eeb5e9aac1d27cb8c0cf01b9d.1920x1080.jpg?t=1790584968"
         }
       ]
+    },
+    "4556830": {
+      "name": "Monster Park Tycoon",
+      "type": "game",
+      "isFree": false,
+      "priceCents": null,
+      "currency": null,
+      "discountPercent": 0,
+      "releaseDate": "Coming soon",
+      "comingSoon": true,
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/2956f3b4c98dccbb546ebe2c5cca3c05764e70f9/header.jpg?t=1787756266",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "screenshots": [
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/6cbf29b5b0c6bb33dbf835286caa05d9033f9aab/ss_6cbf29b5b0c6bb33dbf835286caa05d9033f9aab.600x338.jpg?t=1787756266",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/6cbf29b5b0c6bb33dbf835286caa05d9033f9aab/ss_6cbf29b5b0c6bb33dbf835286caa05d9033f9aab.1920x1080.jpg?t=1787756266"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/d580f1dc86b75b480b8a7a06baed8a0e0669c5de/ss_d580f1dc86b75b480b8a7a06baed8a0e0669c5de.600x338.jpg?t=1787756266",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/d580f1dc86b75b480b8a7a06baed8a0e0669c5de/ss_d580f1dc86b75b480b8a7a06baed8a0e0669c5de.1920x1080.jpg?t=1787756266"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/684df0c13aa54260afe0a5135fb23ab979643a56/ss_684df0c13aa54260afe0a5135fb23ab979643a56.600x338.jpg?t=1787756266",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/684df0c13aa54260afe0a5135fb23ab979643a56/ss_684df0c13aa54260afe0a5135fb23ab979643a56.1920x1080.jpg?t=1787756266"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/0ffd7a2ecef92d8cc6c3d3a5adfe54a1944d6039/ss_0ffd7a2ecef92d8cc6c3d3a5adfe54a1944d6039.600x338.jpg?t=1787756266",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/0ffd7a2ecef92d8cc6c3d3a5adfe54a1944d6039/ss_0ffd7a2ecef92d8cc6c3d3a5adfe54a1944d6039.1920x1080.jpg?t=1787756266"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/d0fe37840a82c8ed5244bb3f0ee6eaee663abadb/ss_d0fe37840a82c8ed5244bb3f0ee6eaee663abadb.600x338.jpg?t=1787756266",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/d0fe37840a82c8ed5244bb3f0ee6eaee663abadb/ss_d0fe37840a82c8ed5244bb3f0ee6eaee663abadb.1920x1080.jpg?t=1787756266"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/84347f70844b250e6db63f1cc48f8bea0b73fe0a/ss_84347f70844b250e6db63f1cc48f8bea0b73fe0a.600x338.jpg?t=1787756266",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/84347f70844b250e6db63f1cc48f8bea0b73fe0a/ss_84347f70844b250e6db63f1cc48f8bea0b73fe0a.1920x1080.jpg?t=1787756266"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/de2169a401b7353fbf878070ae47fc0bed398708/ss_de2169a401b7353fbf878070ae47fc0bed398708.600x338.jpg?t=1787756266",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/de2169a401b7353fbf878070ae47fc0bed398708/ss_de2169a401b7353fbf878070ae47fc0bed398708.1920x1080.jpg?t=1787756266"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/40b7be4c3b340bbb68bad08078c0ab61784e34b9/ss_40b7be4c3b340bbb68bad08078c0ab61784e34b9.600x338.jpg?t=1787756266",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/40b7be4c3b340bbb68bad08078c0ab61784e34b9/ss_40b7be4c3b340bbb68bad08078c0ab61784e34b9.1920x1080.jpg?t=1787756266"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/72e0729d033dd0c639a90debf48b5869ae30f7e4/ss_72e0729d033dd0c639a90debf48b5869ae30f7e4.600x338.jpg?t=1787756266",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/72e0729d033dd0c639a90debf48b5869ae30f7e4/ss_72e0729d033dd0c639a90debf48b5869ae30f7e4.1920x1080.jpg?t=1787756266"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/1d63ff5ecb27c0a4924fc20db9cfe8a5ef318ac7/ss_1d63ff5ecb27c0a4924fc20db9cfe8a5ef318ac7.600x338.jpg?t=1787756266",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/1d63ff5ecb27c0a4924fc20db9cfe8a5ef318ac7/ss_1d63ff5ecb27c0a4924fc20db9cfe8a5ef318ac7.1920x1080.jpg?t=1787756266"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/543b24cfd5d6384861065ce8434f3bbb5563abc1/ss_543b24cfd5d6384861065ce8434f3bbb5563abc1.600x338.jpg?t=1787756266",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/543b24cfd5d6384861065ce8434f3bbb5563abc1/ss_543b24cfd5d6384861065ce8434f3bbb5563abc1.1920x1080.jpg?t=1787756266"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/f99152d1c51c3ddcec6f94b81fc36433e294038d/ss_f99152d1c51c3ddcec6f94b81fc36433e294038d.600x338.jpg?t=1787756266",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/f99152d1c51c3ddcec6f94b81fc36433e294038d/ss_f99152d1c51c3ddcec6f94b81fc36433e294038d.1920x1080.jpg?t=1787756266"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/7803d0803ffc85ffdfac2d80c39eda42288b043c/ss_7803d0803ffc85ffdfac2d80c39eda42288b043c.600x338.jpg?t=1787756266",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/7803d0803ffc85ffdfac2d80c39eda42288b043c/ss_7803d0803ffc85ffdfac2d80c39eda42288b043c.1920x1080.jpg?t=1787756266"
+        },
+        {
+          "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/034bab7917efd2dc92e1a0e403edc2ececce5456/ss_034bab7917efd2dc92e1a0e403edc2ececce5456.600x338.jpg?t=1787756266",
+          "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4556830/034bab7917efd2dc92e1a0e403edc2ececce5456/ss_034bab7917efd2dc92e1a0e403edc2ececce5456.1920x1080.jpg?t=1787756266"
+        }
+      ],
+      "reviewScore": 0,
+      "reviewScoreDesc": "No user reviews",
+      "totalReviews": 0,
+      "totalPositive": 0,
+      "totalNegative": 0,
+      "fetchedAt": "2026-10-22T15:49:56.153Z"
     },
     "4561550": {
       "name": "Racetrack Tycoon",

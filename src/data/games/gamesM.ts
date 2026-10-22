@@ -187,4 +187,22 @@ export const gamesM: Game[] = [
     pricing: [Pricing.MoreThan10LessThan30],
     hasMultiplayer: true,
   },
+  {
+    title: "Monster Park Tycoon",
+    description:
+      "Build and manage the ultimate monster park. From fascinating abominations to world-ending horrors, your park isn't just for show – it's the cover of a secret (not very smart) cult. Kidnap visitors, turn them into creatures, and keep everything under control in this darkly comedic tycoon game.",
+    year: undefined,
+    releaseDate: "TBA",
+    themes: [Theme.Zoo, Theme.Humour, Theme.AlternativeUniverse],
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4556830/Monster_Park_Tycoon/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TopDown3D],
+    pricing: [Pricing.NotSet],
+  },
 ];
